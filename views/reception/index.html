@@ -29,16 +29,18 @@
 <body class="body_bj">
 <div id="particles-js">
     <div class="login layui-form">
-        <div class="logo">
-            <img src="/static/img/cat.jpeg" alt="">
-        </div>
-        <ul class="login-list">
-            <li><input type="text" id="school" autocomplete="off" placeholder="请输入学号" required lay-verify="required|school" class="layui-input"></li>
-            <li><input type="password" id="password" autocomplete="off" placeholder="请输入密码" required lay-verify="required|password" class="layui-input"></li>
-            <li><input type="text" id="captcha" autocomplete="off" placeholder="请输入验证码" required lay-verify="required|captcha" class="layui-input"><span class="yzm2">{{ create_captcha }}</span></li>
-            <li><a class="btn" lay-submit lay-filter="login" href="javaScript:void(0);">登 录</a></li>
-            <li class="tar"><a href="忘记密码.html">忘记密码？</a></li>
-        </ul>
+        {{/*<form onsubmit="return checkLength()">*/}}
+            <div class="logo">
+                <img src="/static/img/cat.jpeg" alt="">
+            </div>
+            <ul class="login-list">
+                <li><input type="text" id="school" autocomplete="off" placeholder="请输入学号" required lay-verify="required|school" class="layui-input"></li>
+                <li><input type="password" id="password" autocomplete="off" placeholder="请输入密码" required lay-verify="required|password" class="layui-input"></li>
+                <li><input type="text" id="captcha" autocomplete="off" placeholder="请输入验证码" required lay-verify="required|captcha" class="layui-input"><span class="yzm2">{{ create_captcha }}</span></li>
+                <li><button class="btn" lay-submit lay-filter="login" type="submit">登 录</button></li>
+                <li class="tar"><a href="忘记密码.html">忘记密码？</a></li>
+            </ul>
+        {{/*</form>*/}}
     </div>
 </div>
 
@@ -56,8 +58,8 @@
                 }
             },
             password: function (value) {
-                if (!/^(?![A-Z]+$)(?![a-z]+$)(?!\d+$)\S{8,}$/.test(value)){
-                    return '密码必须符合由数字,大写字母,小写字母,至少其中两种组成，且长度不小于8，同时第一位不能为数字';
+                if (!/^[a-zA-Z0-9_-]{4,16}$/.test(value)){
+                    return '字母或者数字开头，区分大小写，最短4位最长16位';
                 }
             },
             captcha: function (value) {
@@ -68,17 +70,19 @@
         });
 
         form.on('submit(login)', function(data) {
+            // console.log($(".captcha-img").attr("src").split("/")[2].split(".")[0]);
             $.ajax({
                 type: "POST",
                 url:'/login/judge',
                 data:{
                     school: $('#school').val(),
                     password: $('#password').val(),
-                    captcha: $('#captcha').val()
+                    captcha: $('#captcha').val(),
+                    captchaId: $(".captcha-img").attr("src").split("/")[2].split(".")[0]
                 },
                 success:function(res){
                     console.log(res);
-                    console.log("---------------")
+                    // console.log("---------------")
                     // if(res.code='0'){
                     //     parent.closeIframe(res.msg);
                     // } else
