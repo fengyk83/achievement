@@ -10,6 +10,7 @@
     <meta content="yes" name="apple-mobile-web-app-capable">
     <meta content="black" name="apple-mobile-web-app-status-bar-style">
     <meta content="telephone=no" name="format-detection">
+    <meta name="_xsrf" content="{{.xsrf_token}}" />
     <link rel="stylesheet" href="/static/css/style.css"/>
     <!-- 提示升级高级浏览器操作 -->
     <style>
@@ -81,16 +82,21 @@
                     captchaId: $(".captcha-img").attr("src").split("/")[2].split(".")[0]
                 },
                 success:function(res){
-                    console.log(res);
-                    // console.log("---------------")
-                    // if(res.code='0'){
-                    //     parent.closeIframe(res.msg);
-                    // } else
-                    //     alert(res.msg);
+                    console.log(res)
+                    switch (res.name ) {
+                        case 0:
+                            layer.msg(res.message);
+                            break;
+                        case -1:
+                            layer.msg(res.message);
+                            break;
+                        case 1:
+                            console.log("-------------")
+                            window.location.href=""
+                    }
                 },
                 error:function (data) {
                     console.log(data)
-                    console.log("++++++++++++++++")
                 }
             });
         });

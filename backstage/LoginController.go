@@ -7,6 +7,6 @@ type LoginController struct {
 }
 
 func (this *LoginController)Login()  {
-	this.TplName = "backstage.index.html";
+	//this.TplName = "backstage/login.html";
 }
 
