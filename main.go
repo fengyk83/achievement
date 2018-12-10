@@ -1,15 +1,20 @@
 package main
 
 import (
-	_ "achievements/routers"
+	_ "achievement/routers"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
 	_ "github.com/go-sql-driver/mysql"
 )
 
-func main() {
+func init() {
 	beego.SetLogger("file", `{"filename":"logs/beego.log"}`)
 	orm.RegisterDataBase("default","mysql","root:123456@tcp(127.0.0.1:3306)/ssms?charset=utf8")
+	beego.BConfig.WebConfig.Session.SessionOn = true
+}
+
+func main() {
+
 	beego.Run();
 }
 

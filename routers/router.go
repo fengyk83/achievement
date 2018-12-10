@@ -1,25 +1,27 @@
 package routers
 
 import (
-	"achievements/backstage"
-	"achievements/reception"
+	"achievement/backstage"
+	"achievement/reception"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/context"
 )
 
 func init() {
 	/*前台路由*/
-	var FilterUser = func(ctx *context.Context) {
-		_, ok := ctx.Input.Session("uid").(int)
+	beego.InsertFilter("/admin/*",beego.BeforeRouter,func(ctx *context.Context) {   //前台路由过滤
+		_, ok := ctx.Input.Session("account").(string)
 		if !ok  {
-			ctx.Redirect(302, "/login")
+			ctx.Redirect(302, "/reception/login")
 		}
-	}
+	})
+	ns := beego.NewNamespace("reception",
+			beego.NSInclude(&reception.LoginContorller{}),
+			beego.NSRouter("/login/information", &reception.InformationController{},"Get:Index"),
+			beego.NSRouter("/login/information", &reception.InformationController{},"Get:Index"),
+			)
+	beego.AddNamespace(ns)
 
-	beego.InsertFilter("/admin/*",beego.BeforeRouter,FilterUser)
-    beego.Router("/login", &reception.LoginContorller{},"Get:Login")
-	beego.Router("/login/judge", &reception.LoginContorller{})
-	beego.Router("/login/information", &reception.InformationController{},"*:Index")
 
 	/*后台路由*/
 	beego.Router("/back/login",&backstage.LoginController{},"Get:Login")

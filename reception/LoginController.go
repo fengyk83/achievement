@@ -1,7 +1,7 @@
 package reception
 
 import (
-	"achievements/models"
+	"achievement/models"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/cache"
 	"github.com/astaxie/beego/utils/captcha"
@@ -20,11 +20,13 @@ func init()  {
 }
 
 /*返回登录首页*/
+// @router /login [get]
 func (c *LoginContorller)Login() {
 	c.TplName = "reception/index.html"
 }
 
 /*登录验证*/
+//@router /login/judge [post]
 func (c *LoginContorller)Post() {
 	valid := validation.Validation{};
 	valid.MaxSize(c.GetString("school"),11,"school").Message("您输入的学号不正确")
@@ -48,6 +50,7 @@ func (c *LoginContorller)Post() {
 			c.Data["json"] = map[string]interface{}{"name": 0, "message": "你输入的账号或密码不正确"}
 		}
 	}else {
+		c.SetSession("account",c.GetString("school"))
 		c.Data["json"] = map[string]interface{}{"name": 1, "message": "登陆成功"}
 	}
 	c.ServeJSON()

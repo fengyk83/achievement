@@ -1,0 +1,545 @@
+2018/12/04 08:17:13.755 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/04 08:18:28.991 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/04 08:18:35.406 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.127424ms| nomatch|[44m GET     [0m /captcha/mynzkRMKqa9KSpT.png
+2018/12/04 08:18:35.527 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/04 08:18:51.147 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.903999ms|   match|[46m POST    [0m /login/judge   r:/login/judge
+2018/12/04 08:19:55.834 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/04 08:20:13.267 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.721698ms| nomatch|[44m GET     [0m /captcha/mynzkRMKqa9KSpT.png
+2018/12/04 08:20:24.175 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    686.065µs|   match|[46m POST    [0m /login/judge   r:/login/judge
+2018/12/04 08:20:31.779 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    232.145µs| nomatch|[44m GET     [0m /favicon.ico
+2018/12/04 08:20:38.290 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    809.694µs|   match|[44m GET     [0m /login   r:/login
+2018/12/04 08:20:38.312 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    129.974µs|   match|[44m GET     [0m /static/css/style.css
+2018/12/04 08:20:38.313 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    232.782µs|   match|[44m GET     [0m /static/layui/layui.js
+2018/12/04 08:20:38.314 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    329.044µs|   match|[44m GET     [0m /static/img/cat.jpeg
+2018/12/04 08:20:38.316 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     494.31µs|   match|[44m GET     [0m /static/js/particles.min.js
+2018/12/04 08:20:38.320 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.201981ms| nomatch|[44m GET     [0m /captcha/x4VMWPYPsQRM5TS.png
+2018/12/04 08:20:38.334 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    989.332µs|   match|[44m GET     [0m /static/img/bj.jpg
+2018/12/04 08:20:38.356 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    744.873µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/04 08:20:38.459 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    476.267µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/04 08:20:38.532 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    181.942µs|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2018/12/04 08:20:38.532 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    286.549µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/04 08:20:38.576 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    204.841µs| nomatch|[44m GET     [0m /favicon.ico
+2018/12/04 08:20:42.565 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.802291ms|   match|[44m GET     [0m /login   r:/login
+2018/12/04 08:20:42.612 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     79.395µs|   match|[44m GET     [0m /static/css/style.css
+2018/12/04 08:20:42.613 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    233.537µs|   match|[44m GET     [0m /static/img/cat.jpeg
+2018/12/04 08:20:42.613 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     104.98µs|   match|[44m GET     [0m /static/layui/layui.js
+2018/12/04 08:20:42.617 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    186.628µs|   match|[44m GET     [0m /static/js/particles.min.js
+2018/12/04 08:20:42.621 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   8.867051ms| nomatch|[44m GET     [0m /captcha/mXmiZhCkg09BI2z.png
+2018/12/04 08:20:42.642 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     149.98µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/04 08:20:42.647 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    456.197µs|   match|[44m GET     [0m /static/img/bj.jpg
+2018/12/04 08:20:42.776 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    146.386µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/04 08:20:42.802 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    348.813µs|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2018/12/04 08:20:42.803 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    715.748µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/04 08:20:42.892 [D] [server.go:2741]  |            ::1|[43m 404 [0m|     154.52µs| nomatch|[44m GET     [0m /favicon.ico
+2018/12/04 08:20:56.245 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/04 08:20:57.588 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/04 08:21:10.857 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.216201ms|   match|[46m POST    [0m /login/judge   r:/login/judge
+2018/12/04 08:21:12.802 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  24.491507ms| nomatch|[44m GET     [0m /captcha/mXmiZhCkg09BI2z.png
+2018/12/04 08:21:41.787 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.773587ms|   match|[46m POST    [0m /login/judge   r:/login/judge
+2018/12/04 08:21:45.101 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    1.32175ms|   match|[46m POST    [0m /login/judge   r:/login/judge
+2018/12/04 08:21:46.794 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.067596ms|   match|[46m POST    [0m /login/judge   r:/login/judge
+2018/12/04 08:21:51.377 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   11.07835ms| nomatch|[44m GET     [0m /captcha/mXmiZhCkg09BI2z.png
+2018/12/04 08:22:28.149 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    818.439µs|   match|[44m GET     [0m /login   r:/login
+2018/12/04 08:22:28.192 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    132.728µs|   match|[44m GET     [0m /static/css/style.css
+2018/12/04 08:22:28.194 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.284697ms|   match|[44m GET     [0m /static/img/cat.jpeg
+2018/12/04 08:22:28.200 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.357328ms| nomatch|[44m GET     [0m /captcha/AMyFpFbSxFe5BUq.png
+2018/12/04 08:22:28.202 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    460.864µs|   match|[44m GET     [0m /static/layui/layui.js
+2018/12/04 08:22:28.203 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    461.728µs|   match|[44m GET     [0m /static/js/particles.min.js
+2018/12/04 08:22:28.224 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    216.233µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/04 08:22:28.228 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    538.987µs|   match|[44m GET     [0m /static/img/bj.jpg
+2018/12/04 08:22:28.446 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    351.796µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/04 08:22:28.489 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    723.954µs|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2018/12/04 08:22:28.489 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     309.48µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/04 08:22:33.141 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    726.991µs|   match|[44m GET     [0m /login   r:/login
+2018/12/04 08:22:33.170 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  13.166001ms| nomatch|[44m GET     [0m /captcha/MwX05N2UycIS8A6.png
+2018/12/04 08:22:58.860 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    452.564µs|   match|[46m POST    [0m /login/judge   r:/login/judge
+2018/12/04 08:23:36.250 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/04 08:23:36.452 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    647.772µs|   match|[44m GET     [0m /login   r:/login
+2018/12/04 08:23:36.484 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  14.088342ms| nomatch|[44m GET     [0m /captcha/YR3EjvPZVJtvUQc.png
+2018/12/04 08:23:36.728 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.160975ms|   match|[44m GET     [0m /login   r:/login
+2018/12/04 08:23:36.805 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.106264ms| nomatch|[44m GET     [0m /captcha/2ZkSTCD9fsScUT3.png
+2018/12/04 08:23:36.965 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    859.123µs|   match|[44m GET     [0m /login   r:/login
+2018/12/04 08:23:37.078 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   7.360184ms| nomatch|[44m GET     [0m /captcha/YtVLbAXWeym0vo7.png
+2018/12/04 08:23:37.205 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.247743ms|   match|[44m GET     [0m /login   r:/login
+2018/12/04 08:23:37.284 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.365578ms| nomatch|[44m GET     [0m /captcha/F1HrsL4WCVjgolv.png
+2018/12/04 08:23:37.436 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    581.301µs|   match|[44m GET     [0m /login   r:/login
+2018/12/04 08:23:37.522 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.380846ms| nomatch|[44m GET     [0m /captcha/20hablfc3aFseiY.png
+2018/12/04 08:23:37.670 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     766.82µs|   match|[44m GET     [0m /login   r:/login
+2018/12/04 08:23:37.757 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    793.451µs|   match|[44m GET     [0m /login   r:/login
+2018/12/04 08:23:37.764 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   6.210773ms| nomatch|[44m GET     [0m /captcha/Ea5j8sIVoRm5THi.png
+2018/12/04 08:23:37.937 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   6.457512ms| nomatch|[44m GET     [0m /captcha/cyHKCNGOQU3kL4i.png
+2018/12/04 08:23:56.915 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    653.885µs|   match|[46m POST    [0m /login/judge   r:/login/judge
+2018/12/04 08:24:26.526 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.848096ms|   match|[46m POST    [0m /login/judge   r:/login/judge
+2018/12/04 08:24:27.897 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/04 08:25:05.088 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    1.00414ms|   match|[46m POST    [0m /login/judge   r:/login/judge
+2018/12/04 08:25:05.756 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    607.248µs|   match|[46m POST    [0m /login/judge   r:/login/judge
+2018/12/04 08:25:40.670 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/04 08:25:40.837 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    674.339µs|   match|[46m POST    [0m /login/judge   r:/login/judge
+2018/12/04 08:27:09.025 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/04 08:27:18.906 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/04 08:56:03.184 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/04 08:57:38.798 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/04 08:58:25.755 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/04 09:02:55.390 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/04 09:07:40.510 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/04 09:11:29.180 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/04 09:11:41.302 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/04 09:13:34.612 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/04 09:24:53.080 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/04 09:29:59.306 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/05 06:12:43.744 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/05 06:12:44.736 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/05 06:13:51.157 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/05 06:14:16.990 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/05 06:30:03.652 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/05 06:33:10.008 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.631665ms|   match|[44m GET     [0m /login   r:/login
+2018/12/05 06:33:10.047 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  14.375475ms| nomatch|[44m GET     [0m /captcha/Fo8TDIFwUquCiYs.png
+2018/12/05 06:33:11.656 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.458733ms|   match|[44m GET     [0m /login   r:/login
+2018/12/05 06:33:11.690 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    214.186µs|   match|[44m GET     [0m /static/css/style.css
+2018/12/05 06:33:11.698 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.565581ms|   match|[44m GET     [0m /static/img/cat.jpeg
+2018/12/05 06:33:11.708 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   6.490754ms| nomatch|[44m GET     [0m /captcha/IeddmjCzNkVhrJL.png
+2018/12/05 06:33:11.712 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    178.014µs|   match|[44m GET     [0m /static/layui/layui.js
+2018/12/05 06:33:11.712 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    463.053µs|   match|[44m GET     [0m /static/js/particles.min.js
+2018/12/05 06:33:11.718 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    543.737µs|   match|[44m GET     [0m /static/img/bj.jpg
+2018/12/05 06:33:11.765 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    352.774µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/05 06:33:11.883 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     266.51µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/05 06:33:11.902 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    251.891µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/05 06:33:11.902 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    476.644µs|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2018/12/05 06:34:03.230 [D] [server.go:2741]  |            ::1|[47m 302 [0m|    128.445µs| nomatch|[46m POST    [0m /login/judge
+2018/12/05 06:34:03.241 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.078688ms|   match|[44m GET     [0m /login   r:/login
+2018/12/05 06:34:05.883 [D] [server.go:2741]  |            ::1|[47m 302 [0m|     67.421µs| nomatch|[46m POST    [0m /login/judge
+2018/12/05 06:34:05.885 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.049204ms|   match|[44m GET     [0m /login   r:/login
+2018/12/05 06:34:08.952 [D] [server.go:2741]  |            ::1|[47m 302 [0m|    207.983µs| nomatch|[46m POST    [0m /login/judge
+2018/12/05 06:34:08.960 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.277768ms|   match|[44m GET     [0m /login   r:/login
+2018/12/05 06:34:09.221 [D] [server.go:2741]  |            ::1|[47m 302 [0m|    108.713µs| nomatch|[46m POST    [0m /login/judge
+2018/12/05 06:34:09.224 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.143142ms|   match|[44m GET     [0m /login   r:/login
+2018/12/05 06:34:09.490 [D] [server.go:2741]  |            ::1|[47m 302 [0m|    107.721µs| nomatch|[46m POST    [0m /login/judge
+2018/12/05 06:34:09.493 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    1.03945ms|   match|[44m GET     [0m /login   r:/login
+2018/12/05 06:34:09.838 [D] [server.go:2741]  |            ::1|[47m 302 [0m|     96.449µs| nomatch|[46m POST    [0m /login/judge
+2018/12/05 06:34:09.841 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    986.917µs|   match|[44m GET     [0m /login   r:/login
+2018/12/05 06:34:25.184 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.974503ms|   match|[44m GET     [0m /login   r:/login
+2018/12/05 06:34:25.243 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.213429ms| nomatch|[44m GET     [0m /captcha/DD2Ys1M15eM0SgH.png
+2018/12/05 06:35:34.382 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/05 06:35:37.266 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.334929ms|   match|[46m POST    [0m /login/judge   r:/login/judge
+2018/12/05 06:35:46.075 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   9.391484ms| nomatch|[44m GET     [0m /captcha/DD2Ys1M15eM0SgH.png
+2018/12/05 06:35:55.971 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.892945ms|   match|[46m POST    [0m /login/judge   r:/login/judge
+2018/12/05 06:35:59.340 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   6.117721ms| nomatch|[44m GET     [0m /captcha/DD2Ys1M15eM0SgH.png
+2018/12/05 06:36:12.856 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.598673ms|   match|[46m POST    [0m /login/judge   r:/login/judge
+2018/12/05 06:36:57.308 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.974224ms|   match|[44m GET     [0m /login   r:/login
+2018/12/05 06:36:57.336 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.121182ms| nomatch|[44m GET     [0m /captcha/g0KfbeWgfHJNZ8v.png
+2018/12/05 06:36:57.629 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    479.256µs|   match|[44m GET     [0m /login   r:/login
+2018/12/05 06:36:57.639 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.764621ms| nomatch|[44m GET     [0m /captcha/2TZLn5fdW2xcWYj.png
+2018/12/05 06:36:57.880 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    437.387µs|   match|[44m GET     [0m /login   r:/login
+2018/12/05 06:36:57.898 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.496834ms| nomatch|[44m GET     [0m /captcha/SzacKzRVNWhhFij.png
+2018/12/05 06:36:58.147 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    506.437µs|   match|[44m GET     [0m /login   r:/login
+2018/12/05 06:36:58.158 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.218854ms| nomatch|[44m GET     [0m /captcha/7Wtz26FgFX32v6u.png
+2018/12/05 06:37:23.615 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    626.249µs|   match|[46m POST    [0m /login/judge   r:/login/judge
+2018/12/05 06:38:11.169 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/05 06:38:14.809 [D] [server.go:2741]  |            ::1|[47m 302 [0m|    416.887µs| nomatch|[46m POST    [0m /login/judge
+2018/12/05 06:38:14.823 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.941061ms|   match|[44m GET     [0m /login   r:/login
+2018/12/05 06:39:25.677 [D] [server.go:2741]  |            ::1|[47m 302 [0m|     61.526µs| nomatch|[44m GET     [0m /login/verilfication
+2018/12/05 06:39:25.695 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    1.53936ms|   match|[44m GET     [0m /login   r:/login
+2018/12/05 06:39:25.719 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.340493ms| nomatch|[44m GET     [0m /captcha/T2ZTP1B2jTa8Qrg.png
+2018/12/05 06:40:45.850 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/05 06:44:00.957 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  19.482175ms| nomatch|[44m GET     [0m /captcha/T2ZTP1B2jTa8Qrg.png
+2018/12/05 06:45:16.161 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/05 06:45:44.174 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.032632ms|   match|[46m POST    [0m /login/judge   r:/login/judge
+2018/12/05 06:45:46.468 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  22.329781ms| nomatch|[44m GET     [0m /captcha/T2ZTP1B2jTa8Qrg.png
+2018/12/05 06:45:55.451 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.032366ms|   match|[46m POST    [0m /login/judge   r:/login/judge
+2018/12/05 06:45:55.495 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.927372ms|   match|[44m GET     [0m /login   r:/login
+2018/12/05 06:45:55.542 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   6.907226ms| nomatch|[44m GET     [0m /captcha/1lZlN2BuHF0Im0h.png
+2018/12/05 06:46:48.499 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/05 06:47:12.428 [D] [server.go:2741]  |            ::1|[43m 405 [0m|    171.457µs|   match|[44m GET     [0m /login/judge   r:/login/judge
+2018/12/05 23:09:55.714 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/05 23:11:17.935 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    635.462µs|   match|[44m GET     [0m /login   r:/login
+2018/12/05 23:11:17.969 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    973.344µs|   match|[44m GET     [0m /static/css/style.css
+2018/12/05 23:11:17.973 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.992357ms|   match|[44m GET     [0m /static/img/cat.jpeg
+2018/12/05 23:11:17.976 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.723977ms|   match|[44m GET     [0m /static/layui/layui.js
+2018/12/05 23:11:17.978 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   7.247525ms| nomatch|[44m GET     [0m /captcha/M4PGDIB1A3ALjQh.png
+2018/12/05 23:11:17.982 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.708696ms|   match|[44m GET     [0m /static/img/bj.jpg
+2018/12/05 23:11:17.983 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  12.297425ms|   match|[44m GET     [0m /static/js/particles.min.js
+2018/12/05 23:11:18.024 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    512.126µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/05 23:11:18.044 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    179.525µs| nomatch|[44m GET     [0m /favicon.ico
+2018/12/05 23:11:18.046 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    550.222µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/05 23:11:18.052 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.261941ms|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2018/12/05 23:11:18.055 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.397692ms|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/05 23:15:33.155 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    590.345µs|   match|[44m GET     [0m /login   r:/login
+2018/12/05 23:15:33.161 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     72.577µs|   match|[44m GET     [0m /static/css/style.css
+2018/12/05 23:15:33.162 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    176.774µs|   match|[44m GET     [0m /static/img/cat.jpeg
+2018/12/05 23:15:33.167 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.629828ms| nomatch|[44m GET     [0m /captcha/Bg5eYgel4N7SVnC.png
+2018/12/05 23:15:33.168 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    108.983µs|   match|[44m GET     [0m /static/layui/layui.js
+2018/12/05 23:15:33.168 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     78.813µs|   match|[44m GET     [0m /static/js/particles.min.js
+2018/12/05 23:15:33.174 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    177.446µs|   match|[44m GET     [0m /static/img/bj.jpg
+2018/12/05 23:15:33.438 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    317.615µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/05 23:15:33.543 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    434.308µs| nomatch|[44m GET     [0m /favicon.ico
+2018/12/05 23:15:33.545 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    146.566µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/05 23:15:33.552 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    106.678µs|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2018/12/05 23:15:33.552 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    136.185µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/07 22:18:38.566 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/07 22:19:33.328 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    817.505µs|   match|[44m GET     [0m /login   r:/login
+2018/12/07 22:19:33.359 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    4.71258ms| nomatch|[44m GET     [0m /captcha/WJUw4qBcpAZ948l.png
+2018/12/07 22:19:33.360 [D] [server.go:2741]  |            ::1|[47m 304 [0m|    407.682µs|   match|[44m GET     [0m /static/css/style.css
+2018/12/07 22:19:33.362 [D] [server.go:2741]  |            ::1|[47m 304 [0m|     777.89µs|   match|[44m GET     [0m /static/js/particles.min.js
+2018/12/07 22:19:33.362 [D] [server.go:2741]  |            ::1|[47m 304 [0m|   1.140317ms|   match|[44m GET     [0m /static/img/cat.jpeg
+2018/12/07 22:19:33.363 [D] [server.go:2741]  |            ::1|[47m 304 [0m|   1.177347ms|   match|[44m GET     [0m /static/layui/layui.js
+2018/12/07 22:19:33.371 [D] [server.go:2741]  |            ::1|[47m 304 [0m|   2.320364ms|   match|[44m GET     [0m /static/img/bj.jpg
+2018/12/07 22:19:33.430 [D] [server.go:2741]  |            ::1|[47m 304 [0m|    410.469µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/07 22:19:33.536 [D] [server.go:2741]  |            ::1|[47m 304 [0m|     498.29µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/07 22:19:33.606 [D] [server.go:2741]  |            ::1|[47m 304 [0m|    400.485µs|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2018/12/07 22:19:33.607 [D] [server.go:2741]  |            ::1|[47m 304 [0m|   1.293982ms|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/07 22:19:33.647 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    170.405µs| nomatch|[44m GET     [0m /favicon.ico
+2018/12/07 22:21:59.291 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/07 22:22:57.676 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/07 22:23:13.051 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.673396ms|   match|[44m GET     [0m /login/information   r:/login/information
+2018/12/07 22:23:13.101 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     9.9868ms| nomatch|[44m GET     [0m /captcha/HMXv9HHVv8RocuJ.png
+2018/12/07 22:27:41.538 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/07 22:27:47.395 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.742634ms|   match|[44m GET     [0m /login/information   r:/login/information
+2018/12/07 22:27:47.436 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.539646ms|   match|[44m GET     [0m /static/css/font.css
+2018/12/07 22:27:47.437 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.500159ms|   match|[44m GET     [0m /static/css/weadmin.css
+2018/12/07 22:27:47.445 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.078966ms|   match|[44m GET     [0m /static/layui/css/layui.css
+2018/12/07 22:27:47.467 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    729.485µs| nomatch|[44m GET     [0m /login/pages/welcome.html
+2018/12/07 22:27:47.473 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.143279ms|   match|[44m GET     [0m /static/fonts/iconfont.woff
+2018/12/07 22:27:47.553 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.208416ms|   match|[44m GET     [0m /static/js/admin.js
+2018/12/07 22:27:47.553 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    1.07508ms|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/07 22:27:47.602 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    164.328µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/07 22:27:47.640 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    154.432µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/07 22:27:47.665 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.601704ms|   match|[44m GET     [0m /static/layui/lay/modules/element.js
+2018/12/07 22:27:47.675 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    600.415µs|   match|[44m GET     [0m /static/layui/font/iconfont.woff
+2018/12/07 22:27:47.707 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    855.474µs|   match|[44m GET     [0m /static/img/favicon.ico
+2018/12/07 22:27:47.711 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    210.183µs| nomatch|[44m GET     [0m /login/login.html
+2018/12/07 22:27:57.178 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    174.564µs| nomatch|[44m GET     [0m /login/login.html
+2018/12/09 02:52:36.166 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 02:56:30.660 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:13:14.682 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.128943ms|   match|[44m GET     [0m /login/information   r:/login/information
+2018/12/09 21:13:14.723 [D] [server.go:2741]  |            ::1|[47m 304 [0m|     85.985µs|   match|[44m GET     [0m /static/css/weadmin.css
+2018/12/09 21:13:14.736 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    163.516µs| nomatch|[44m GET     [0m /login/pages/welcome.html
+2018/12/09 21:13:14.912 [D] [server.go:2741]  |            ::1|[43m 404 [0m|     592.61µs| nomatch|[44m GET     [0m /login/login.html
+2018/12/09 21:13:14.949 [D] [server.go:2741]  |            ::1|[43m 404 [0m|     223.76µs| nomatch|[44m GET     [0m /favicon.ico
+2018/12/09 21:13:26.356 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    246.005µs| nomatch|[44m GET     [0m /login/login.html
+2018/12/09 21:15:28.359 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    425.335µs| nomatch|[44m GET     [0m /login/login.html
+2018/12/09 21:15:29.447 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:15:30.505 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    899.225µs| nomatch|[44m GET     [0m /login/login.html
+2018/12/09 21:16:10.545 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.374185ms|   match|[44m GET     [0m /login/information   r:/login/information
+2018/12/09 21:16:10.599 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    466.882µs| nomatch|[44m GET     [0m /login/pages/welcome.html
+2018/12/09 21:16:10.718 [D] [server.go:2741]  |            ::1|[43m 404 [0m|     342.48µs| nomatch|[44m GET     [0m /login/login.html
+2018/12/09 21:16:48.417 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:16:48.638 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    197.019µs| nomatch|[44m GET     [0m /login/login.html
+2018/12/09 21:16:49.923 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    290.648µs| nomatch|[44m GET     [0m /login/login.html
+2018/12/09 21:16:51.293 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    265.306µs| nomatch|[44m GET     [0m /login/login.html
+2018/12/09 21:17:03.662 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:17:08.410 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    222.278µs| nomatch|[44m GET     [0m /login/login.html
+2018/12/09 21:17:27.894 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    745.045µs|   match|[44m GET     [0m /login/information   r:/login/information
+2018/12/09 21:17:27.933 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    504.052µs| nomatch|[44m GET     [0m /login/pages/welcome.html
+2018/12/09 21:17:28.066 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    228.201µs| nomatch|[44m GET     [0m /login/login.html
+2018/12/09 21:17:37.150 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:17:51.001 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    909.501µs|   match|[44m GET     [0m /login/information   r:/login/information
+2018/12/09 21:17:51.570 [D] [server.go:2741]  |            ::1|[43m 404 [0m|     382.34µs| nomatch|[44m GET     [0m /login/pages/welcome.html
+2018/12/09 21:17:51.675 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    267.852µs| nomatch|[44m GET     [0m /login/login.html
+2018/12/09 21:18:03.410 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    435.736µs| nomatch|[44m GET     [0m /login/login.html
+2018/12/09 21:18:06.883 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    401.881µs| nomatch|[44m GET     [0m /login/login.html
+2018/12/09 21:18:06.925 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    411.306µs| nomatch|[44m GET     [0m /favicon.ico
+2018/12/09 21:18:07.325 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    606.397µs| nomatch|[44m GET     [0m /login/login.html
+2018/12/09 21:18:07.374 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    713.462µs| nomatch|[44m GET     [0m /favicon.ico
+2018/12/09 21:18:07.561 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    386.454µs| nomatch|[44m GET     [0m /login/login.html
+2018/12/09 21:18:07.609 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    715.364µs| nomatch|[44m GET     [0m /favicon.ico
+2018/12/09 21:18:07.774 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    492.009µs| nomatch|[44m GET     [0m /login/login.html
+2018/12/09 21:18:07.824 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    540.058µs| nomatch|[44m GET     [0m /favicon.ico
+2018/12/09 21:18:07.941 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    942.576µs| nomatch|[44m GET     [0m /login/login.html
+2018/12/09 21:18:07.995 [D] [server.go:2741]  |            ::1|[43m 404 [0m|     533.37µs| nomatch|[44m GET     [0m /favicon.ico
+2018/12/09 21:18:19.792 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.313404ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:18:19.819 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.890362ms| nomatch|[44m GET     [0m /captcha/lu81gugNddElMsE.png
+2018/12/09 21:18:42.069 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:18:45.158 [D] [server.go:2741]  |            ::1|[43m 404 [0m|   1.582356ms| nomatch|[44m GET     [0m /login/s
+2018/12/09 21:18:58.724 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    600.857µs| nomatch|[44m GET     [0m /login/s
+2018/12/09 21:18:59.452 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    573.779µs| nomatch|[44m GET     [0m /login/s
+2018/12/09 21:18:59.930 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    432.984µs| nomatch|[44m GET     [0m /login/s
+2018/12/09 21:19:09.333 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:19:13.392 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    806.328µs| nomatch|[44m GET     [0m /information
+2018/12/09 21:19:15.875 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    507.499µs| nomatch|[44m GET     [0m /information
+2018/12/09 21:19:16.364 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    751.328µs| nomatch|[44m GET     [0m /information
+2018/12/09 21:19:16.586 [D] [server.go:2741]  |            ::1|[43m 404 [0m|     677.45µs| nomatch|[44m GET     [0m /information
+2018/12/09 21:19:16.793 [D] [server.go:2741]  |            ::1|[43m 404 [0m|     567.46µs| nomatch|[44m GET     [0m /information
+2018/12/09 21:19:33.825 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:19:39.413 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    964.953µs| nomatch|[44m GET     [0m /information
+2018/12/09 21:19:55.057 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:20:04.527 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    250.993µs| nomatch|[44m GET     [0m /login/information/login/information
+2018/12/09 21:20:29.003 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    493.242µs| nomatch|[44m GET     [0m /  
+2018/12/09 21:20:30.195 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    871.312µs| nomatch|[44m GET     [0m /  
+2018/12/09 21:20:41.118 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   9.319433ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:20:41.151 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.966614ms| nomatch|[44m GET     [0m /captcha/ilfNANikdPy9Bwg.png
+2018/12/09 21:20:50.071 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.314462ms|   match|[44m GET     [0m /login/information   r:/login/information
+2018/12/09 21:20:57.466 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    322.775µs| nomatch|[44m GET     [0m /login/informationlogin
+2018/12/09 21:21:04.398 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    302.234µs| nomatch|[44m GET     [0m /login/pages/welcome.html
+2018/12/09 21:21:04.579 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    343.507µs| nomatch|[44m GET     [0m /login/login.html
+2018/12/09 21:21:53.270 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.228609ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:21:53.349 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  23.302201ms| nomatch|[44m GET     [0m /captcha/RgGp1Gtsly4Go0m.png
+2018/12/09 21:22:46.939 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:22:49.157 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:22:55.234 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:23:13.575 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:23:30.717 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.788552ms|   match|[44m GET     [0m /login/information   r:/login/information
+2018/12/09 21:23:31.472 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    229.782µs| nomatch|[44m GET     [0m /login/pages/welcome.html
+2018/12/09 21:23:31.620 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    176.726µs| nomatch|[44m GET     [0m /login/login.html
+2018/12/09 21:23:41.116 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:23:46.685 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    442.452µs| nomatch|[44m GET     [0m /information
+2018/12/09 21:24:00.623 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    517.868µs| nomatch|[44m GET     [0m /information
+2018/12/09 21:24:26.845 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    268.669µs| nomatch|[44m GET     [0m /information
+2018/12/09 21:24:26.910 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:24:27.889 [D] [server.go:2741]  |            ::1|[43m 404 [0m|     295.15µs| nomatch|[44m GET     [0m /information
+2018/12/09 21:24:28.177 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    534.776µs| nomatch|[44m GET     [0m /information
+2018/12/09 21:24:28.368 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    840.856µs| nomatch|[44m GET     [0m /information
+2018/12/09 21:24:36.930 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    502.713µs| nomatch|[44m GET     [0m /information
+2018/12/09 21:24:51.604 [D] [server.go:2741]  |            ::1|[43m 405 [0m|    107.836µs|   match|[44m GET     [0m /login/judge   r:/login/judge
+2018/12/09 21:25:59.427 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:26:14.859 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:26:19.334 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.092774ms|   match|[44m GET     [0m /login/information   r:/login/information
+2018/12/09 21:26:20.002 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    236.086µs| nomatch|[44m GET     [0m /login/pages/welcome.html
+2018/12/09 21:26:20.129 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    130.421µs| nomatch|[44m GET     [0m /login/login.html
+2018/12/09 21:26:49.524 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:27:21.180 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    938.027µs|   match|[44m GET     [0m /login/information   r:/login/information
+2018/12/09 21:27:22.367 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    293.813µs| nomatch|[44m GET     [0m /login/pages/welcome.html
+2018/12/09 21:27:22.485 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    217.887µs| nomatch|[44m GET     [0m /login/login.html
+2018/12/09 21:27:42.781 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:27:49.242 [D] [server.go:2741]  |            ::1|[47m 302 [0m|    293.995µs| nomatch|[44m GET     [0m /admin/information
+2018/12/09 21:27:49.265 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.167962ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:27:49.308 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   8.130359ms| nomatch|[44m GET     [0m /captcha/EKjPntz7ZTxZVWK.png
+2018/12/09 21:28:03.582 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:28:08.841 [D] [server.go:2741]  |            ::1|[47m 302 [0m|    378.425µs| nomatch|[44m GET     [0m /admin/information
+2018/12/09 21:28:08.877 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.008284ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:28:08.906 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.814344ms| nomatch|[44m GET     [0m /captcha/8TKO3Mu2XGNikuI.png
+2018/12/09 21:28:28.444 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:28:38.609 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:28:41.334 [D] [server.go:2741]  |            ::1|[47m 302 [0m|    228.373µs| nomatch|[44m GET     [0m /admin/information
+2018/12/09 21:28:41.344 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     2.6336ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:28:41.387 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   6.001047ms| nomatch|[44m GET     [0m /captcha/UF7wo3VCigpxkzs.png
+2018/12/09 21:29:19.010 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:29:29.982 [D] [server.go:2741]  |            ::1|[47m 302 [0m|     157.88µs| nomatch|[44m GET     [0m /admin/information
+2018/12/09 21:29:29.993 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.153079ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:29:30.037 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.288933ms| nomatch|[44m GET     [0m /captcha/pUgcvkvd4BaWHq4.png
+2018/12/09 21:30:08.779 [D] [server.go:2741]  |            ::1|[47m 302 [0m|      44.48µs| nomatch|[44m GET     [0m /admin/information
+2018/12/09 21:30:08.792 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.342737ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:30:08.814 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   7.847771ms| nomatch|[44m GET     [0m /captcha/xdtd3LzV0vV2Mz7.png
+2018/12/09 21:30:49.291 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:30:59.198 [D] [server.go:2741]  |            ::1|[47m 302 [0m|    178.565µs| nomatch|[44m GET     [0m /admin/information
+2018/12/09 21:30:59.213 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.128163ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:30:59.237 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.822276ms| nomatch|[44m GET     [0m /captcha/MWzdhcPsfqjTh25.png
+2018/12/09 21:31:46.001 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:49:54.279 [D] [server.go:2741]  |            ::1|[47m 302 [0m|    104.223µs| nomatch|[44m GET     [0m /admin/information
+2018/12/09 21:49:54.309 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     748.31µs|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:49:54.339 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   9.105096ms| nomatch|[44m GET     [0m /captcha/jW2oHLpKvz5KIdF.png
+2018/12/09 21:50:38.037 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    761.629µs|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:50:38.073 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.346242ms| nomatch|[44m GET     [0m /captcha/IcMMc0bBBqsKaHa.png
+2018/12/09 21:50:39.162 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:50:39.575 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.626812ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:50:39.611 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   7.358629ms| nomatch|[44m GET     [0m /captcha/G6DmhbG8muVIoYV.png
+2018/12/09 21:50:43.251 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    640.078µs|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:50:43.272 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    138.931µs|   match|[44m GET     [0m /static/css/style.css
+2018/12/09 21:50:43.272 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    439.262µs|   match|[44m GET     [0m /static/img/cat.jpeg
+2018/12/09 21:50:43.272 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    212.341µs|   match|[44m GET     [0m /static/layui/layui.js
+2018/12/09 21:50:43.284 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    3.90017ms| nomatch|[44m GET     [0m /captcha/d03pDI5SIJJpXyh.png
+2018/12/09 21:50:43.285 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    297.003µs|   match|[44m GET     [0m /static/js/particles.min.js
+2018/12/09 21:50:43.316 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    236.106µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/09 21:50:43.320 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.037451ms|   match|[44m GET     [0m /static/img/bj.jpg
+2018/12/09 21:50:43.433 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    315.544µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/09 21:50:43.452 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    318.764µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/09 21:50:43.452 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    631.182µs|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2018/12/09 21:50:43.524 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    998.437µs| nomatch|[44m GET     [0m /favicon.ico
+2018/12/09 21:50:47.152 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.192018ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:50:47.181 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    281.724µs|   match|[44m GET     [0m /static/css/style.css
+2018/12/09 21:50:47.184 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.471414ms|   match|[44m GET     [0m /static/img/cat.jpeg
+2018/12/09 21:50:47.189 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   7.318905ms| nomatch|[44m GET     [0m /captcha/BNu2pCCEoQ4ocR1.png
+2018/12/09 21:50:47.202 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     78.215µs|   match|[44m GET     [0m /static/layui/layui.js
+2018/12/09 21:50:47.203 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    111.542µs|   match|[44m GET     [0m /static/js/particles.min.js
+2018/12/09 21:50:47.220 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    240.821µs|   match|[44m GET     [0m /static/img/bj.jpg
+2018/12/09 21:50:47.266 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    126.839µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/09 21:50:47.362 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    397.424µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/09 21:50:47.384 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    104.931µs|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2018/12/09 21:50:47.384 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    143.172µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/09 21:50:47.425 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    354.032µs| nomatch|[44m GET     [0m /favicon.ico
+2018/12/09 21:50:59.405 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:51:08.731 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:51:10.207 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:51:14.500 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.233006ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:51:14.552 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.446142ms| nomatch|[44m GET     [0m /captcha/7e0OS15iU6u0o0E.png
+2018/12/09 21:51:16.016 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.121764ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:51:16.064 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   8.350538ms| nomatch|[44m GET     [0m /captcha/2fhFBfU2Rw4D2G5.png
+2018/12/09 21:51:17.002 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.494982ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:51:17.065 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   9.406154ms| nomatch|[44m GET     [0m /captcha/SjfqRJHwRyTf7Yc.png
+2018/12/09 21:51:17.392 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.605602ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:51:17.454 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   7.721916ms| nomatch|[44m GET     [0m /captcha/631pDOvNxizyjw8.png
+2018/12/09 21:51:17.656 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    622.538µs|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:51:17.673 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   7.071777ms| nomatch|[44m GET     [0m /captcha/cmw69cxEb5rC0rJ.png
+2018/12/09 21:51:17.909 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     539.33µs|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:51:17.928 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    3.43135ms| nomatch|[44m GET     [0m /captcha/wBXuqbu2Er1KfP1.png
+2018/12/09 21:51:18.178 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.872842ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:51:18.196 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.838214ms| nomatch|[44m GET     [0m /captcha/nIGRw1oOeMpwzKk.png
+2018/12/09 21:51:30.852 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.460117ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:51:30.897 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    107.309µs|   match|[44m GET     [0m /static/css/style.css
+2018/12/09 21:51:30.898 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    261.181µs|   match|[44m GET     [0m /static/img/cat.jpeg
+2018/12/09 21:51:30.899 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    151.329µs|   match|[44m GET     [0m /static/layui/layui.js
+2018/12/09 21:51:30.904 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    720.551µs|   match|[44m GET     [0m /static/js/particles.min.js
+2018/12/09 21:51:30.904 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.593511ms| nomatch|[44m GET     [0m /captcha/JqOUVm00HSIoE5z.png
+2018/12/09 21:51:30.930 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    276.991µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/09 21:51:30.942 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.006762ms|   match|[44m GET     [0m /static/img/bj.jpg
+2018/12/09 21:51:31.192 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.399075ms|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/09 21:51:31.229 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    172.594µs|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2018/12/09 21:51:31.231 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    530.584µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/09 21:51:43.060 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:53:12.267 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:53:14.862 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:53:17.364 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:53:19.880 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:53:22.482 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:53:24.977 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:53:27.576 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:53:29.978 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:54:24.362 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:54:30.238 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.044216ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:54:30.267 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   8.066281ms| nomatch|[44m GET     [0m /captcha/BMhh4u63VOHtCUr.png
+2018/12/09 21:54:34.768 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    576.599µs|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:54:34.787 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.639511ms| nomatch|[44m GET     [0m /captcha/68zaRJXP1ZkUUme.png
+2018/12/09 21:54:35.036 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    553.763µs|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:54:35.074 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.128309ms| nomatch|[44m GET     [0m /captcha/LnChFsyk3fAeky0.png
+2018/12/09 21:54:35.291 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    2.24616ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:54:35.338 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.958581ms| nomatch|[44m GET     [0m /captcha/febrHdJvngWZgQJ.png
+2018/12/09 21:54:35.799 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.398553ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:54:35.827 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  12.223269ms| nomatch|[44m GET     [0m /captcha/29zgKlKHdWnRD8f.png
+2018/12/09 21:54:54.144 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:54:57.403 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.208008ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:54:57.460 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   8.402696ms| nomatch|[44m GET     [0m /captcha/40D4u0DG3qIFRkV.png
+2018/12/09 21:55:25.963 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    611.224µs|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:55:25.986 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.844426ms| nomatch|[44m GET     [0m /captcha/KA36Y5ACcuzeFrm.png
+2018/12/09 21:55:27.096 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.074509ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:55:27.132 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.696643ms| nomatch|[44m GET     [0m /captcha/Iq5cozKizaJypIR.png
+2018/12/09 21:55:27.459 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    656.902µs|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:55:27.478 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.299631ms| nomatch|[44m GET     [0m /captcha/HH51ZkEAtDaiMxP.png
+2018/12/09 21:55:27.778 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.160765ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:55:27.799 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.737583ms| nomatch|[44m GET     [0m /captcha/jB18ZNbJ7aUffMZ.png
+2018/12/09 21:55:49.496 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:55:51.913 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:55:52.664 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.847892ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:55:52.710 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.090033ms| nomatch|[44m GET     [0m /captcha/QNaZNQFk3NAfCUj.png
+2018/12/09 21:55:53.552 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.894066ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:55:53.587 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   9.459647ms| nomatch|[44m GET     [0m /captcha/SAOorsJ3G15c83Q.png
+2018/12/09 21:55:53.790 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.253271ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:55:53.812 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.099609ms| nomatch|[44m GET     [0m /captcha/G54Jk4sQ0bmFRcH.png
+2018/12/09 21:55:54.004 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.363687ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:55:54.033 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    5.66645ms| nomatch|[44m GET     [0m /captcha/O8AMQ5gsZ0ahzNX.png
+2018/12/09 21:56:30.462 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:56:38.786 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.533024ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:56:38.818 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   8.554525ms| nomatch|[44m GET     [0m /captcha/01gICkItrqPahXb.png
+2018/12/09 21:56:39.747 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.301657ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:56:39.791 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   6.246835ms| nomatch|[44m GET     [0m /captcha/E87Ns74LUOWG7kj.png
+2018/12/09 21:56:40.011 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    3.29003ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:56:40.053 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.557226ms| nomatch|[44m GET     [0m /captcha/wRdPgq1CWVH4NZT.png
+2018/12/09 21:56:40.250 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    756.677µs|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:56:40.290 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.863548ms| nomatch|[44m GET     [0m /captcha/VneBuvU7FBVo7Bl.png
+2018/12/09 21:56:40.484 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    692.718µs|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:56:40.514 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   6.747403ms| nomatch|[44m GET     [0m /captcha/Q7VVmEzAkTG9OH0.png
+2018/12/09 21:56:40.717 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.432336ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 21:56:40.761 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.108657ms| nomatch|[44m GET     [0m /captcha/AxYmtQzm7m4qp67.png
+2018/12/09 21:56:53.115 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 21:59:32.627 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 22:00:27.950 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.329668ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 22:00:28.007 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   7.603102ms|   match|[44m GET     [0m /static/css/style.css
+2018/12/09 22:00:28.009 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   6.794939ms| nomatch|[44m GET     [0m /captcha/TuhM3dLQ8h255fh.png
+2018/12/09 22:00:28.014 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  11.630264ms|   match|[44m GET     [0m /static/img/cat.jpeg
+2018/12/09 22:00:28.014 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   9.672206ms|   match|[44m GET     [0m /static/js/particles.min.js
+2018/12/09 22:00:28.015 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   8.898793ms|   match|[44m GET     [0m /static/layui/layui.js
+2018/12/09 22:00:28.030 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    946.769µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/09 22:00:28.036 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.146196ms|   match|[44m GET     [0m /static/img/bj.jpg
+2018/12/09 22:00:28.187 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.053326ms|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/09 22:00:28.213 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.147356ms|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2018/12/09 22:00:28.219 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.555493ms|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/09 22:00:28.278 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    480.402µs| nomatch|[44m GET     [0m /favicon.ico
+2018/12/09 22:10:34.685 [E] [template.go:176]  parse template err: reception/index.html template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:10:34.685 [W] [beego.go:103]  template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:10:43.217 [E] [template.go:176]  parse template err: reception/index.html template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:10:43.217 [W] [beego.go:103]  template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:11:32.146 [E] [template.go:176]  parse template err: reception/index.html template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:11:32.146 [W] [beego.go:103]  template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:22:24.307 [E] [template.go:176]  parse template err: reception/index.html template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:22:24.307 [W] [beego.go:103]  template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:23:29.494 [E] [template.go:176]  parse template err: reception/index.html template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:23:29.494 [W] [beego.go:103]  template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:23:32.869 [E] [template.go:176]  parse template err: reception/index.html template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:23:32.869 [W] [beego.go:103]  template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:25:07.311 [E] [template.go:176]  parse template err: reception/index.html template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:25:07.311 [W] [beego.go:103]  template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:25:13.023 [E] [template.go:176]  parse template err: reception/index.html template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:25:13.023 [W] [beego.go:103]  template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:25:15.742 [E] [template.go:176]  parse template err: reception/index.html template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:25:15.742 [W] [beego.go:103]  template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:25:19.246 [E] [template.go:176]  parse template err: reception/index.html template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:25:19.246 [W] [beego.go:103]  template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:26:17.199 [E] [template.go:176]  parse template err: reception/index.html template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:26:17.199 [W] [beego.go:103]  template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:26:28.168 [E] [template.go:176]  parse template err: reception/index.html template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:26:28.168 [W] [beego.go:103]  template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:26:43.757 [E] [template.go:176]  parse template err: reception/index.html template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:26:43.757 [W] [beego.go:103]  template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:27:14.687 [E] [template.go:176]  parse template err: reception/index.html template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:27:14.687 [W] [beego.go:103]  template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:27:18.424 [E] [template.go:176]  parse template err: reception/index.html template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:27:18.424 [W] [beego.go:103]  template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:27:54.412 [E] [template.go:176]  parse template err: reception/index.html template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:27:54.412 [W] [beego.go:103]  template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:29:38.079 [E] [template.go:176]  parse template err: reception/index.html template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:29:38.079 [W] [beego.go:103]  template: reception/index.html:40: function "create_captcha" not defined
+2018/12/09 22:30:07.891 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 22:30:15.051 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    841.638µs| nomatch|[44m GET     [0m /login
+2018/12/09 22:30:16.066 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    564.606µs| nomatch|[44m GET     [0m /login
+2018/12/09 22:30:16.305 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    404.222µs| nomatch|[44m GET     [0m /login
+2018/12/09 22:30:16.521 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    478.584µs| nomatch|[44m GET     [0m /login
+2018/12/09 22:30:50.317 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    128.212µs| nomatch|[44m GET     [0m /login
+2018/12/09 22:30:50.825 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 22:30:51.710 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.060621ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 22:31:09.930 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.317409ms|   match|[44m GET     [0m /login   r:/login
+2018/12/09 22:31:09.981 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  13.390179ms| nomatch|[44m GET     [0m /captcha/RQLlyL1zdyJyHhI.png
+2018/12/09 22:31:12.528 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  14.486256ms| nomatch|[44m GET     [0m /captcha/RQLlyL1zdyJyHhI.png
+2018/12/09 22:31:12.830 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  14.456454ms| nomatch|[44m GET     [0m /captcha/RQLlyL1zdyJyHhI.png
+2018/12/09 22:31:13.026 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  12.390984ms| nomatch|[44m GET     [0m /captcha/RQLlyL1zdyJyHhI.png
+2018/12/09 22:31:13.239 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   8.667313ms| nomatch|[44m GET     [0m /captcha/RQLlyL1zdyJyHhI.png
+2018/12/09 22:31:31.455 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 22:31:41.149 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 22:32:00.511 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 22:32:07.970 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    551.753µs|   match|[44m GET     [0m /login/information   r:/login/information
+2018/12/09 22:33:07.278 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    261.973µs|   match|[44m GET     [0m /login/information   r:/login/information
+2018/12/09 22:33:07.294 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 22:33:24.167 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    421.324µs|   match|[44m GET     [0m /login/information   r:/login/information
+2018/12/09 22:33:25.508 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 22:33:26.566 [C] [asm_amd64.s:522]  the request url is  /login/information
+2018/12/09 22:33:26.566 [C] [asm_amd64.s:522]  Handler crashed with error can't find templatefile in the path:views/back/index.html
+2018/12/09 22:33:26.566 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/09 22:33:26.566 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/09 22:33:26.566 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/template.go:75
+2018/12/09 22:33:26.566 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:283
+2018/12/09 22:33:26.566 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:234
+2018/12/09 22:33:26.566 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:214
+2018/12/09 22:33:26.566 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:864
+2018/12/09 22:33:26.566 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/09 22:33:26.566 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/09 22:33:26.566 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/09 22:33:26.567 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/09 22:33:44.943 [C] [asm_amd64.s:522]  the request url is  /login/information
+2018/12/09 22:33:44.944 [C] [asm_amd64.s:522]  Handler crashed with error can't find templatefile in the path:views/back/index.html
+2018/12/09 22:33:44.944 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/09 22:33:44.944 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/09 22:33:44.944 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/template.go:75
+2018/12/09 22:33:44.944 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:283
+2018/12/09 22:33:44.944 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:234
+2018/12/09 22:33:44.944 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:214
+2018/12/09 22:33:44.944 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:864
+2018/12/09 22:33:44.944 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/09 22:33:44.944 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/09 22:33:44.944 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/09 22:33:44.944 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/09 22:33:45.046 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/09 22:33:47.248 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.835571ms|   match|[44m GET     [0m /login/information   r:/login/information
+2018/12/09 22:33:47.293 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    241.046µs| nomatch|[44m GET     [0m /login/pages/welcome.html
+2018/12/09 22:33:47.447 [D] [server.go:2741]  |            ::1|[43m 404 [0m|     209.63µs| nomatch|[44m GET     [0m /login/login.html
+2018/12/09 22:34:21.643 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    207.718µs| nomatch|[44m GET     [0m /login/login.html
+2018/12/09 22:34:24.178 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    193.904µs| nomatch|[44m GET     [0m /login/login.html
+2018/12/09 22:34:25.090 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    214.935µs| nomatch|[44m GET     [0m /login/login.html
+2018/12/09 22:34:46.341 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.033846ms|   match|[44m GET     [0m /login/information   r:/login/information
+2018/12/09 22:34:47.046 [D] [server.go:2741]  |            ::1|[43m 404 [0m|   1.075135ms| nomatch|[44m GET     [0m /login/pages/welcome.html

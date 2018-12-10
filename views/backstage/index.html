@@ -283,21 +283,21 @@
         ,version: '101100'
     }).use('admin');
     layui.use(['jquery','admin'], function(){
-        var $ = layui.jquery;
-        $(function(){
-            var login = JSON.parse(localStorage.getItem("login"));
-            if(login){
-                if(login=0){
-                    window.location.href='./login.html';
-                    return false;
-                }else{
-                    return false;
-                }
-            }else{
-                window.location.href='./login.html';
-                return false;
-            }
-        });
+        // var $ = layui.jquery;
+        // $(function(){
+        //     var login = JSON.parse(localStorage.getItem("login"));
+        //     if(login){
+        //         if(login=0){
+        //             window.location.href='./login.html';
+        //             return false;
+        //         }else{
+        //             return false;
+        //         }
+        //     }else{
+        //         window.location.href='./login.html';
+        //         return false;
+        //     }
+        // });
     });
 
 </script>
