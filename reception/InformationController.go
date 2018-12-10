@@ -9,6 +9,6 @@ type InformationController struct {
 }
 
 func (c *InformationController) Index() {
-	c.TplName = "backstage/index.html"
+	c.TplName = "reception/information.html"
 	//c.TplName = "reception/index.html"
 }
