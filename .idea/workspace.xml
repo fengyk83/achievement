@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e79a1091-f68f-4ad7-9d9a-96fcaa415968" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lastupdate.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/lastupdate.tmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/beego.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/beego.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routers/commentsRouter_reception.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/views/backstage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/backstage/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/reception/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/reception/index.html" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/achievement" beforeDir="false" afterPath="$PROJECT_DIR$/achievement" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lastupdate.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/lastupdate.tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/beego.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/beego.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reception/InformationController.go" beforeDir="false" afterPath="$PROJECT_DIR$/reception/InformationController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/commentsRouter_reception.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/commentsRouter_reception.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/router.go" afterDir="false" />
+>>>>>>> f884fe57b1953dce06d3fd0eb32a82364432c735
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,20 +88,20 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="185" />
+          <entry key="go" value="249" />
           <entry key="html" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="185" />
+          <entry key="Go" value="249" />
           <entry key="HTML" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="conf" value="1" />
-          <entry key="go" value="12" />
+          <entry key="go" value="13" />
           <entry key="html" value="5" />
           <entry key="log" value="1" />
           <entry key="md" value="1" />
@@ -100,7 +109,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="12" />
+          <entry key="Go" value="13" />
           <entry key="HTML" value="5" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
@@ -160,6 +169,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/controllers/default.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="310">
@@ -167,6 +177,12 @@
               <folding>
                 <element signature="e#21#59#0" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/views/reception/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+>>>>>>> f884fe57b1953dce06d3fd0eb32a82364432c735
             </state>
           </provider>
         </entry>
@@ -185,11 +201,19 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routers/router.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="279">
               <caret line="18" column="54" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="54" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/reception/InformationController.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="28" />
+>>>>>>> f884fe57b1953dce06d3fd0eb32a82364432c735
               <folding>
                 <element signature="e#17#141#0" expanded="true" />
               </folding>
@@ -200,8 +224,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reception/LoginController.go">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="580">
               <caret line="39" column="41" lean-forward="true" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+=======
+            <state relative-caret-position="288">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+              <folding>
+                <element signature="e#17#80#0" expanded="true" />
+              </folding>
+>>>>>>> f884fe57b1953dce06d3fd0eb32a82364432c735
             </state>
           </provider>
         </entry>
@@ -209,8 +241,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routers/commentsRouter_reception.go">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="186">
               <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+=======
+            <state relative-caret-position="282">
+              <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="22" />
+              <folding>
+                <element signature="e#19#205#0" expanded="true" />
+              </folding>
+>>>>>>> f884fe57b1953dce06d3fd0eb32a82364432c735
             </state>
           </provider>
         </entry>
@@ -253,12 +293,20 @@
         <option value="$PROJECT_DIR$/logs/beego.log" />
         <option value="$PROJECT_DIR$/reception/InformatinController.go" />
         <option value="$PROJECT_DIR$/tests/default_test.go" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/reception/InformationController.go" />
+=======
+        <option value="$PROJECT_DIR$/views/backstage/index.html" />
+>>>>>>> f884fe57b1953dce06d3fd0eb32a82364432c735
         <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/reception/LoginController.go" />
-        <option value="$PROJECT_DIR$/routers/router.go" />
         <option value="$PROJECT_DIR$/views/reception/index.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/views/backstage/index.html" />
+=======
+        <option value="$PROJECT_DIR$/reception/InformationController.go" />
+        <option value="$PROJECT_DIR$/routers/router.go" />
+>>>>>>> f884fe57b1953dce06d3fd0eb32a82364432c735
       </list>
     </option>
   </component>
@@ -486,6 +534,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/models/User.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -500,6 +549,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/default.go">
+=======
+    <entry file="file:///usr/lib/golang/src/builtin/builtin.go">
+>>>>>>> f884fe57b1953dce06d3fd0eb32a82364432c735
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
@@ -516,6 +568,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/routers/commentsRouter_reception.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -524,6 +577,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routers/router.go">
+=======
+    <entry file="file://$PROJECT_DIR$/views/reception/information.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/default.go">
+>>>>>>> f884fe57b1953dce06d3fd0eb32a82364432c735
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="18" column="54" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="54" />
@@ -533,17 +592,62 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/reception/LoginController.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
           <caret line="39" column="41" lean-forward="true" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+=======
+    <entry file="file://$PROJECT_DIR$/views/reception/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/reception/index.html">
+    <entry file="file://$PROJECT_DIR$/models/User.go">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routers/router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="e#17#80#0" expanded="true" />
+          </folding>
+>>>>>>> f884fe57b1953dce06d3fd0eb32a82364432c735
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reception/LoginController.go">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="155">
           <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+=======
+        <state relative-caret-position="282">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="e#19#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routers/commentsRouter_reception.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reception/InformationController.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="e#19#57#0" expanded="true" />
+          </folding>
+>>>>>>> f884fe57b1953dce06d3fd0eb32a82364432c735
         </state>
       </provider>
     </entry>
