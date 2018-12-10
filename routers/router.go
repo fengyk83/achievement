@@ -9,22 +9,27 @@ import (
 
 func init() {
 	/*前台路由*/
-	beego.InsertFilter("/admin/*",beego.BeforeRouter,func(ctx *context.Context) {   //前台路由过滤
+	beego.InsertFilter("/admin/*", beego.BeforeRouter, func(ctx *context.Context) { //前台路由过滤
 		_, ok := ctx.Input.Session("account").(string)
-		if !ok  {
+		if !ok {
 			ctx.Redirect(302, "/reception/login")
 		}
 	})
 	ns := beego.NewNamespace("reception",
-				beego.NSInclude(
-					&reception.LoginContorller{},
-					&reception.InformationController{},
-				),
-			)
+		beego.NSInclude(
+			&reception.LoginContorller{},
+			&reception.InformationController{},
+			&reception.ForgetController{},
+		),
+	)
 	beego.AddNamespace(ns)
 
-
 	/*后台路由*/
-	beego.Router("/back/login",&backstage.LoginController{},"Get:Login")
-	beego.Router("/back/index",&backstage.IndexController{},"Get:Index")
+	back := beego.NewNamespace("back",
+		beego.NSInclude(
+			&backstage.LoginController{},
+			&backstage.IndexController{},
+		),
+	)
+	beego.AddNamespace(back)
 }

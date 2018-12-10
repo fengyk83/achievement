@@ -6,6 +6,8 @@ type IndexController struct {
 	beego.Controller
 }
 
+//后台页面展示
+//@router /achievement/index [get]
 func (this *IndexController)Index() {
-	//this.TplName = "backstage/index.html";
+	this.TplName = "backstage/index.html";
 }
