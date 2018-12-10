@@ -16,8 +16,10 @@ func init() {
 		}
 	})
 	ns := beego.NewNamespace("reception",
-			beego.NSInclude(&reception.LoginContorller{}),
-			beego.NSRouter("/login/information", &reception.InformationController{},"Get:Index"),
+				beego.NSInclude(
+					&reception.LoginContorller{},
+					&reception.InformationController{},
+				),
 			)
 	beego.AddNamespace(ns)
 

@@ -7,6 +7,15 @@ import (
 
 func init() {
 
+    beego.GlobalControllerRouter["achievement/reception:InformationController"] = append(beego.GlobalControllerRouter["achievement/reception:InformationController"],
+        beego.ControllerComments{
+            Method: "Index",
+            Router: `/admin/information`,
+            AllowHTTPMethods: []string{"get"},
+            MethodParams: param.Make(),
+            Filters: nil,
+            Params: nil})
+
     beego.GlobalControllerRouter["achievement/reception:LoginContorller"] = append(beego.GlobalControllerRouter["achievement/reception:LoginContorller"],
         beego.ControllerComments{
             Method: "Login",
