@@ -51,15 +51,9 @@
                     <a onclick="WeAdminShow('个人信息','#')">个人信息</a>
                 </dd>
                 <dd>
-                    <a onclick="WeAdminShow('切换帐号','./login.html')">切换帐号</a>
-                </dd>
-                <dd>
                     <a class="loginout" href="login.html">退出</a>
                 </dd>
             </dl>
-        </li>
-        <li class="layui-nav-item to-index">
-            <a href="/">前台首页</a>
         </li>
     </ul>
 
@@ -128,6 +122,15 @@
     <div class="copyright">徐红，孙记风，周硕小组</div>
 </div>
 <!-- 底部结束 -->
+<!--Tab菜单右键弹出菜单-->
+<ul class="rightMenu" id="rightMenu">
+    <li data-type="fresh">刷新</li>
+    <li data-type="current">关闭当前</li>
+    <li data-type="other">关闭其它</li>
+    <li data-type="all">关闭所有</li>
+</ul>
+</body>
+
 <script type="text/javascript">
     layui.config({
         base: '/static/js/'
@@ -186,13 +189,4 @@
     });
 
 </script>
-</body>
-<!--Tab菜单右键弹出菜单-->
-<ul class="rightMenu" id="rightMenu">
-    <li data-type="fresh">刷新</li>
-    <li data-type="current">关闭当前</li>
-    <li data-type="other">关闭其它</li>
-    <li data-type="all">关闭所有</li>
-</ul>
-
 </html>

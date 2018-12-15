@@ -38,3 +38,29 @@
 2018/12/15 21:20:51.422 [I] [asm_amd64.s:2337]  http server Running on http://:9999
 2018/12/15 21:20:53.927 [I] [asm_amd64.s:2337]  http server Running on http://:9999
 2018/12/15 21:20:56.498 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/15 21:40:05.427 [C] [asm_amd64.s:509]  the request url is  /back/achievement/showitem
+2018/12/15 21:40:05.427 [C] [asm_amd64.s:509]  Handler crashed with error can't find templatefile in the path:views/itemcontroller/showitem.tpl
+2018/12/15 21:40:05.427 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/runtime/asm_amd64.s:509
+2018/12/15 21:40:05.427 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/runtime/panic.go:491
+2018/12/15 21:40:05.427 [C] [asm_amd64.s:509]  D:/go-work/src/github.com/astaxie/beego/template.go:75
+2018/12/15 21:40:05.427 [C] [asm_amd64.s:509]  D:/go-work/src/github.com/astaxie/beego/controller.go:283
+2018/12/15 21:40:05.427 [C] [asm_amd64.s:509]  D:/go-work/src/github.com/astaxie/beego/controller.go:234
+2018/12/15 21:40:05.427 [C] [asm_amd64.s:509]  D:/go-work/src/github.com/astaxie/beego/controller.go:214
+2018/12/15 21:40:05.428 [C] [asm_amd64.s:509]  D:/go-work/src/github.com/astaxie/beego/router.go:863
+2018/12/15 21:40:05.428 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/net/http/server.go:2619
+2018/12/15 21:40:05.428 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/net/http/server.go:1801
+2018/12/15 21:40:05.428 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/runtime/asm_amd64.s:2337
+2018/12/15 21:40:05.428 [server.go:2846]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/15 21:40:25.896 [C] [asm_amd64.s:509]  the request url is  /back/achievement/showitem
+2018/12/15 21:40:25.896 [C] [asm_amd64.s:509]  Handler crashed with error can't find templatefile in the path:views/itemcontroller/showitem.tpl
+2018/12/15 21:40:25.896 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/runtime/asm_amd64.s:509
+2018/12/15 21:40:25.896 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/runtime/panic.go:491
+2018/12/15 21:40:25.896 [C] [asm_amd64.s:509]  D:/go-work/src/github.com/astaxie/beego/template.go:75
+2018/12/15 21:40:25.896 [C] [asm_amd64.s:509]  D:/go-work/src/github.com/astaxie/beego/controller.go:283
+2018/12/15 21:40:25.896 [C] [asm_amd64.s:509]  D:/go-work/src/github.com/astaxie/beego/controller.go:234
+2018/12/15 21:40:25.896 [C] [asm_amd64.s:509]  D:/go-work/src/github.com/astaxie/beego/controller.go:214
+2018/12/15 21:40:25.896 [C] [asm_amd64.s:509]  D:/go-work/src/github.com/astaxie/beego/router.go:863
+2018/12/15 21:40:25.896 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/net/http/server.go:2619
+2018/12/15 21:40:25.897 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/net/http/server.go:1801
+2018/12/15 21:40:25.897 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/runtime/asm_amd64.s:2337
+2018/12/15 21:40:25.897 [server.go:2846]  [HTTP] http: multiple response.WriteHeader calls
