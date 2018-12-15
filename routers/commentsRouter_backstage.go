@@ -7,6 +7,15 @@ import (
 
 func init() {
 
+    beego.GlobalControllerRouter["achievement/backstage:AdminController"] = append(beego.GlobalControllerRouter["achievement/backstage:AdminController"],
+        beego.ControllerComments{
+            Method: "ShowAdmin",
+            Router: `/achievement/showadmin`,
+            AllowHTTPMethods: []string{"get"},
+            MethodParams: param.Make(),
+            Filters: nil,
+            Params: nil})
+
     beego.GlobalControllerRouter["achievement/backstage:IdiomController"] = append(beego.GlobalControllerRouter["achievement/backstage:IdiomController"],
         beego.ControllerComments{
             Method: "ShowIdiom",

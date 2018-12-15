@@ -9,5 +9,5 @@ type ScroeController struct {
 //展示成绩
 //@router /achievement/showscore [get]
 func (this *ScroeController)ShowScore()  {
-	this.TplName =""
+	this.TplName ="backstage/score.html"
 }

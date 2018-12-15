@@ -9,5 +9,5 @@ type IdiomController struct {
 //展示成员
 //@router /achievement/showidiom [get]
 func (this *IdiomController)ShowIdiom()  {
-	this.TplName = ""
+	this.TplName = "backstage/people.html"
 }
