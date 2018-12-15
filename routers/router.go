@@ -9,7 +9,7 @@ import (
 
 func init() {
 	/*前台路由*/
-	beego.InsertFilter("/admin/*", beego.BeforeRouter, func(ctx *context.Context) { //前台路由过滤
+	beego.InsertFilter("/reception/admin/*", beego.BeforeRouter, func(ctx *context.Context) { //前台路由过滤
 		_, ok := ctx.Input.Session("account").(string)
 		if !ok {
 			ctx.Redirect(302, "/reception/login")
