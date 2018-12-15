@@ -2,7 +2,6 @@ package reception
 
 import (
 	"achievement/models"
-	"fmt"
 	"github.com/astaxie/beego"
 )
 
@@ -19,7 +18,9 @@ func (this *InformationController) Index() {
 	//}
 	account := "201301002"
 	userInformation := 	models.NewStudent().GetInformation(account)
-	fmt.Println(userInformation.ClazzName)
+	exam := models.NewExam().GetExam(userInformation.Gradeid,userInformation.Clazzid)
+	this.Data["exam"] = exam
 	this.Data["user"] = userInformation
+
 	this.TplName = "reception/information.html"
 }
