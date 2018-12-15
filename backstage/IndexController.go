@@ -24,8 +24,7 @@ func (this *IndexController)GetInformation() {
 }
 
 //添加考试信息
-//@router /achievement/addexam [post]
+//@router /achievement/addexam [get]
 func (this *IndexController)AddExam()  {
-
 	this.TplName = "backstage/index.html"
 }
