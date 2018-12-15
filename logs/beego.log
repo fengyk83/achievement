@@ -28,3 +28,4 @@
 2018/12/15 20:35:31.887 [A] [LoginController.go:27]  captcha+++++++请您输入验证码 
 2018/12/15 20:36:43.734 [I] [asm_amd64.s:2337]  http server Running on http://:9999
 2018/12/15 20:36:48.899 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/15 21:15:19.889 [A] [LoginController.go:27]  captcha+++++++请您输入验证码 
