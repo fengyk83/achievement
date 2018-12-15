@@ -1,1 +1,31 @@
-2018/12/14 10:14:35.342 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 03:44:27.552 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    817.152µs|   match|[44m GET     [0m /reception/forget   r:reception/forget
+2018/12/15 03:44:27.617 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    148.105µs| nomatch|[44m GET     [0m /reception/static/js/admin.js
+2018/12/15 03:44:27.619 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    525.948µs|   match|[44m GET     [0m /static/img/favicon.ico
+2018/12/15 03:44:30.665 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.177178ms|   match|[44m GET     [0m /reception/forget   r:reception/forget
+2018/12/15 03:44:30.751 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    175.549µs| nomatch|[44m GET     [0m /reception/static/js/admin.js
+2018/12/15 03:44:30.752 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    204.934µs|   match|[44m GET     [0m /static/img/favicon.ico
+2018/12/15 04:02:21.804 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 04:02:24.024 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 04:04:44.063 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 04:04:46.177 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 04:08:00.340 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 04:08:02.558 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 04:08:42.997 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 04:08:45.911 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 04:08:55.232 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 04:08:58.301 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 04:09:25.884 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 04:09:27.919 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 04:15:40.399 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.969876ms|   match|[44m GET     [0m /back/backlogin   r:back/backlogin
+2018/12/15 04:15:40.490 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    477.139µs|   match|[44m GET     [0m /static/js/admin.js
+2018/12/15 04:15:40.496 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.295666ms|   match|[44m GET     [0m /static/layui/lay/modules/element.js
+2018/12/15 04:48:02.816 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 04:52:56.805 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 04:57:39.871 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 04:57:42.161 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 04:59:31.894 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 04:59:33.946 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 04:59:49.547 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 04:59:51.678 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 05:00:28.094 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 05:00:30.255 [I] [asm_amd64.s:1333]  http server Running on http://:9999

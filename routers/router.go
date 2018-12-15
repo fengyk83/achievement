@@ -25,6 +25,12 @@ func init() {
 	beego.AddNamespace(ns)
 
 	/*后台路由*/
+	beego.InsertFilter("/back/achievement/*", beego.BeforeRouter, func(ctx *context.Context) { //前台路由过滤
+		_, ok := ctx.Input.Session("account").(string)
+		if !ok {
+			ctx.Redirect(302, "/reception/login")
+		}
+	})
 	back := beego.NewNamespace("back",
 		beego.NSInclude(
 			&backstage.LoginController{},
