@@ -31,13 +31,13 @@
             <dl class="layui-nav-child">
                 <!-- 二级菜单 -->
                 <dd>
-                    <a onclick="WeAdminShow('资讯','https://www.youfa365.com/')"><i class="iconfont">&#xe6a2;</i>资讯</a>
+                    <a onclick="WeAdminShow('资讯','#')"><i class="iconfont">&#xe6a2;</i>资讯</a>
                 </dd>
                 <dd>
-                    <a onclick="WeAdminShow('图片','http://www.baidu.com')"><i class="iconfont">&#xe6a8;</i>图片</a>
+                    <a onclick="WeAdminShow('图片','#')"><i class="iconfont">&#xe6a8;</i>图片</a>
                 </dd>
                 <dd>
-                    <a onclick="WeAdminShow('用户','https://www.youfa365.com/')"><i class="iconfont">&#xe6b8;</i>用户</a>
+                    <a onclick="WeAdminShow('用户','#')"><i class="iconfont">&#xe6b8;</i>用户</a>
                 </dd>
             </dl>
         </li>
@@ -72,20 +72,20 @@
         <ul id="nav">
             <li>
                 <a href="javascript:;">
-                    <i class="iconfont">&#xe6b8;</i>
+                    <i class="iconfont">&#xe705;</i>
                     <cite>成绩管理</cite>
                 </a>
             </li>
             <li>
                 <a href="javascript:;">
-                    <i class="iconfont">&#xe705;</i>
+                    <i class="iconfont">&#xe6b8;</i>
                     <cite>成员管理</cite>
                 </a>
             </li>
             <li>
                 <a href="javascript:;">
                     <i class="iconfont">&#xe723;</i>
-                    <cite>设置管理员</cite>
+                    <cite>设置管理员12</cite>
                 </a>
             </li>
             <li>
@@ -97,7 +97,7 @@
             <li>
                 <a href="javascript:;">
                     <i class="iconfont">&#xe726;</i>
-                    <cite>消息提示</cite>
+                    <cite>友情提示</cite>
                 </a>
             </li>
         </ul>
@@ -113,87 +113,8 @@
         </ul>
         <div class="layui-tab-content">
             <div class="layui-tab-item layui-show">
-                {{/*<iframe src='welcome.html' frameborder="0" scrolling="yes" class="weIframe"></iframe>*/}}
-                {{/*<div class="informationbox">*/}}
-                    {{/*<div class="information">*/}}
-                        {{/*<h6>友情提示</h6>*/}}
-                        {{/*<p>如您在使用过程中出现问题，无法导入EXCEL文件，请先检查EXCEL表格格式是否有误，*/}}
-                            {{/*或者换个浏览器试试。如有技术问题，请联系我们。</p>*/}}
-                        {{/*<span>项目参与人员：孙记风，徐红，周硕</span>*/}}
-                        {{/*<span>联系QQ：1968543565</span>*/}}
-                    {{/*</div>*/}}
-                {{/*</div>*/}}
-                <div class="fortermbox">
-                    <div class="layui-form forterm">
-                        <div class="layui-form-item">
-                            <label class="layui-form-label">添加学期</label>
-                            <div class="layui-input-inline">
-                                <select name="year" lay-verify="year">
-                                    <option value="">请选择年份</option>
-                                    <option value="2018年-2019年">2018年-2019年</option>
-                                    <option value="2017年-2018年">2017年-2018年</option>
-                                    <option value="2016年-2017年">2016年-2017年</option>
-                                </select>
-                            </div>
-                            <div class="layui-input-inline">
-                                <select name="term" lay-verify="term">
-                                    <option value="">请选择学期</option>
-                                    <option value="第一学期">第一学期</option>
-                                    <option value="第二学期">第二学期</option>
-                                </select>
-                            </div>
-                            <div class="layui-input-inline">
-                                <select name="type" lay-verify="type">
-                                    <option value="">请选择类型</option>
-                                    <option value="期中考试">期中考试</option>
-                                    <option value="期末考试">期末考试</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="layui-form-item">
-                            <div class="layui-input-block">
-                                <button class="layui-btn" lay-submit="" lay-filter="demo">添加</button>
-                            </div>
-                        </div>
-                    </div>
+                {{/*<iframe src='/back/S' frameborder="0" scrolling="yes" class="weIframe"></iframe>*/}}
 
-                    <table class="layui-table">
-                        <span class="termformlist">学期列表</span>
-                        <colgroup>
-                            <col width="30%">
-                            <col>
-                        </colgroup>
-                        <thead>
-                        <tr>
-                            <th>学期</th>
-                            <th>类型</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>2018-2019学年第二学期</td>
-                            <td>期中</td>
-                        </tr>
-                        <tr>
-                            <td>2018-2019学年第二学期</td>
-                            <td>期中</td>
-                        </tr>
-                        <tr>
-                            <td>2018-2019学年第二学期</td>
-                            <td>期中</td>
-                        </tr>
-                        <tr>
-                            <td>2018-2019学年第二学期</td>
-                            <td>期中</td>
-                        </tr>
-                        <tr>
-                            <td>2018-2019学年第二学期</td>
-                            <td>期中</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                    <span>共7条记录</span>
-                </div>
             </div>
 
         </div>
@@ -262,24 +183,6 @@
             });
             return false;
         });
-    });
-
-    layui.use(['jquery','admin'], function(){
-        // var $ = layui.jquery;
-        // $(function(){
-        //     var login = JSON.parse(localStorage.getItem("login"));
-        //     if(login){
-        //         if(login=0){
-        //             window.location.href='./login.html';
-        //             return false;
-        //         }else{
-        //             return false;
-        //         }
-        //     }else{
-        //         window.location.href='./login.html';
-        //         return false;
-        //     }
-        // });
     });
 
 </script>
