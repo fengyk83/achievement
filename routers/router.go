@@ -34,6 +34,10 @@ func init() {
 		beego.NSInclude(
 			&backstage.LoginController{},
 			&backstage.IndexController{},
+			&backstage.ScroeController{},
+			&backstage.IdiomController{},
+			&backstage.ItemController{},
+			&backstage.AdminController{},
 		),
 	)
 	beego.AddNamespace(back)
