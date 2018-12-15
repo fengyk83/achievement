@@ -9,7 +9,7 @@ type ItemController struct {
 //展示学期
 //@router /achievement/showitem
 func (this *ItemController)ShowItem()  {
-	this.TplName=""
+	this.TplName = "backstage/term.html"
 }
 
 

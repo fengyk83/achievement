@@ -38,6 +38,7 @@ func init() {
 			&backstage.IdiomController{},
 			&backstage.ItemController{},
 			&backstage.AdminController{},
+			&backstage.TipsController{},
 		),
 	)
 	beego.AddNamespace(back)
