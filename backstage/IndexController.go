@@ -29,3 +29,12 @@ func (this *IndexController)AddExam()  {
 
 	this.TplName = "backstage/index.html"
 }
+
+
+
+//添加考试信息
+//@router /S [get]
+func (this *IndexController)S()  {
+
+	this.TplName = "backstage/welcome.html"
+}
