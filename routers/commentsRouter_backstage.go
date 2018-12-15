@@ -97,4 +97,13 @@ func init() {
             Filters: nil,
             Params: nil})
 
+    beego.GlobalControllerRouter["achievement/backstage:TipsController"] = append(beego.GlobalControllerRouter["achievement/backstage:TipsController"],
+        beego.ControllerComments{
+            Method: "ShowTips",
+            Router: `/achievement/showitips[get]`,
+            AllowHTTPMethods: []string{"get"},
+            MethodParams: param.Make(),
+            Filters: nil,
+            Params: nil})
+
 }
