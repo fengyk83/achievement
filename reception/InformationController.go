@@ -10,7 +10,7 @@ type InformationController struct {
 }
 
 /*展示学生个人信息,学生的成绩*/
-//@router /admins/information [get]
+//@router /admin/information [get]
 func (this *InformationController) Index() {
 	// account,ok := this.GetSession("account").(string)
 	//if !ok {
@@ -21,6 +21,5 @@ func (this *InformationController) Index() {
 	exam := models.NewExam().GetExam(userInformation.Gradeid,userInformation.Clazzid)
 	this.Data["exam"] = exam
 	this.Data["user"] = userInformation
-
 	this.TplName = "backstage/index.html";
 }

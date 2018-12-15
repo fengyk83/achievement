@@ -12,7 +12,7 @@ type IndexController struct {
 //后台页面展示
 //@router /achievement/index [get]
 func (this *IndexController)Index() {
-	this.TplName = "backstage/index.html";
+	this.TplName = "backstage/index.html"
 }
 
 //获取所有考试信息
@@ -20,11 +20,12 @@ func (this *IndexController)Index() {
 func (this *IndexController)GetInformation() {
 	exam := models.NewExam().GetAllExam();
 	this.Data["exam"] = exam
-	this.TplName = "backstage/index.html";
+	this.TplName = "backstage/index.html"
 }
 
 //添加考试信息
 //@router /achievement/addexam [post]
 func (this *IndexController)AddExam()  {
 
+	this.TplName = "backstage/index.html"
 }

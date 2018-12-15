@@ -434,3 +434,483 @@
 2018/12/15 06:29:56.717 [I] [asm_amd64.s:1333]  http server Running on http://:9999
 2018/12/15 06:30:08.035 [I] [asm_amd64.s:1333]  http server Running on http://:9999
 2018/12/15 06:30:11.041 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:31:20.083 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:31:22.235 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:31:56.944 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:31:59.063 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:32:03.078 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:32:05.346 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:32:40.633 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:32:41.560 [D] [server.go:2741]  |            ::1|[47m 302 [0m|    425.243µs| nomatch|[44m GET     [0m /reception/admin/information
+2018/12/15 06:32:41.563 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    728.237µs|   match|[44m GET     [0m /reception/login   r:reception/login
+2018/12/15 06:32:41.579 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   6.233907ms| nomatch|[44m GET     [0m /captcha/0X9pHLV0Dm9SXx2.png
+2018/12/15 06:32:41.998 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:32:43.719 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:32:45.422 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:33:25.064 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.056138ms|   match|[46m POST    [0m /reception/login/judge   r:reception/login/judge
+2018/12/15 06:33:26.894 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  14.851114ms| nomatch|[44m GET     [0m /captcha/0X9pHLV0Dm9SXx2.png
+2018/12/15 06:33:35.164 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.936942ms|   match|[46m POST    [0m /reception/login/judge   r:reception/login/judge
+2018/12/15 06:33:35.192 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    658.078µs| nomatch|[44m GET     [0m /reception/admin/information
+2018/12/15 06:33:50.518 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    135.746µs| nomatch|[44m GET     [0m /reception/admin/information
+2018/12/15 06:33:50.547 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    276.456µs| nomatch|[44m GET     [0m /favicon.ico
+2018/12/15 06:33:53.112 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    465.004µs| nomatch|[44m GET     [0m /reception/admin/information
+2018/12/15 06:33:53.154 [D] [server.go:2741]  |            ::1|[43m 404 [0m|      256.4µs| nomatch|[44m GET     [0m /favicon.ico
+2018/12/15 06:34:19.003 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:34:20.731 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    696.437µs| nomatch|[44m GET     [0m /reception/admin/information
+2018/12/15 06:34:21.746 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    688.862µs| nomatch|[44m GET     [0m /reception/admin/information
+2018/12/15 06:34:22.052 [D] [server.go:2741]  |            ::1|[43m 404 [0m|   1.946045ms| nomatch|[44m GET     [0m /reception/admin/information
+2018/12/15 06:34:22.232 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    213.039µs| nomatch|[44m GET     [0m /reception/admin/information
+2018/12/15 06:34:24.965 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    501.307µs| nomatch|[44m GET     [0m /reception/admin/information
+2018/12/15 06:34:25.030 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    379.241µs| nomatch|[44m GET     [0m /favicon.ico
+2018/12/15 06:34:41.555 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:34:44.607 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:34:49.683 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:34:51.749 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:34:54.477 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:34:55.525 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:34:57.721 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    3.01172ms|   match|[44m GET     [0m /reception/login   r:reception/login
+2018/12/15 06:34:57.782 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  11.999999ms|   match|[44m GET     [0m /static/css/style.css
+2018/12/15 06:34:57.783 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  11.393232ms|   match|[44m GET     [0m /static/img/cat.jpeg
+2018/12/15 06:34:57.783 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  10.442161ms|   match|[44m GET     [0m /static/js/particles.min.js
+2018/12/15 06:34:57.783 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  10.404026ms|   match|[44m GET     [0m /static/layui/layui.js
+2018/12/15 06:34:57.786 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  12.550044ms| nomatch|[44m GET     [0m /captcha/1jmyFoYVJq49Gmm.png
+2018/12/15 06:34:57.806 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    801.506µs|   match|[44m GET     [0m /static/img/bj.jpg
+2018/12/15 06:34:57.840 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    237.684µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/15 06:34:57.935 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    197.947µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/15 06:34:58.016 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    184.475µs|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2018/12/15 06:34:58.016 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    302.118µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/15 06:35:05.771 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   8.912267ms|   match|[44m GET     [0m /reception/login   r:reception/login
+2018/12/15 06:35:05.786 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.050603ms| nomatch|[44m GET     [0m /captcha/MRpS3I9wukuXagT.png
+2018/12/15 06:35:07.361 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:35:20.697 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   6.209798ms| nomatch|[44m GET     [0m /captcha/L0VL67rcjQZW5TJ.png
+2018/12/15 06:35:28.661 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.136925ms|   match|[46m POST    [0m /reception/login/judge   r:reception/login/judge
+2018/12/15 06:35:28.671 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.136122ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/15 06:35:28.700 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.479689ms|   match|[44m GET     [0m /static/css/font.css
+2018/12/15 06:35:28.700 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.266254ms|   match|[44m GET     [0m /static/css/weadmin.css
+2018/12/15 06:35:28.704 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    258.313µs|   match|[44m GET     [0m /static/layui/css/layui.css
+2018/12/15 06:35:28.717 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    516.908µs|   match|[44m GET     [0m /static/fonts/iconfont.woff
+2018/12/15 06:35:28.789 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.309031ms|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/15 06:35:28.790 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.718905ms|   match|[44m GET     [0m /static/js/admin.js
+2018/12/15 06:35:28.833 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    180.259µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/15 06:35:28.844 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    130.452µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/15 06:35:28.854 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    228.881µs|   match|[44m GET     [0m /static/layui/lay/modules/element.js
+2018/12/15 06:35:28.875 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   6.696511ms|   match|[44m GET     [0m /static/layui/font/iconfont.woff
+2018/12/15 06:36:56.083 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:36:58.146 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    557.701µs|   match|[44m GET     [0m /back/backlogin   r:back/backlogin
+2018/12/15 06:36:58.157 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     75.507µs|   match|[44m GET     [0m /static/css/font.css
+2018/12/15 06:36:58.159 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    143.183µs|   match|[44m GET     [0m /static/css/weadmin.css
+2018/12/15 06:36:58.161 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    144.571µs|   match|[44m GET     [0m /static/layui/layui.js
+2018/12/15 06:36:58.162 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    764.413µs|   match|[44m GET     [0m /static/js/particles.min.js
+2018/12/15 06:36:58.166 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    468.732µs|   match|[44m GET     [0m /static/layui/css/layui.css
+2018/12/15 06:36:58.191 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    230.857µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/15 06:36:58.200 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    532.241µs|   match|[44m GET     [0m /static/img/bg.png
+2018/12/15 06:36:58.210 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.561009ms|   match|[44m GET     [0m /static/img/aiwrap.png
+2018/12/15 06:36:58.261 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:37:54.833 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.066356ms|   match|[44m GET     [0m /back/backlogin   r:back/backlogin
+2018/12/15 06:37:54.848 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     99.668µs|   match|[44m GET     [0m /static/css/font.css
+2018/12/15 06:37:54.850 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    947.155µs|   match|[44m GET     [0m /static/layui/layui.js
+2018/12/15 06:37:54.851 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    237.399µs|   match|[44m GET     [0m /static/js/particles.min.js
+2018/12/15 06:37:54.851 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.576654ms|   match|[44m GET     [0m /static/css/weadmin.css
+2018/12/15 06:37:54.857 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    410.472µs|   match|[44m GET     [0m /static/layui/css/layui.css
+2018/12/15 06:37:54.877 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    171.365µs|   match|[44m GET     [0m /static/img/bg.png
+2018/12/15 06:37:54.877 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     59.717µs|   match|[44m GET     [0m /static/img/aiwrap.png
+2018/12/15 06:37:54.894 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    153.268µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/15 06:37:54.910 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     218.17µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/15 06:37:54.926 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    217.686µs|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2018/12/15 06:37:54.929 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    350.963µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/15 06:37:54.990 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     203.56µs|   match|[44m GET     [0m /static/js/admin.js
+2018/12/15 06:37:54.996 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     118.13µs|   match|[44m GET     [0m /static/layui/lay/modules/element.js
+2018/12/15 06:38:06.350 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.328639ms|   match|[46m POST    [0m /back/backlogin/judge   r:back/backlogin/judge
+2018/12/15 06:38:42.246 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:38:44.417 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:38:45.485 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     402.96µs|   match|[46m POST    [0m /back/backlogin/judge   r:back/backlogin/judge
+2018/12/15 06:38:45.506 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    982.104µs| nomatch|[44m GET     [0m /reception/achievement/index
+2018/12/15 06:39:23.639 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:39:25.707 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:39:41.868 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.688702ms|   match|[44m GET     [0m /back/backlogin   r:back/backlogin
+2018/12/15 06:39:41.892 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.639159ms|   match|[44m GET     [0m /static/css/font.css
+2018/12/15 06:39:41.896 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.675549ms|   match|[44m GET     [0m /static/layui/layui.js
+2018/12/15 06:39:41.896 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.148865ms|   match|[44m GET     [0m /static/js/particles.min.js
+2018/12/15 06:39:41.896 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.588362ms|   match|[44m GET     [0m /static/css/weadmin.css
+2018/12/15 06:39:41.905 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.002569ms|   match|[44m GET     [0m /static/layui/css/layui.css
+2018/12/15 06:39:41.919 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    209.074µs|   match|[44m GET     [0m /static/img/bg.png
+2018/12/15 06:39:41.919 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    362.613µs|   match|[44m GET     [0m /static/img/aiwrap.png
+2018/12/15 06:39:41.947 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    361.457µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/15 06:39:41.973 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    730.695µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/15 06:39:41.991 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    630.211µs|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2018/12/15 06:39:41.995 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    474.714µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/15 06:39:42.034 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    207.185µs|   match|[44m GET     [0m /static/js/admin.js
+2018/12/15 06:39:42.041 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    468.461µs|   match|[44m GET     [0m /static/layui/lay/modules/element.js
+2018/12/15 06:39:48.790 [A] [LoginController.go:30]  password+++++++您输入的密码格式不正确 
+2018/12/15 06:39:48.791 [A] [LoginController.go:30]  password+++++++请您输入密码 
+2018/12/15 06:39:48.791 [A] [LoginController.go:30]  captcha+++++++请您输入验证码 
+2018/12/15 06:39:48.792 [C] [asm_amd64.s:522]  the request url is  /back/backlogin/judge
+2018/12/15 06:39:48.792 [C] [asm_amd64.s:522]  Handler crashed with error can't find templatefile in the path:views/logincontroller/judgelogin.tpl
+2018/12/15 06:39:48.792 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/15 06:39:48.792 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/15 06:39:48.792 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/template.go:75
+2018/12/15 06:39:48.792 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:283
+2018/12/15 06:39:48.792 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:234
+2018/12/15 06:39:48.792 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:214
+2018/12/15 06:39:48.792 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:864
+2018/12/15 06:39:48.792 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/15 06:39:48.793 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/15 06:39:48.793 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/15 06:39:48.794 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/15 06:41:06.951 [A] [LoginController.go:30]  password+++++++您输入的密码格式不正确 
+2018/12/15 06:41:06.951 [A] [LoginController.go:30]  password+++++++请您输入密码 
+2018/12/15 06:41:06.951 [A] [LoginController.go:30]  captcha+++++++请您输入验证码 
+2018/12/15 06:41:06.951 [C] [asm_amd64.s:522]  the request url is  /back/backlogin/judge
+2018/12/15 06:41:06.951 [C] [asm_amd64.s:522]  Handler crashed with error can't find templatefile in the path:views/logincontroller/judgelogin.tpl
+2018/12/15 06:41:06.951 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/15 06:41:06.951 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/15 06:41:06.951 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/template.go:75
+2018/12/15 06:41:06.951 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:283
+2018/12/15 06:41:06.951 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:234
+2018/12/15 06:41:06.951 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:214
+2018/12/15 06:41:06.951 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:864
+2018/12/15 06:41:06.951 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/15 06:41:06.951 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/15 06:41:06.951 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/15 06:41:06.951 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/15 06:41:07.702 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:41:09.739 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:41:50.714 [A] [LoginController.go:31]  password+++++++您输入的密码格式不正确 
+2018/12/15 06:41:50.714 [A] [LoginController.go:31]  password+++++++请您输入密码 
+2018/12/15 06:41:50.714 [A] [LoginController.go:31]  captcha+++++++请您输入验证码 
+2018/12/15 06:41:50.714 [C] [asm_amd64.s:522]  the request url is  /back/backlogin/judge
+2018/12/15 06:41:50.714 [C] [asm_amd64.s:522]  Handler crashed with error can't find templatefile in the path:views/logincontroller/judgelogin.tpl
+2018/12/15 06:41:50.714 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/15 06:41:50.714 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/15 06:41:50.714 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/template.go:75
+2018/12/15 06:41:50.715 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:283
+2018/12/15 06:41:50.715 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:234
+2018/12/15 06:41:50.715 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:214
+2018/12/15 06:41:50.715 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:864
+2018/12/15 06:41:50.715 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/15 06:41:50.715 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/15 06:41:50.715 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/15 06:41:50.715 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/15 06:41:51.571 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:41:53.660 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:42:21.260 [A] [LoginController.go:31]  password+++++++您输入的密码格式不正确 
+2018/12/15 06:42:21.260 [A] [LoginController.go:31]  password+++++++请您输入密码 
+2018/12/15 06:42:21.261 [A] [LoginController.go:31]  captcha+++++++请您输入验证码 
+2018/12/15 06:42:21.261 [C] [asm_amd64.s:522]  the request url is  /back/backlogin/judge
+2018/12/15 06:42:21.261 [C] [asm_amd64.s:522]  Handler crashed with error can't find templatefile in the path:views/logincontroller/judgelogin.tpl
+2018/12/15 06:42:21.261 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/15 06:42:21.261 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/15 06:42:21.261 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/template.go:75
+2018/12/15 06:42:21.261 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:283
+2018/12/15 06:42:21.261 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:234
+2018/12/15 06:42:21.261 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:214
+2018/12/15 06:42:21.261 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:864
+2018/12/15 06:42:21.261 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/15 06:42:21.261 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/15 06:42:21.261 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/15 06:42:21.261 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/15 06:43:18.733 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:43:20.848 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:43:21.670 [A] [LoginController.go:31]  password+++++++您输入的密码格式不正确 
+2018/12/15 06:43:21.670 [A] [LoginController.go:31]  password+++++++请您输入密码 
+2018/12/15 06:43:21.670 [A] [LoginController.go:31]  captcha+++++++请您输入验证码 
+2018/12/15 06:43:21.670 [C] [asm_amd64.s:522]  the request url is  /back/backlogin/judge
+2018/12/15 06:43:21.670 [C] [asm_amd64.s:522]  Handler crashed with error can't find templatefile in the path:views/logincontroller/judgelogin.tpl
+2018/12/15 06:43:21.670 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/15 06:43:21.670 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/15 06:43:21.670 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/template.go:75
+2018/12/15 06:43:21.671 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:283
+2018/12/15 06:43:21.671 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:234
+2018/12/15 06:43:21.671 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:214
+2018/12/15 06:43:21.671 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:864
+2018/12/15 06:43:21.671 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/15 06:43:21.671 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/15 06:43:21.671 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/15 06:43:21.671 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/15 06:43:44.180 [A] [LoginController.go:31]  password+++++++您输入的密码格式不正确 
+2018/12/15 06:43:44.180 [A] [LoginController.go:31]  password+++++++请您输入密码 
+2018/12/15 06:43:44.180 [A] [LoginController.go:31]  captcha+++++++请您输入验证码 
+2018/12/15 06:43:44.181 [C] [asm_amd64.s:522]  the request url is  /back/backlogin/judge
+2018/12/15 06:43:44.181 [C] [asm_amd64.s:522]  Handler crashed with error can't find templatefile in the path:views/logincontroller/judgelogin.tpl
+2018/12/15 06:43:44.181 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/15 06:43:44.181 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/15 06:43:44.181 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/template.go:75
+2018/12/15 06:43:44.181 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:283
+2018/12/15 06:43:44.181 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:234
+2018/12/15 06:43:44.181 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:214
+2018/12/15 06:43:44.181 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:864
+2018/12/15 06:43:44.181 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/15 06:43:44.181 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/15 06:43:44.181 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/15 06:43:44.182 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/15 06:43:45.726 [A] [LoginController.go:31]  password+++++++您输入的密码格式不正确 
+2018/12/15 06:43:45.726 [A] [LoginController.go:31]  password+++++++请您输入密码 
+2018/12/15 06:43:45.726 [A] [LoginController.go:31]  captcha+++++++请您输入验证码 
+2018/12/15 06:43:45.727 [C] [asm_amd64.s:522]  the request url is  /back/backlogin/judge
+2018/12/15 06:43:45.727 [C] [asm_amd64.s:522]  Handler crashed with error can't find templatefile in the path:views/logincontroller/judgelogin.tpl
+2018/12/15 06:43:45.727 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/15 06:43:45.727 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/15 06:43:45.727 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/template.go:75
+2018/12/15 06:43:45.727 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:283
+2018/12/15 06:43:45.727 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:234
+2018/12/15 06:43:45.727 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:214
+2018/12/15 06:43:45.727 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:864
+2018/12/15 06:43:45.727 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/15 06:43:45.728 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/15 06:43:45.728 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/15 06:43:45.729 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/15 06:43:46.896 [A] [LoginController.go:31]  password+++++++您输入的密码格式不正确 
+2018/12/15 06:43:46.896 [A] [LoginController.go:31]  password+++++++请您输入密码 
+2018/12/15 06:43:46.896 [A] [LoginController.go:31]  captcha+++++++请您输入验证码 
+2018/12/15 06:43:46.896 [C] [asm_amd64.s:522]  the request url is  /back/backlogin/judge
+2018/12/15 06:43:46.897 [C] [asm_amd64.s:522]  Handler crashed with error can't find templatefile in the path:views/logincontroller/judgelogin.tpl
+2018/12/15 06:43:46.897 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/15 06:43:46.897 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/15 06:43:46.897 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/template.go:75
+2018/12/15 06:43:46.897 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:283
+2018/12/15 06:43:46.897 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:234
+2018/12/15 06:43:46.897 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:214
+2018/12/15 06:43:46.897 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:864
+2018/12/15 06:43:46.897 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/15 06:43:46.897 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/15 06:43:46.897 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/15 06:43:46.898 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/15 06:44:40.092 [A] [LoginController.go:31]  password+++++++您输入的密码格式不正确 
+2018/12/15 06:44:40.092 [A] [LoginController.go:31]  password+++++++请您输入密码 
+2018/12/15 06:44:40.092 [A] [LoginController.go:31]  captcha+++++++请您输入验证码 
+2018/12/15 06:44:40.093 [C] [asm_amd64.s:522]  the request url is  /back/backlogin/judge
+2018/12/15 06:44:40.093 [C] [asm_amd64.s:522]  Handler crashed with error can't find templatefile in the path:views/logincontroller/judgelogin.tpl
+2018/12/15 06:44:40.093 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/15 06:44:40.093 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/15 06:44:40.093 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/template.go:75
+2018/12/15 06:44:40.093 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:283
+2018/12/15 06:44:40.093 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:234
+2018/12/15 06:44:40.093 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:214
+2018/12/15 06:44:40.093 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:864
+2018/12/15 06:44:40.093 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/15 06:44:40.093 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/15 06:44:40.093 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/15 06:44:40.094 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/15 06:44:41.060 [A] [LoginController.go:31]  password+++++++您输入的密码格式不正确 
+2018/12/15 06:44:41.060 [A] [LoginController.go:31]  password+++++++请您输入密码 
+2018/12/15 06:44:41.060 [A] [LoginController.go:31]  captcha+++++++请您输入验证码 
+2018/12/15 06:44:41.061 [C] [asm_amd64.s:522]  the request url is  /back/backlogin/judge
+2018/12/15 06:44:41.061 [C] [asm_amd64.s:522]  Handler crashed with error can't find templatefile in the path:views/logincontroller/judgelogin.tpl
+2018/12/15 06:44:41.061 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/15 06:44:41.061 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/15 06:44:41.061 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/template.go:75
+2018/12/15 06:44:41.061 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:283
+2018/12/15 06:44:41.061 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:234
+2018/12/15 06:44:41.061 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:214
+2018/12/15 06:44:41.061 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:864
+2018/12/15 06:44:41.061 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/15 06:44:41.061 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/15 06:44:41.061 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/15 06:44:41.062 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/15 06:44:41.525 [A] [LoginController.go:31]  password+++++++您输入的密码格式不正确 
+2018/12/15 06:44:41.525 [A] [LoginController.go:31]  password+++++++请您输入密码 
+2018/12/15 06:44:41.525 [A] [LoginController.go:31]  captcha+++++++请您输入验证码 
+2018/12/15 06:44:41.525 [C] [asm_amd64.s:522]  the request url is  /back/backlogin/judge
+2018/12/15 06:44:41.525 [C] [asm_amd64.s:522]  Handler crashed with error can't find templatefile in the path:views/logincontroller/judgelogin.tpl
+2018/12/15 06:44:41.525 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/15 06:44:41.525 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/15 06:44:41.525 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/template.go:75
+2018/12/15 06:44:41.525 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:283
+2018/12/15 06:44:41.525 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:234
+2018/12/15 06:44:41.525 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:214
+2018/12/15 06:44:41.526 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:864
+2018/12/15 06:44:41.526 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/15 06:44:41.526 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/15 06:44:41.526 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/15 06:44:41.526 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/15 06:44:41.740 [A] [LoginController.go:31]  password+++++++您输入的密码格式不正确 
+2018/12/15 06:44:41.740 [A] [LoginController.go:31]  password+++++++请您输入密码 
+2018/12/15 06:44:41.740 [A] [LoginController.go:31]  captcha+++++++请您输入验证码 
+2018/12/15 06:44:41.741 [C] [asm_amd64.s:522]  the request url is  /back/backlogin/judge
+2018/12/15 06:44:41.741 [C] [asm_amd64.s:522]  Handler crashed with error can't find templatefile in the path:views/logincontroller/judgelogin.tpl
+2018/12/15 06:44:41.741 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/15 06:44:41.741 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/15 06:44:41.741 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/template.go:75
+2018/12/15 06:44:41.741 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:283
+2018/12/15 06:44:41.741 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:234
+2018/12/15 06:44:41.741 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:214
+2018/12/15 06:44:41.741 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:864
+2018/12/15 06:44:41.741 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/15 06:44:41.741 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/15 06:44:41.741 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/15 06:44:41.742 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/15 06:44:41.981 [A] [LoginController.go:31]  password+++++++您输入的密码格式不正确 
+2018/12/15 06:44:41.982 [A] [LoginController.go:31]  password+++++++请您输入密码 
+2018/12/15 06:44:41.982 [A] [LoginController.go:31]  captcha+++++++请您输入验证码 
+2018/12/15 06:44:41.982 [C] [asm_amd64.s:522]  the request url is  /back/backlogin/judge
+2018/12/15 06:44:41.982 [C] [asm_amd64.s:522]  Handler crashed with error can't find templatefile in the path:views/logincontroller/judgelogin.tpl
+2018/12/15 06:44:41.982 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/15 06:44:41.982 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/15 06:44:41.982 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/template.go:75
+2018/12/15 06:44:41.982 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:283
+2018/12/15 06:44:41.982 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:234
+2018/12/15 06:44:41.982 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:214
+2018/12/15 06:44:41.983 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:864
+2018/12/15 06:44:41.983 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/15 06:44:41.983 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/15 06:44:41.983 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/15 06:44:41.983 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/15 06:44:51.582 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     899.41µs|   match|[44m GET     [0m /static/layui/css/modules/layer/default/icon.png
+2018/12/15 06:45:48.638 [A] [LoginController.go:31]  password+++++++您输入的密码格式不正确 
+2018/12/15 06:45:48.639 [A] [LoginController.go:31]  password+++++++请您输入密码 
+2018/12/15 06:45:48.639 [A] [LoginController.go:31]  captcha+++++++请您输入验证码 
+2018/12/15 06:45:48.640 [C] [asm_amd64.s:522]  the request url is  /back/backlogin/judge
+2018/12/15 06:45:48.641 [C] [asm_amd64.s:522]  Handler crashed with error can't find templatefile in the path:views/logincontroller/judgelogin.tpl
+2018/12/15 06:45:48.641 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/15 06:45:48.641 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/15 06:45:48.641 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/template.go:75
+2018/12/15 06:45:48.641 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:283
+2018/12/15 06:45:48.642 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:234
+2018/12/15 06:45:48.642 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:214
+2018/12/15 06:45:48.642 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:864
+2018/12/15 06:45:48.642 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/15 06:45:48.642 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/15 06:45:48.642 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/15 06:45:48.643 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/15 06:48:47.912 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:48:50.012 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:49:20.536 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:49:22.727 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:49:26.922 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.930009ms|   match|[46m POST    [0m /back/backlogin/judge   r:back/backlogin/judge
+2018/12/15 06:49:26.943 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    616.857µs| nomatch|[44m GET     [0m /reception/achievement/index
+2018/12/15 06:49:59.305 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:50:01.338 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:50:29.778 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.538027ms|   match|[46m POST    [0m /back/backlogin/judge   r:back/backlogin/judge
+2018/12/15 06:51:04.288 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:51:06.345 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:52:30.032 [A] [LoginController.go:31]  password+++++++您输入的密码格式不正确 
+2018/12/15 06:52:30.032 [A] [LoginController.go:31]  password+++++++请您输入密码 
+2018/12/15 06:52:30.032 [A] [LoginController.go:31]  captcha+++++++请您输入验证码 
+2018/12/15 06:52:30.033 [C] [asm_amd64.s:522]  the request url is  /back/backlogin/judge
+2018/12/15 06:52:30.033 [C] [asm_amd64.s:522]  Handler crashed with error can't find templatefile in the path:views/logincontroller/judgelogin.tpl
+2018/12/15 06:52:30.033 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/15 06:52:30.033 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/15 06:52:30.033 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/template.go:75
+2018/12/15 06:52:30.033 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:283
+2018/12/15 06:52:30.033 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:234
+2018/12/15 06:52:30.033 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:214
+2018/12/15 06:52:30.033 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:864
+2018/12/15 06:52:30.033 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/15 06:52:30.033 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/15 06:52:30.033 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/15 06:52:30.034 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/15 06:53:12.328 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:53:14.375 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:53:21.967 [A] [LoginController.go:31]  password+++++++您输入的密码格式不正确 
+2018/12/15 06:53:21.968 [A] [LoginController.go:31]  password+++++++请您输入密码 
+2018/12/15 06:53:21.968 [A] [LoginController.go:31]  captcha+++++++请您输入验证码 
+2018/12/15 06:53:21.968 [C] [asm_amd64.s:522]  the request url is  /back/backlogin/judge
+2018/12/15 06:53:21.968 [C] [asm_amd64.s:522]  Handler crashed with error can't find templatefile in the path:views/logincontroller/judgelogin.tpl
+2018/12/15 06:53:21.968 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/15 06:53:21.968 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/15 06:53:21.968 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/template.go:75
+2018/12/15 06:53:21.968 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:283
+2018/12/15 06:53:21.968 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:234
+2018/12/15 06:53:21.968 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:214
+2018/12/15 06:53:21.969 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:864
+2018/12/15 06:53:21.969 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/15 06:53:21.969 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/15 06:53:21.969 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/15 06:53:21.969 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/15 06:53:39.673 [A] [LoginController.go:31]  password+++++++您输入的密码格式不正确 
+2018/12/15 06:53:39.673 [A] [LoginController.go:31]  password+++++++请您输入密码 
+2018/12/15 06:53:39.673 [A] [LoginController.go:31]  captcha+++++++请您输入验证码 
+2018/12/15 06:53:39.673 [C] [asm_amd64.s:522]  the request url is  /back/backlogin/judge
+2018/12/15 06:53:39.673 [C] [asm_amd64.s:522]  Handler crashed with error can't find templatefile in the path:views/logincontroller/judgelogin.tpl
+2018/12/15 06:53:39.673 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/15 06:53:39.673 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/15 06:53:39.673 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/template.go:75
+2018/12/15 06:53:39.674 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:283
+2018/12/15 06:53:39.674 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:234
+2018/12/15 06:53:39.674 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:214
+2018/12/15 06:53:39.674 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:864
+2018/12/15 06:53:39.674 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/15 06:53:39.674 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/15 06:53:39.674 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/15 06:53:39.674 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/15 06:53:40.524 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:53:42.772 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:53:51.561 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:53:53.722 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:54:03.955 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:54:06.014 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:54:06.438 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    603.775µs|   match|[46m POST    [0m /back/backlogin/judge   r:back/backlogin/judge
+2018/12/15 06:54:09.968 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.293284ms|   match|[46m POST    [0m /back/backlogin/judge   r:back/backlogin/judge
+2018/12/15 06:54:23.152 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:54:25.348 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:54:59.495 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:55:01.553 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:55:03.030 [A] [LoginController.go:31]  password+++++++您输入的密码格式不正确 
+2018/12/15 06:55:03.030 [A] [LoginController.go:31]  password+++++++请您输入密码 
+2018/12/15 06:55:03.031 [A] [LoginController.go:31]  captcha+++++++请您输入验证码 
+2018/12/15 06:55:03.032 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.376896ms|   match|[46m POST    [0m /back/backlogin/judge   r:back/backlogin/judge
+2018/12/15 06:56:36.537 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:56:38.565 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:57:59.633 [D] [server.go:2741]  |            ::1|[42m 200 [0m|      630.8µs|   match|[44m GET     [0m /back/backlogin   r:back/backlogin
+2018/12/15 06:57:59.647 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    372.343µs|   match|[44m GET     [0m /static/css/font.css
+2018/12/15 06:57:59.649 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.141373ms|   match|[44m GET     [0m /static/css/weadmin.css
+2018/12/15 06:57:59.651 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    193.671µs|   match|[44m GET     [0m /static/layui/layui.js
+2018/12/15 06:57:59.657 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    192.597µs|   match|[44m GET     [0m /static/js/particles.min.js
+2018/12/15 06:57:59.657 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    155.293µs|   match|[44m GET     [0m /static/layui/css/layui.css
+2018/12/15 06:57:59.669 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    183.452µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/15 06:57:59.674 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    408.183µs|   match|[44m GET     [0m /static/img/bg.png
+2018/12/15 06:57:59.676 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    166.311µs|   match|[44m GET     [0m /static/img/aiwrap.png
+2018/12/15 06:57:59.712 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    196.629µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/15 06:57:59.730 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     167.59µs|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2018/12/15 06:57:59.730 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    272.753µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/15 06:57:59.770 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    155.041µs|   match|[44m GET     [0m /static/js/admin.js
+2018/12/15 06:57:59.773 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    130.111µs|   match|[44m GET     [0m /static/layui/lay/modules/element.js
+2018/12/15 06:58:15.532 [A] [LoginController.go:27]  password+++++++请您输入密码 
+2018/12/15 06:58:15.532 [A] [LoginController.go:27]  captcha+++++++请您输入验证码 
+2018/12/15 06:58:15.534 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.098615ms|   match|[46m POST    [0m /back/backlogin/judge   r:back/backlogin/judge
+2018/12/15 06:59:07.876 [A] [LoginController.go:27]  password+++++++请您输入密码 
+2018/12/15 06:59:07.876 [A] [LoginController.go:27]  captcha+++++++请您输入验证码 
+2018/12/15 06:59:07.877 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    778.187µs|   match|[46m POST    [0m /back/backlogin/judge   r:back/backlogin/judge
+2018/12/15 06:59:08.992 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:59:11.171 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:59:15.519 [A] [LoginController.go:27]  password+++++++请您输入密码 
+2018/12/15 06:59:15.519 [A] [LoginController.go:27]  captcha+++++++请您输入验证码 
+2018/12/15 06:59:15.521 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.795738ms|   match|[46m POST    [0m /back/backlogin/judge   r:back/backlogin/judge
+2018/12/15 06:59:38.128 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 06:59:40.180 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 07:00:56.500 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     490.74µs|   match|[44m GET     [0m /back/backlogin   r:back/backlogin
+2018/12/15 07:00:56.511 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    110.975µs|   match|[44m GET     [0m /static/css/font.css
+2018/12/15 07:00:56.513 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    168.416µs|   match|[44m GET     [0m /static/layui/layui.js
+2018/12/15 07:00:56.514 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    157.622µs|   match|[44m GET     [0m /static/css/weadmin.css
+2018/12/15 07:00:56.522 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    189.838µs|   match|[44m GET     [0m /static/js/particles.min.js
+2018/12/15 07:00:56.526 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    357.292µs|   match|[44m GET     [0m /static/layui/css/layui.css
+2018/12/15 07:00:56.555 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.057054ms|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/15 07:00:56.564 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     55.578µs|   match|[44m GET     [0m /static/img/aiwrap.png
+2018/12/15 07:00:56.564 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    176.936µs|   match|[44m GET     [0m /static/img/bg.png
+2018/12/15 07:00:56.596 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    167.591µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/15 07:00:56.613 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    204.761µs|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2018/12/15 07:00:56.613 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    309.155µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/15 07:00:56.661 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    163.267µs|   match|[44m GET     [0m /static/js/admin.js
+2018/12/15 07:00:56.664 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    121.624µs|   match|[44m GET     [0m /static/layui/lay/modules/element.js
+2018/12/15 07:01:10.970 [A] [LoginController.go:27]  captcha+++++++请您输入验证码 
+2018/12/15 07:01:10.972 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.597853ms|   match|[46m POST    [0m /back/backlogin/judge   r:back/backlogin/judge
+2018/12/15 07:01:10.990 [D] [server.go:2741]  |            ::1|[47m 302 [0m|     66.899µs| nomatch|[44m GET     [0m /reception/admin/information
+2018/12/15 07:01:10.996 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.004256ms|   match|[44m GET     [0m /reception/login   r:reception/login
+2018/12/15 07:01:11.040 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   8.318949ms|   match|[44m GET     [0m /static/css/style.css
+2018/12/15 07:01:11.043 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  11.466906ms|   match|[44m GET     [0m /static/img/cat.jpeg
+2018/12/15 07:01:11.040 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   8.157726ms| nomatch|[44m GET     [0m /captcha/5wLHr9EDMs9kiHr.png
+2018/12/15 07:01:11.070 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.002583ms|   match|[44m GET     [0m /static/img/bj.jpg
+2018/12/15 07:02:44.103 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.153879ms|   match|[44m GET     [0m /reception/login   r:reception/login
+2018/12/15 07:02:44.128 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.701598ms| nomatch|[44m GET     [0m /captcha/7tZK00ToprwxaRQ.png
+2018/12/15 07:02:48.304 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    646.096µs|   match|[44m GET     [0m /back/backlogin   r:back/backlogin
+2018/12/15 07:03:02.021 [A] [LoginController.go:27]  captcha+++++++请您输入验证码 
+2018/12/15 07:03:02.022 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.222583ms|   match|[46m POST    [0m /back/backlogin/judge   r:back/backlogin/judge
+2018/12/15 07:03:02.041 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    754.589µs|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 07:03:02.085 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    794.128µs|   match|[44m GET     [0m /static/fonts/iconfont.woff
+2018/12/15 07:03:02.175 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    113.846µs|   match|[44m GET     [0m /static/js/admin.js
+2018/12/15 07:03:02.176 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    184.971µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/15 07:03:02.221 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    241.465µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/15 07:03:02.225 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     82.356µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/15 07:03:02.243 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    296.236µs|   match|[44m GET     [0m /static/layui/lay/modules/element.js
+2018/12/15 07:03:02.258 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    128.391µs|   match|[44m GET     [0m /static/layui/font/iconfont.woff
+2018/12/15 07:12:19.849 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    560.415µs| nomatch|[44m GET     [0m /  
