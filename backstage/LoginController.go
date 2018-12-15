@@ -14,7 +14,7 @@ type LoginController struct {
 //后台登陆
 //@router /backlogin [get]
 func (this *LoginController)Login()  {
-	this.TplName = "backstage/login.html";
+	this.TplName = "backstage/login.html"
 }
 
 //@router /backlogin/judge [post]
@@ -38,11 +38,11 @@ func (this *LoginController)JudgeLogin()  {
 		if user[0].Type == 3 {
 			this.Data["json"] = map[string]interface{}{"name": 1, "message": "您没有权限登陆"}
 		}else {
-			this.SetSession("account",this.GetString("school"))
+			this.SetSession("type",this.GetString("school"))
 			this.Data["json"] = map[string]interface{}{"name": 1, "message": "登陆成功"}
 		}
 	}
 	this.ServeJSON()
-	this.TplName = "backstage/index.html"
+	this.TplName = "backstage/login.html"
 }
 

@@ -11,7 +11,6 @@
     <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="/static/css/font.css">
     <link rel="stylesheet" href="/static/css/weadmin.css">
-    <script type="text/javascript" src="/static/layui/layui.js"></script>
 </head>
 <body class="login-bg">
 
@@ -19,7 +18,7 @@
     <div class="message">成绩管理登录</div>
     <div id="darkbannerwrap"></div>
 
-    <form method="post" class="layui-form">
+    <div class="layui-form">
         <input name="username" placeholder="用户名" type="text" required lay-verify="required|school" class="layui-input">
         <hr class="hr15">
         <input name="password" required lay-verify="required|password" placeholder="密码" type="password"
@@ -27,16 +26,18 @@
         <hr class="hr15">
         <input class="loginin" value="登录" lay-submit lay-filter="login" style="width:100%;" type="submit">
         <hr class="hr20">
-    </form>
+    </div>
 </div>
-
+<script type="text/javascript" src="/static/layui/layui.js"></script>
+<script type="text/javascript" src="/static/js/particles.min.js"></script>
 <script type="text/javascript">
     layui.extend({
         admin: '/static/js/admin'
     });
-    layui.use(['form', 'admin'], function () {
-        let form = layui.form
-                , admin = layui.admin;
+    layui.use(['form','jquery','admin'], function () {
+        let form = layui.form,
+            $ = layui.jquery,
+                admin = layui.admin;
 
         form.verify({
             school: function (value) {
@@ -54,18 +55,20 @@
         form.on('submit(login)', function (data) {
             $.ajax({
                 type: "POST",
-                url: '/reception/login/judge',
+                url: '/back/backlogin/judge',
                 data: {
                     school: $('#school').val(),
                     password: $('#password').val(),
                 },
                 success: function (res) {
+                    console.log(res)
                     switch (res.name) {
-                        case 0:
+                        case 0,-1:
                             layer.msg(res.message);
                             break;
                         case 1:
                             window.location.href = "/reception/achievement/index";
+                            break;
                     }
                 },
                 error: function (data) {

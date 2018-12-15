@@ -9,6 +9,24 @@ func init() {
 
     beego.GlobalControllerRouter["achievement/backstage:IndexController"] = append(beego.GlobalControllerRouter["achievement/backstage:IndexController"],
         beego.ControllerComments{
+            Method: "AddExam",
+            Router: `/achievement/addexam`,
+            AllowHTTPMethods: []string{"post"},
+            MethodParams: param.Make(),
+            Filters: nil,
+            Params: nil})
+
+    beego.GlobalControllerRouter["achievement/backstage:IndexController"] = append(beego.GlobalControllerRouter["achievement/backstage:IndexController"],
+        beego.ControllerComments{
+            Method: "GetInformation",
+            Router: `/achievement/exam`,
+            AllowHTTPMethods: []string{"get"},
+            MethodParams: param.Make(),
+            Filters: nil,
+            Params: nil})
+
+    beego.GlobalControllerRouter["achievement/backstage:IndexController"] = append(beego.GlobalControllerRouter["achievement/backstage:IndexController"],
+        beego.ControllerComments{
             Method: "Index",
             Router: `/achievement/index`,
             AllowHTTPMethods: []string{"get"},

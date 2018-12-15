@@ -31,3 +31,16 @@ func (this *Exam)GetExam(gradeid , classzid int) []Exam {
 	return Exam
 }
 
+func (this *Exam)GetAllExam() []Exam  {
+	var Exam  []Exam
+	qb,_ := orm.NewQueryBuilder("mysql")
+	qb.Select("exam.*").
+		From("exam").
+		OrderBy("time").
+		Desc()
+	sql := qb.String()
+	o := orm.NewOrm()
+	o.Raw(sql).QueryRows(&Exam)
+	return Exam
+}
+
