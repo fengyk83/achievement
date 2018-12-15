@@ -69,3 +69,20 @@
 2018/12/15 21:42:24.167 [I] [asm_amd64.s:2337]  http server Running on http://:9999
 2018/12/15 21:42:26.686 [I] [asm_amd64.s:2337]  http server Running on http://:9999
 2018/12/15 21:42:29.163 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/15 21:42:31.744 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/15 22:25:06.062 [A] [LoginController.go:41]  password+++++++您输入的密码格式不正确 
+2018/12/15 22:25:06.062 [A] [LoginController.go:41]  password+++++++请您输入密码 
+2018/12/15 22:25:06.062 [A] [LoginController.go:41]  captcha+++++++请您输入验证码 
+2018/12/15 22:25:06.063 [C] [asm_amd64.s:509]  the request url is  /reception/login/judge
+2018/12/15 22:25:06.063 [C] [asm_amd64.s:509]  Handler crashed with error can't find templatefile in the path:views/logincontorller/post.tpl
+2018/12/15 22:25:06.063 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/runtime/asm_amd64.s:509
+2018/12/15 22:25:06.063 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/runtime/panic.go:491
+2018/12/15 22:25:06.063 [C] [asm_amd64.s:509]  D:/go-work/src/github.com/astaxie/beego/template.go:75
+2018/12/15 22:25:06.063 [C] [asm_amd64.s:509]  D:/go-work/src/github.com/astaxie/beego/controller.go:283
+2018/12/15 22:25:06.063 [C] [asm_amd64.s:509]  D:/go-work/src/github.com/astaxie/beego/controller.go:234
+2018/12/15 22:25:06.063 [C] [asm_amd64.s:509]  D:/go-work/src/github.com/astaxie/beego/controller.go:214
+2018/12/15 22:25:06.064 [C] [asm_amd64.s:509]  D:/go-work/src/github.com/astaxie/beego/router.go:863
+2018/12/15 22:25:06.064 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/net/http/server.go:2619
+2018/12/15 22:25:06.064 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/net/http/server.go:1801
+2018/12/15 22:25:06.064 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/runtime/asm_amd64.s:2337
+2018/12/15 22:25:06.064 [server.go:2846]  [HTTP] http: multiple response.WriteHeader calls
