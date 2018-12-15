@@ -1,6 +1,9 @@
 package backstage
 
-import "github.com/astaxie/beego"
+import (
+	"achievement/models"
+	"github.com/astaxie/beego"
+)
 
 type IndexController struct {
 	beego.Controller
@@ -10,4 +13,18 @@ type IndexController struct {
 //@router /achievement/index [get]
 func (this *IndexController)Index() {
 	this.TplName = "backstage/index.html";
+}
+
+//获取所有考试信息
+//@router /achievement/exam [get]
+func (this *IndexController)GetInformation() {
+	exam := models.NewExam().GetAllExam();
+	this.Data["exam"] = exam
+	this.TplName = "backstage/index.html";
+}
+
+//添加考试信息
+//@router /achievement/addexam [post]
+func (this *IndexController)AddExam()  {
+
 }

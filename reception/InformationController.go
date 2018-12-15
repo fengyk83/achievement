@@ -22,5 +22,5 @@ func (this *InformationController) Index() {
 	this.Data["exam"] = exam
 	this.Data["user"] = userInformation
 
-	this.TplName = "reception/information.html"
+	this.TplName = "backstage/index.html";
 }

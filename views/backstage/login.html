@@ -1,49 +1,82 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>管理员登录-WeAdmin Frame型后台管理系统-WeAdmin 1.0</title>
-	<meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta charset="UTF-8">
+    <title>成绩管理系统</title>
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta http-equiv="Cache-Control" content="no-siteapp" />
-    <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="/static/css/font.css">
-	<link rel="stylesheet" href="/static/css/weadmin.css">
-    <script type="text/javascript" src="/static/layui/layui.js"></script>
+    <link rel="stylesheet" href="/static/css/weadmin.css">
 </head>
 <body class="login-bg">
-    
-    <div class="login">
-        <div class="message">成绩管理登录</div>
-        <div id="darkbannerwrap"></div>
-        
-        <form method="post" class="layui-form" >
-            <input name="username" placeholder="用户名"  type="text" lay-verify="required" class="layui-input" >
-            <hr class="hr15">
-            <input name="password" lay-verify="required" placeholder="密码"  type="password" class="layui-input">
-            <hr class="hr15">
-            <input class="loginin" value="登录" lay-submit lay-filter="login" style="width:100%;" type="submit">
-            <hr class="hr20" >
-        </form>
+
+<div class="login">
+    <div class="message">成绩管理登录</div>
+    <div id="darkbannerwrap"></div>
+
+    <div class="layui-form">
+        <input name="username" placeholder="用户名" type="text" required lay-verify="required|school" class="layui-input">
+        <hr class="hr15">
+        <input name="password" required lay-verify="required|password" placeholder="密码" type="password"
+               class="layui-input">
+        <hr class="hr15">
+        <input class="loginin" value="登录" lay-submit lay-filter="login" style="width:100%;" type="submit">
+        <hr class="hr20">
     </div>
+</div>
+<script type="text/javascript" src="/static/layui/layui.js"></script>
+<script type="text/javascript" src="/static/js/particles.min.js"></script>
+<script type="text/javascript">
+    layui.extend({
+        admin: '/static/js/admin'
+    });
+    layui.use(['form','jquery','admin'], function () {
+        let form = layui.form,
+            $ = layui.jquery,
+                admin = layui.admin;
 
-    <script type="text/javascript">
-        layui.extend({
-            admin: '/static/js/admin'
+        form.verify({
+            school: function (value) {
+                if (value.length != 11 || isNaN(value)) {
+                    return '请输入正确的学号';
+                }
+            },
+            password: function (value) {
+                if (!/^[a-zA-Z0-9_-]{4,16}$/.test(value)) {
+                    return '字母或者数字开头，区分大小写，最短4位最长16位';
+                }
+            }
         });
 
-        layui.use(['form','admin'], function(){
-          let form = layui.form
-            ,admin = layui.admin;
-          form.on('submit(login)', function(data){
-            // alert(888)
-            layer.msg(JSON.stringify(data.field),function(){
-                location.href='http://localhost:9999/back/index'
+        form.on('submit(login)', function (data) {
+            $.ajax({
+                type: "POST",
+                url: '/back/backlogin/judge',
+                data: {
+                    school: $('#school').val(),
+                    password: $('#password').val(),
+                },
+                success: function (res) {
+                    console.log(res)
+                    switch (res.name) {
+                        case 0,-1:
+                            layer.msg(res.message);
+                            break;
+                        case 1:
+                            window.location.href = "/reception/achievement/index";
+                            break;
+                    }
+                },
+                error: function (data) {
+                    console.log(data)
+                }
             });
-            return false;
-          });
         });
-    </script>
+    });
+</script>
 </body>
 </html>
