@@ -159,10 +159,16 @@
             //拖拽上传
             upload.render({
                 elem: '#test10'
-                ,url: '/upload/'
+                ,url: '/back/achievement/excel'
+                ,accept: 'file'
                 ,ext: '.xls|.xlsx'
                 ,done: function(res){
-                    console.log(res)
+                    console.log(res.message)
+                    if (res.name == 1){
+                        layer.msg(res.message);
+                    } else {
+                        layer.msg("上传文件失败");
+                    }
                 }
             });
         });
