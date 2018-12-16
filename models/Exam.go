@@ -44,11 +44,11 @@ func (this *Exam)GetAllExam() []Exam  {
 
 func (this *Exam)AddExam(name,time string) error  {
 	qb,_ := orm.NewQueryBuilder("mysql")
-	qb.InsertInto("exam",name,time).
-		Values()
+	qb.InsertInto("exam","name","time").
+		Values("?","?")
 	sql := qb.String()
 	o := orm.NewOrm()
-	_,error := o.Raw(sql).Exec()
+	_,error := o.Raw(sql,name,time).Exec()
 	return error
 }
 

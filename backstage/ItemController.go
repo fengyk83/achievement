@@ -22,7 +22,12 @@ func (this *ItemController)ShowItem()  {
 //@router /achievement/addexam [post]
 func (this *IndexController)AddExam()  {
 	error := models.NewExam().AddExam(this.GetString("type"),this.GetString("time"))
-	this.Data["error"] =error
-	this.TplName = "backstage/term.html"
+	if error == nil {
+		this.Data["json"] = map[string]interface{}{"name": 1, "message": "考试添加成功"}
+	}else {
+		this.Data["json"] = map[string]interface{}{"name": 1, "message": "考试添加失败"}
+	}
+	this.ServeJSON()
+	this.TplName = "backstage/index.html"
 }
 

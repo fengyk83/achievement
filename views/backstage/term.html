@@ -56,13 +56,12 @@
         </tr>
         </thead>
         <tbody>
-        {{range $index, $elem := .item}}
+            {{range $index, $elem := .item}}
             <tr>
                 <td>{{$elem.Time}}</td>
                 <td>{{$elem.Name}}</td>
             </tr>
-            {{$elem}}
-        {{end}}
+            {{end}}
         </tbody>
     </table>
     <span>共{{ .number }}条记录</span>
@@ -70,50 +69,47 @@
 
 </body>
 <script>
-    layui.use(['form', 'layedit', 'laydate'], function(){
+    layui.use(['form', 'layedit', 'laydate'], function () {
         var form = layui.form
-                ,layer = layui.layer
-                ,layedit = layui.layedit
-                ,laydate = layui.laydate
-                ,$ = layui.jquery;
+                , layer = layui.layer
+                , layedit = layui.layedit
+                , laydate = layui.laydate
+                , $ = layui.jquery;
         //自定义验证规则
         form.verify({
-            year: function(value){
-                if(value.length == ""){
+            year: function (value) {
+                if (value.length == "") {
                     return '请选择年份';
                 }
             },
-            term: function(value){
-                if(value.length == ""){
+            term: function (value) {
+                if (value.length == "") {
                     return '请选择学期';
                 }
             },
-            type: function(value){
-                if(value.length == ""){
+            type: function (value) {
+                if (value.length == "") {
                     return '请选择考试类型';
                 }
             }
 
         });
         //监听提交
-        form.on('submit(demo)', function(data){
-            let str = data.field.year+data.field.term;
+        form.on('submit(demo)', function (data) {
+            let str = data.field.year + data.field.term;
             $.ajax({
                 type: "POST",
-                url:'/back/achievement/addexam',
-                data:{
-                   time: str,
+                url: '/back/achievement/addexam',
+                data: {
+                    time: str,
                     type: data.field.type
                 },
-                success:function(res){
-                    console.log(res);
-                    if (res.date==0) {
+                success: function (res) {  
+                    if (res.date == 1) {
                         layer.msg(res.message);
-                    }else {
-                        window.location.href="/back/achievement/showitem";
                     }
                 },
-                error:function (data) {
+                error: function (data) {
                     console.log(data)
                 }
             });
