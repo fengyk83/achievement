@@ -4,7 +4,7 @@ import "github.com/astaxie/beego/orm"
 
 type Grade struct {
 	Id int
-	grade_name string
+	GradeName string
 }
 
 func NewGrade() *Grade {

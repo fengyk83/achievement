@@ -136,3 +136,119 @@
 2018/12/16 02:58:48.666 [I] [asm_amd64.s:1333]  http server Running on http://:9999
 2018/12/16 03:09:42.838 [I] [asm_amd64.s:1333]  http server Running on http://:9999
 2018/12/16 03:09:44.886 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/16 16:59:16.241 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 16:59:21.237 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 16:59:23.833 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 16:59:31.621 [C] [asm_amd64.s:509]  the request url is  /back/achievement/showidiom
+2018/12/16 16:59:31.621 [C] [asm_amd64.s:509]  Handler crashed with error reflect: reflect.Value.SetInt using value obtained using unexported field
+2018/12/16 16:59:31.621 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/runtime/asm_amd64.s:509
+2018/12/16 16:59:31.621 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/runtime/panic.go:491
+2018/12/16 16:59:31.621 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/reflect/value.go:225
+2018/12/16 16:59:31.621 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/reflect/value.go:1426
+2018/12/16 16:59:31.621 [C] [asm_amd64.s:509]  D:/go-work/src/github.com/astaxie/beego/orm/orm_raw.go:118
+2018/12/16 16:59:31.621 [C] [asm_amd64.s:509]  D:/go-work/src/github.com/astaxie/beego/orm/orm_raw.go:516
+2018/12/16 16:59:31.621 [C] [asm_amd64.s:509]  D:/go-work/src/github.com/astaxie/beego/orm/orm_raw.go:522
+2018/12/16 16:59:31.621 [C] [asm_amd64.s:509]  D:/go-work/src/achievement/models/Clazz.go:21
+2018/12/16 16:59:31.621 [C] [asm_amd64.s:509]  D:/go-work/src/achievement/backstage/IdiomController.go:16
+2018/12/16 16:59:31.622 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/runtime/asm_amd64.s:509
+2018/12/16 16:59:31.622 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/reflect/value.go:434
+2018/12/16 16:59:31.622 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/reflect/value.go:302
+2018/12/16 16:59:31.622 [C] [asm_amd64.s:509]  D:/go-work/src/github.com/astaxie/beego/router.go:851
+2018/12/16 16:59:31.622 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/net/http/server.go:2619
+2018/12/16 16:59:31.622 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/net/http/server.go:1801
+2018/12/16 16:59:31.622 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/runtime/asm_amd64.s:2337
+2018/12/16 16:59:31.623 [server.go:2846]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/16 16:59:42.737 [C] [asm_amd64.s:509]  the request url is  /back/achievement/showidiom
+2018/12/16 16:59:42.737 [C] [asm_amd64.s:509]  Handler crashed with error reflect: reflect.Value.SetInt using value obtained using unexported field
+2018/12/16 16:59:42.737 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/runtime/asm_amd64.s:509
+2018/12/16 16:59:42.737 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/runtime/panic.go:491
+2018/12/16 16:59:42.737 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/reflect/value.go:225
+2018/12/16 16:59:42.737 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/reflect/value.go:1426
+2018/12/16 16:59:42.737 [C] [asm_amd64.s:509]  D:/go-work/src/github.com/astaxie/beego/orm/orm_raw.go:118
+2018/12/16 16:59:42.737 [C] [asm_amd64.s:509]  D:/go-work/src/github.com/astaxie/beego/orm/orm_raw.go:516
+2018/12/16 16:59:42.737 [C] [asm_amd64.s:509]  D:/go-work/src/github.com/astaxie/beego/orm/orm_raw.go:522
+2018/12/16 16:59:42.737 [C] [asm_amd64.s:509]  D:/go-work/src/achievement/models/Clazz.go:21
+2018/12/16 16:59:42.737 [C] [asm_amd64.s:509]  D:/go-work/src/achievement/backstage/IdiomController.go:16
+2018/12/16 16:59:42.738 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/runtime/asm_amd64.s:509
+2018/12/16 16:59:42.738 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/reflect/value.go:434
+2018/12/16 16:59:42.738 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/reflect/value.go:302
+2018/12/16 16:59:42.738 [C] [asm_amd64.s:509]  D:/go-work/src/github.com/astaxie/beego/router.go:851
+2018/12/16 16:59:42.738 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/net/http/server.go:2619
+2018/12/16 16:59:42.738 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/net/http/server.go:1801
+2018/12/16 16:59:42.738 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/runtime/asm_amd64.s:2337
+2018/12/16 16:59:42.738 [server.go:2846]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/16 17:01:34.223 [C] [asm_amd64.s:509]  the request url is  /back/achievement/showidiom
+2018/12/16 17:01:34.223 [C] [asm_amd64.s:509]  Handler crashed with error reflect: reflect.Value.SetInt using value obtained using unexported field
+2018/12/16 17:01:34.224 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/runtime/asm_amd64.s:509
+2018/12/16 17:01:34.224 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/runtime/panic.go:491
+2018/12/16 17:01:34.224 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/reflect/value.go:225
+2018/12/16 17:01:34.224 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/reflect/value.go:1426
+2018/12/16 17:01:34.224 [C] [asm_amd64.s:509]  D:/go-work/src/github.com/astaxie/beego/orm/orm_raw.go:118
+2018/12/16 17:01:34.224 [C] [asm_amd64.s:509]  D:/go-work/src/github.com/astaxie/beego/orm/orm_raw.go:516
+2018/12/16 17:01:34.224 [C] [asm_amd64.s:509]  D:/go-work/src/github.com/astaxie/beego/orm/orm_raw.go:522
+2018/12/16 17:01:34.224 [C] [asm_amd64.s:509]  D:/go-work/src/achievement/models/Clazz.go:21
+2018/12/16 17:01:34.224 [C] [asm_amd64.s:509]  D:/go-work/src/achievement/backstage/IdiomController.go:16
+2018/12/16 17:01:34.224 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/runtime/asm_amd64.s:509
+2018/12/16 17:01:34.224 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/reflect/value.go:434
+2018/12/16 17:01:34.224 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/reflect/value.go:302
+2018/12/16 17:01:34.224 [C] [asm_amd64.s:509]  D:/go-work/src/github.com/astaxie/beego/router.go:851
+2018/12/16 17:01:34.224 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/net/http/server.go:2619
+2018/12/16 17:01:34.224 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/net/http/server.go:1801
+2018/12/16 17:01:34.224 [C] [asm_amd64.s:509]  D:/go/go1.9.2.windows-amd64/go/src/runtime/asm_amd64.s:2337
+2018/12/16 17:01:34.224 [server.go:2846]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/16 17:01:35.330 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 17:01:40.463 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 17:01:53.148 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 17:01:58.259 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 17:02:03.878 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 17:02:18.407 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 18:27:32.793 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 18:27:37.706 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 18:28:49.261 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 18:28:54.189 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 18:30:24.006 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 18:30:26.097 [D] [controller.go:283]  template Execute err: template: backstage/people.html:31:37: executing "backstage/people.html" at <.grade>: range can't iterate over 12
+2018/12/16 18:30:26.098 [E] [server.go:2619]  template: backstage/people.html:31:37: executing "backstage/people.html" at <.grade>: range can't iterate over 12
+2018/12/16 18:30:29.350 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 18:30:50.649 [D] [controller.go:283]  template Execute err: template: backstage/people.html:31:37: executing "backstage/people.html" at <.grade>: range can't iterate over 12
+2018/12/16 18:30:50.649 [E] [server.go:2619]  template: backstage/people.html:31:37: executing "backstage/people.html" at <.grade>: range can't iterate over 12
+2018/12/16 18:31:16.623 [D] [controller.go:283]  template Execute err: template: backstage/people.html:55:61: executing "backstage/people.html" at <.grade>: range can't iterate over 12
+2018/12/16 18:31:16.623 [E] [server.go:2619]  template: backstage/people.html:55:61: executing "backstage/people.html" at <.grade>: range can't iterate over 12
+2018/12/16 18:31:17.920 [D] [controller.go:283]  template Execute err: template: backstage/people.html:55:61: executing "backstage/people.html" at <.grade>: range can't iterate over 12
+2018/12/16 18:31:17.920 [E] [server.go:2619]  template: backstage/people.html:55:61: executing "backstage/people.html" at <.grade>: range can't iterate over 12
+2018/12/16 18:31:18.376 [D] [controller.go:283]  template Execute err: template: backstage/people.html:55:61: executing "backstage/people.html" at <.grade>: range can't iterate over 12
+2018/12/16 18:31:18.376 [E] [server.go:2619]  template: backstage/people.html:55:61: executing "backstage/people.html" at <.grade>: range can't iterate over 12
+2018/12/16 18:31:25.689 [D] [controller.go:283]  template Execute err: template: backstage/people.html:55:61: executing "backstage/people.html" at <.grade>: range can't iterate over 12
+2018/12/16 18:31:25.689 [E] [server.go:2619]  template: backstage/people.html:55:61: executing "backstage/people.html" at <.grade>: range can't iterate over 12
+2018/12/16 18:31:37.624 [D] [controller.go:283]  template Execute err: template: backstage/people.html:55:61: executing "backstage/people.html" at <.grade>: range can't iterate over 12
+2018/12/16 18:31:37.624 [E] [server.go:2619]  template: backstage/people.html:55:61: executing "backstage/people.html" at <.grade>: range can't iterate over 12
+2018/12/16 18:31:52.607 [D] [controller.go:283]  template Execute err: template: backstage/people.html:51:61: executing "backstage/people.html" at <.grade>: range can't iterate over 12
+2018/12/16 18:31:52.607 [E] [server.go:2619]  template: backstage/people.html:51:61: executing "backstage/people.html" at <.grade>: range can't iterate over 12
+2018/12/16 18:31:53.335 [D] [controller.go:283]  template Execute err: template: backstage/people.html:51:61: executing "backstage/people.html" at <.grade>: range can't iterate over 12
+2018/12/16 18:31:53.335 [E] [server.go:2619]  template: backstage/people.html:51:61: executing "backstage/people.html" at <.grade>: range can't iterate over 12
+2018/12/16 18:32:12.703 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 18:32:17.609 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 18:32:45.000 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 18:32:49.109 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 18:32:51.774 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 18:33:19.934 [D] [controller.go:283]  template Execute err: template: backstage/people.html:53:61: executing "backstage/people.html" at <.grade>: range can't iterate over 3
+2018/12/16 18:33:19.934 [E] [server.go:2619]  template: backstage/people.html:53:61: executing "backstage/people.html" at <.grade>: range can't iterate over 3
+2018/12/16 18:34:15.604 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 18:34:20.616 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 18:36:07.405 [D] [controller.go:283]  template Execute err: template: backstage/people.html:53:63: executing "backstage/people.html" at <$elem.Name>: can't evaluate field Name in type models.Grade
+2018/12/16 18:36:07.405 [E] [server.go:2619]  template: backstage/people.html:53:63: executing "backstage/people.html" at <$elem.Name>: can't evaluate field Name in type models.Grade
+2018/12/16 18:36:36.917 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 18:36:42.039 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 18:41:12.030 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 18:41:16.527 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 18:41:19.168 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 18:43:54.096 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 18:44:05.528 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 18:44:11.613 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 18:45:33.897 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 18:45:39.291 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 18:45:49.903 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 18:45:54.940 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 19:11:52.417 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 19:12:02.035 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+2018/12/16 19:13:02.830 [I] [asm_amd64.s:2337]  http server Running on http://:9999

@@ -3,8 +3,9 @@ package models
 import "github.com/astaxie/beego/orm"
 
 type Clazz struct {
-	id int
-	name string
+	Id int
+	Name string
+	Gradeid string
 }
 
 func NewClazz() *Clazz  {
