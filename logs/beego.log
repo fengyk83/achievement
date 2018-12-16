@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2018/12/16 01:12:34.721 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    3.26364ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
 2018/12/16 01:12:34.792 [D] [server.go:2741]  |            ::1|[47m 304 [0m|   5.421939ms|   match|[44m GET     [0m /static/css/information.css
 2018/12/16 01:12:34.813 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.222206ms|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
@@ -252,3 +253,5 @@
 2018/12/16 19:11:52.417 [I] [asm_amd64.s:2337]  http server Running on http://:9999
 2018/12/16 19:12:02.035 [I] [asm_amd64.s:2337]  http server Running on http://:9999
 2018/12/16 19:13:02.830 [I] [asm_amd64.s:2337]  http server Running on http://:9999
+=======
+>>>>>>> 3a6a33166e3a7b9ab3d5cd49d54d83f018c6e7c8
