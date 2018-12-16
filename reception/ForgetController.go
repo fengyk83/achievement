@@ -15,7 +15,8 @@ func (this *ForgetController) Index() {
 	//this.TplName = "reception/forget.html"
 	//c.TplName = "reception/index.html"
 	//err := this.Email("2181550591@qq.com", "xsywrvvxqzwxebbi", "smtp.qq.com:25", "3438196289@qq.com", "大橘猫", "sssss", "html")
-	//fmt.Println(err)
+	//r := rand.New(rand.NewSource(time.Now().Unix()))
+
 	this.TplName = "reception/forget.html"
 }
 
