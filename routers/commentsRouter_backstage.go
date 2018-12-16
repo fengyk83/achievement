@@ -18,8 +18,26 @@ func init() {
 
     beego.GlobalControllerRouter["achievement/backstage:IdiomController"] = append(beego.GlobalControllerRouter["achievement/backstage:IdiomController"],
         beego.ControllerComments{
+            Method: "AddIdiom",
+            Router: `/achievement/addidiom`,
+            AllowHTTPMethods: []string{"post"},
+            MethodParams: param.Make(),
+            Filters: nil,
+            Params: nil})
+
+    beego.GlobalControllerRouter["achievement/backstage:IdiomController"] = append(beego.GlobalControllerRouter["achievement/backstage:IdiomController"],
+        beego.ControllerComments{
             Method: "ShowIdiom",
             Router: `/achievement/showidiom`,
+            AllowHTTPMethods: []string{"get"},
+            MethodParams: param.Make(),
+            Filters: nil,
+            Params: nil})
+
+    beego.GlobalControllerRouter["achievement/backstage:IdiomController"] = append(beego.GlobalControllerRouter["achievement/backstage:IdiomController"],
+        beego.ControllerComments{
+            Method: "Idiom",
+            Router: `/achievement/showmenager`,
             AllowHTTPMethods: []string{"get"},
             MethodParams: param.Make(),
             Filters: nil,

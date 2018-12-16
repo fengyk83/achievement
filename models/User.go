@@ -31,5 +31,18 @@ func NewUser() *User  {
 	return &User{}
 }
 
-
+func (u *User)GetMenager() []User  {
+	var users []User
+	qb,_:=orm.NewQueryBuilder("mysql")
+	// 构建查询对象
+	qb.Select("user.*").
+		From("user").
+		Where("type = 3")
+	//返回sql语句
+	sql := qb.String()
+	// 执行 SQL 语句
+	o := orm.NewOrm()
+	o.Raw(sql).QueryRows(&users)
+	return users
+}
 

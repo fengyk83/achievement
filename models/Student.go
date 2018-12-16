@@ -33,3 +33,14 @@ func (this *Student)GetInformation(account string) Student  {
 	o.Raw(sql,account).QueryRow(&student)
 	return student
 }
+
+//添加学生
+func (this *Student)AddStudent(number,name,sex,phone,qq string,clazzid,gradeid int) error  {
+	qb,_:=orm.NewQueryBuilder("mysql")
+	qb.InsertInto("student","number","name","sex","phone","qq","clazzid","gradeid").
+		Values("?","?","?","?","?","?","?" )
+	sql := qb.String()
+	o := orm.NewOrm()
+	_,error :=o.Raw(sql,number,name,sex,phone,qq,clazzid,gradeid).Exec()
+	return error
+}
