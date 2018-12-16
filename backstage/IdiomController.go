@@ -25,7 +25,13 @@ func (this *IdiomController)ShowIdiom()  {
 func (this *IdiomController)AddIdiom()  {
 	clazzid,_ := this.GetInt("number")
 	gradeid,_ :=this.GetInt("gradeid")
-	models.NewStudent().AddStudent(this.GetString("number"),this.GetString("name"),this.GetString("sex"),this.GetString("phone"),this.GetString("qq"),clazzid,gradeid)
+	err := models.NewStudent().AddStudent(this.GetString("number"),this.GetString("name"),this.GetString("sex"),this.GetString("phone"),this.GetString("qq"),clazzid,gradeid)
+	if err != nil {
+		this.Data["json"] = map[string]interface{}{"name": 1, "message": "添加失败"}
+	}else {
+		this.Data["json"] = map[string]interface{}{"name": 1, "message": "添加成功"}
+	}
+	this.ServeJSON()
 	this.TplName = "backstage/people.html"
 }
 
@@ -39,7 +45,7 @@ func (this *IdiomController)AddExcel()  {
 			file.Close()                                          //关闭上传的文件，不然的话会出现临时文件不能清除的情况
 			error:=this.SaveToFile("file", path)                    //存文件
 			if error == nil {
-				var user []models.User
+				//var user []models.User
 				xlsx, _ := excelize.OpenFile(path)
 				//cell := xlsx.GetCellValue("Sheet1", "B2")
 				index := xlsx.GetSheetIndex("Sheet1")
