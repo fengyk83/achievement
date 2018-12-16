@@ -23,11 +23,11 @@ func (this *IdiomController)ShowIdiom()  {
 //添加成员
 //@router /achievement/addidiom [post]
 func (this *IdiomController)AddIdiom()  {
-	clazzid,_ := this.GetInt("number")
+	clazzid,_ := this.GetInt("clazzid")
 	gradeid,_ :=this.GetInt("gradeid")
 	err := models.NewStudent().AddStudent(this.GetString("number"),this.GetString("name"),this.GetString("sex"),this.GetString("phone"),this.GetString("qq"),clazzid,gradeid)
 	if err != nil {
-		this.Data["json"] = map[string]interface{}{"name": 1, "message": "添加失败"}
+		this.Data["json"] = map[string]interface{}{"name": 1, "message": err}
 	}else {
 		this.Data["json"] = map[string]interface{}{"name": 1, "message": "添加成功"}
 	}

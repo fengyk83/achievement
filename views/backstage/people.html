@@ -57,7 +57,7 @@
                                 <select name="class" lay-verify="class">
                                     <option value="">选择班级</option>
                                     {{range $index, $elem := .class}}
-                                        <option value={{$elem.Id}}>{{$elem.Name}}</option>
+                                        <option value={{$elem.Id}}>{{$elem.ClazzName}}</option>
                                     {{end}}
                                 </select>
                             </div>
@@ -147,7 +147,7 @@
                         gradeid: data.field.grade
                     },
                     success: function (res) {
-                        console.log(res);
+                        layer.msg(res.message);
                     },
                     error: function (data) {
                         console.log(data)
