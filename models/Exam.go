@@ -8,8 +8,6 @@ type Exam struct {
 	Id int
 	Name string
 	Time string
-	Remark string
-	Type int
 }
 
 func NewExam() *Exam  {
@@ -42,5 +40,15 @@ func (this *Exam)GetAllExam() []Exam  {
 	o := orm.NewOrm()
 	o.Raw(sql).QueryRows(&Exam)
 	return Exam
+}
+
+func (this *Exam)AddExam(name,time string) error  {
+	qb,_ := orm.NewQueryBuilder("mysql")
+	qb.InsertInto("exam",name,time).
+		Values()
+	sql := qb.String()
+	o := orm.NewOrm()
+	_,error := o.Raw(sql).Exec()
+	return error
 }
 

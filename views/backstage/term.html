@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>学期管理</title>
+    <link rel="stylesheet" href="/static/css/font.css">
+    <link rel="stylesheet" href="/static/css/weadmin.css">
     <link rel="stylesheet" href="/static/css/information.css">
+    <script type="text/javascript" src="/static/layui/layui.js"></script>
 </head>
 <body>
 <div class="fortermbox">
@@ -53,30 +56,18 @@
         </tr>
         </thead>
         <tbody>
-        <tr>
-            <td>2018-2019学年第二学期</td>
-            <td>期中</td>
-        </tr>
-        <tr>
-            <td>2018-2019学年第二学期</td>
-            <td>期中</td>
-        </tr>
-        <tr>
-            <td>2018-2019学年第二学期</td>
-            <td>期中</td>
-        </tr>
-        <tr>
-            <td>2018-2019学年第二学期</td>
-            <td>期中</td>
-        </tr>
-        <tr>
-            <td>2018-2019学年第二学期</td>
-            <td>期中</td>
-        </tr>
+        {{range $index, $elem := .item}}
+            <tr>
+                <td>{{$elem.Time}}</td>
+                <td>{{$elem.Name}}</td>
+            </tr>
+            {{$elem}}
+        {{end}}
         </tbody>
     </table>
-    <span>共7条记录</span>
+    <span>共{{ .number }}条记录</span>
 </div>
+
 </body>
 <script>
     layui.use(['form', 'layedit', 'laydate'], function(){
@@ -106,12 +97,12 @@
         });
         //监听提交
         form.on('submit(demo)', function(data){
+            let str = data.field.year+data.field.term;
             $.ajax({
                 type: "POST",
-                url:'/reception/login/judge',
+                url:'/back/achievement/addexam',
                 data:{
-                    year: data.field.year,
-                    term: data.field.term,
+                   time: str,
                     type: data.field.type
                 },
                 success:function(res){
@@ -119,7 +110,7 @@
                     if (res.date==0) {
                         layer.msg(res.message);
                     }else {
-                        window.location.href="/reception/admin/information";
+                        window.location.href="/back/achievement/showitem";
                     }
                 },
                 error:function (data) {

@@ -1,0 +1,345 @@
+2018/12/15 08:58:39.398 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 08:58:42.458 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 08:58:43.527 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 08:58:49.440 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 08:58:52.425 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 08:59:07.533 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 08:59:09.589 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 08:59:28.127 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 08:59:30.268 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 08:59:40.891 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 09:02:54.720 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   9.568787ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:02:54.755 [D] [server.go:2741]  |            ::1|[47m 304 [0m|   5.653268ms|   match|[44m GET     [0m /static/css/information.css
+2018/12/15 09:02:54.784 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    446.874µs|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:02:55.054 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    972.225µs|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 09:03:00.957 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.786631ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:03:01.013 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.453075ms|   match|[44m GET     [0m /static/css/font.css
+2018/12/15 09:03:01.014 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.312386ms|   match|[44m GET     [0m /static/css/information.css
+2018/12/15 09:03:01.014 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.080148ms|   match|[44m GET     [0m /static/css/weadmin.css
+2018/12/15 09:03:01.014 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.163994ms|   match|[44m GET     [0m /static/layui/layui.js
+2018/12/15 09:03:01.023 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    299.892µs|   match|[44m GET     [0m /static/layui/css/layui.css
+2018/12/15 09:03:01.041 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.113204ms|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:03:01.051 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    205.873µs|   match|[44m GET     [0m /static/fonts/iconfont.woff
+2018/12/15 09:03:01.082 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    184.996µs|   match|[44m GET     [0m /static/js/admin.js
+2018/12/15 09:03:01.082 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     258.85µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/15 09:03:01.114 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    626.983µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/15 09:03:01.128 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    216.021µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/15 09:03:01.128 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     29.133µs|   match|[44m GET     [0m /static/css/information.css
+2018/12/15 09:03:01.178 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    214.805µs|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2018/12/15 09:03:01.186 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    398.816µs|   match|[44m GET     [0m /static/layui/lay/modules/layedit.js
+2018/12/15 09:03:01.194 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    156.693µs|   match|[44m GET     [0m /static/layui/lay/modules/element.js
+2018/12/15 09:03:01.200 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    186.954µs|   match|[44m GET     [0m /static/layui/lay/modules/laydate.js
+2018/12/15 09:03:01.218 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    1.57731ms|   match|[44m GET     [0m /static/layui/font/iconfont.woff
+2018/12/15 09:03:01.250 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    209.005µs|   match|[44m GET     [0m /static/layui/css/modules/laydate/default/laydate.css
+2018/12/15 09:03:01.337 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    959.372µs|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 09:03:01.399 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    126.773µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/15 09:03:01.407 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    548.814µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/15 09:03:01.417 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    141.871µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/15 09:03:01.478 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    133.333µs|   match|[44m GET     [0m /static/layui/lay/modules/layedit.js
+2018/12/15 09:03:01.483 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     95.003µs|   match|[44m GET     [0m /static/layui/lay/modules/laydate.js
+2018/12/15 09:03:03.937 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.352432ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:03:03.988 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    309.146µs|   match|[44m GET     [0m /static/css/font.css
+2018/12/15 09:03:03.989 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    722.729µs|   match|[44m GET     [0m /static/css/weadmin.css
+2018/12/15 09:03:03.993 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    171.824µs|   match|[44m GET     [0m /static/layui/layui.js
+2018/12/15 09:03:03.993 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    472.098µs|   match|[44m GET     [0m /static/css/information.css
+2018/12/15 09:03:03.998 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    252.202µs|   match|[44m GET     [0m /static/layui/css/layui.css
+2018/12/15 09:03:04.032 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    511.021µs|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:03:04.044 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    223.868µs|   match|[44m GET     [0m /static/fonts/iconfont.woff
+2018/12/15 09:03:04.081 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     130.21µs|   match|[44m GET     [0m /static/js/admin.js
+2018/12/15 09:03:04.083 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    357.105µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/15 09:03:04.123 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    793.883µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/15 09:03:04.125 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.028023ms|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/15 09:03:04.126 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    277.609µs|   match|[44m GET     [0m /static/css/information.css
+2018/12/15 09:03:04.140 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    687.272µs|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2018/12/15 09:03:04.195 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    113.387µs|   match|[44m GET     [0m /static/layui/lay/modules/layedit.js
+2018/12/15 09:03:04.197 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     88.602µs|   match|[44m GET     [0m /static/layui/lay/modules/element.js
+2018/12/15 09:03:04.210 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    677.687µs|   match|[44m GET     [0m /static/layui/lay/modules/laydate.js
+2018/12/15 09:03:04.218 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     97.347µs|   match|[44m GET     [0m /static/layui/font/iconfont.woff
+2018/12/15 09:03:04.250 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    114.882µs|   match|[44m GET     [0m /static/layui/css/modules/laydate/default/laydate.css
+2018/12/15 09:03:04.354 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.267064ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 09:03:04.462 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    176.444µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/15 09:03:04.468 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    145.246µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/15 09:03:04.480 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    173.538µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/15 09:03:04.531 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    109.651µs|   match|[44m GET     [0m /static/layui/lay/modules/layedit.js
+2018/12/15 09:03:04.546 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    139.003µs|   match|[44m GET     [0m /static/layui/lay/modules/laydate.js
+2018/12/15 09:03:10.944 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.205548ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:03:10.975 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     120.19µs|   match|[44m GET     [0m /static/css/font.css
+2018/12/15 09:03:10.978 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    387.257µs|   match|[44m GET     [0m /static/css/weadmin.css
+2018/12/15 09:03:10.979 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    105.529µs|   match|[44m GET     [0m /static/css/information.css
+2018/12/15 09:03:10.980 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    228.828µs|   match|[44m GET     [0m /static/layui/layui.js
+2018/12/15 09:03:11.006 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    364.712µs|   match|[44m GET     [0m /static/layui/css/layui.css
+2018/12/15 09:03:11.045 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    743.496µs|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:03:11.047 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    288.537µs|   match|[44m GET     [0m /static/fonts/iconfont.woff
+2018/12/15 09:03:11.080 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    267.153µs|   match|[44m GET     [0m /static/js/admin.js
+2018/12/15 09:03:11.086 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     223.23µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/15 09:03:11.102 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    140.555µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/15 09:03:11.119 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    138.574µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/15 09:03:11.121 [D] [server.go:2741]  |            ::1|[42m 200 [0m|      90.09µs|   match|[44m GET     [0m /static/css/information.css
+2018/12/15 09:03:11.153 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    260.911µs|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2018/12/15 09:03:11.160 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     148.11µs|   match|[44m GET     [0m /static/layui/lay/modules/layedit.js
+2018/12/15 09:03:11.164 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    115.515µs|   match|[44m GET     [0m /static/layui/lay/modules/element.js
+2018/12/15 09:03:11.171 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    238.313µs|   match|[44m GET     [0m /static/layui/lay/modules/laydate.js
+2018/12/15 09:03:11.183 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    111.964µs|   match|[44m GET     [0m /static/layui/font/iconfont.woff
+2018/12/15 09:03:11.215 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    240.365µs|   match|[44m GET     [0m /static/layui/css/modules/laydate/default/laydate.css
+2018/12/15 09:03:11.299 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.117925ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 09:03:11.343 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    268.973µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/15 09:03:11.366 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    165.102µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/15 09:03:11.387 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    504.336µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/15 09:03:11.448 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    113.807µs|   match|[44m GET     [0m /static/layui/lay/modules/layedit.js
+2018/12/15 09:03:11.460 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    627.458µs|   match|[44m GET     [0m /static/layui/lay/modules/laydate.js
+2018/12/15 09:03:15.748 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.412091ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 09:03:33.260 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.545027ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:03:33.357 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    674.266µs|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:03:33.638 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.424316ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 09:04:12.911 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 09:04:15.139 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 09:04:22.623 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.317675ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:04:22.708 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    907.756µs|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:04:22.949 [D] [controller.go:283]  template Execute err: template: backstage/term.html:82:20: executing "backstage/term.html" at <$elem.Num>: can't evaluate field Num in type models.Exam
+2018/12/15 09:04:22.949 [E] [server.go:2741]  template: backstage/term.html:82:20: executing "backstage/term.html" at <$elem.Num>: can't evaluate field Num in type models.Exam
+2018/12/15 09:04:22.950 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.777619ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 09:04:30.004 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.754498ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:04:30.049 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    385.656µs|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:04:30.275 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.118801ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 09:05:07.785 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.403365ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:05:07.878 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.176787ms|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:05:08.150 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.906461ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 09:05:37.125 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.776309ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:05:37.214 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    724.729µs|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:05:37.469 [D] [controller.go:283]  template Execute err: template: backstage/term.html:82:24: executing "backstage/term.html" at <$elem.Num>: can't evaluate field Num in type models.Exam
+2018/12/15 09:05:37.469 [E] [server.go:2741]  template: backstage/term.html:82:24: executing "backstage/term.html" at <$elem.Num>: can't evaluate field Num in type models.Exam
+2018/12/15 09:05:37.469 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    1.41717ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 09:05:48.518 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.049695ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:05:48.582 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    746.954µs|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:05:48.826 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.136036ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 09:05:56.302 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.949325ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:05:56.396 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.212456ms|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:05:56.661 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.173229ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 09:08:16.691 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.108902ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:08:16.793 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    659.754µs|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:08:17.051 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.640275ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 09:08:36.641 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.748576ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:08:36.723 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    845.443µs|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:08:37.006 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    2.78861ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 09:08:48.332 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.675364ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:08:48.393 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    553.185µs|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:08:48.659 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.594956ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 09:09:11.834 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.305716ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:09:11.895 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    493.657µs|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:09:12.151 [E] [controller.go:281]  parse template err: backstage/term.html template: backstage/term.html:68: unexpected "(" in operand
+2018/12/15 09:09:12.151 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.289133ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 09:09:17.240 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   8.064198ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:09:17.285 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    5.41649ms|   match|[44m GET     [0m /static/css/font.css
+2018/12/15 09:09:17.285 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.959107ms|   match|[44m GET     [0m /static/layui/layui.js
+2018/12/15 09:09:17.286 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.818985ms|   match|[44m GET     [0m /static/css/weadmin.css
+2018/12/15 09:09:17.286 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.537344ms|   match|[44m GET     [0m /static/css/information.css
+2018/12/15 09:09:17.301 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    533.462µs|   match|[44m GET     [0m /static/layui/css/layui.css
+2018/12/15 09:09:17.324 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    416.863µs|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:09:17.326 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     221.31µs|   match|[44m GET     [0m /static/fonts/iconfont.woff
+2018/12/15 09:09:17.357 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    698.925µs|   match|[44m GET     [0m /static/js/admin.js
+2018/12/15 09:09:17.363 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    499.175µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/15 09:09:17.383 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    464.927µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/15 09:09:17.390 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.110456ms|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/15 09:09:17.413 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    229.802µs|   match|[44m GET     [0m /static/css/information.css
+2018/12/15 09:09:17.416 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    139.314µs|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2018/12/15 09:09:17.466 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    361.897µs|   match|[44m GET     [0m /static/layui/lay/modules/element.js
+2018/12/15 09:09:17.468 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    192.407µs|   match|[44m GET     [0m /static/layui/lay/modules/layedit.js
+2018/12/15 09:09:17.483 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    131.539µs|   match|[44m GET     [0m /static/layui/font/iconfont.woff
+2018/12/15 09:09:17.506 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    227.676µs|   match|[44m GET     [0m /static/layui/lay/modules/laydate.js
+2018/12/15 09:09:17.520 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    348.979µs|   match|[44m GET     [0m /static/layui/css/modules/laydate/default/laydate.css
+2018/12/15 09:09:17.596 [E] [controller.go:281]  parse template err: backstage/term.html template: backstage/term.html:68: unexpected "(" in operand
+2018/12/15 09:09:17.597 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.030364ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 09:09:17.622 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    261.929µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/15 09:09:17.647 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    100.534µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/15 09:09:17.655 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    554.468µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/15 09:09:17.705 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    120.908µs|   match|[44m GET     [0m /static/layui/lay/modules/layedit.js
+2018/12/15 09:09:17.718 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    141.459µs|   match|[44m GET     [0m /static/layui/lay/modules/laydate.js
+2018/12/15 09:11:30.266 [E] [template.go:176]  parse template err: backstage/term.html template: backstage/term.html:68: unexpected "(" in operand
+2018/12/15 09:11:30.266 [W] [beego.go:103]  template: backstage/term.html:68: unexpected "(" in operand
+2018/12/15 09:11:32.386 [E] [template.go:176]  parse template err: backstage/term.html template: backstage/term.html:68: unexpected "(" in operand
+2018/12/15 09:11:32.386 [W] [beego.go:103]  template: backstage/term.html:68: unexpected "(" in operand
+2018/12/15 09:12:24.376 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 09:12:25.062 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    1.29659ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:12:25.117 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    381.421µs|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:12:25.427 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.066858ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 09:12:26.681 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 09:12:41.268 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 09:12:43.555 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 09:12:48.552 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.224323ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:12:48.596 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    468.114µs|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:12:48.804 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.035286ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 09:12:49.611 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.797562ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:12:49.686 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    819.276µs|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:12:49.935 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.836053ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 09:13:22.035 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.642505ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:13:22.105 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    674.544µs|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:13:22.354 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    1.12617ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 09:15:59.646 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.314725ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:15:59.682 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    650.668µs|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:15:59.941 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.381234ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 09:16:00.937 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.624312ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:16:01.017 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.300958ms|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:16:01.251 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.888471ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 09:16:01.709 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    1.42088ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:16:01.808 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.992651ms|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:16:02.046 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.859034ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 09:16:02.493 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.430852ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:16:02.584 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.008972ms|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:16:02.802 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.606598ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 09:16:03.216 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.794377ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:16:03.311 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.202481ms|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:16:03.580 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.593924ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 09:16:03.698 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     634.35µs|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:16:03.744 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.552929ms|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:16:03.832 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    582.703µs|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:16:03.902 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    464.435µs|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:16:04.030 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    387.647µs|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 09:16:04.056 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    539.751µs|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 09:16:04.268 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.071005ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 09:16:07.330 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.048691ms|   match|[44m GET     [0m /back/achievement/showadmin   r:back/achievement/showadmin
+2018/12/15 09:16:08.305 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.233814ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/15 09:16:08.906 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.181643ms|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/15 09:16:11.408 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.346227ms|   match|[44m GET     [0m /back/S   r:back/S
+2018/12/15 21:58:57.747 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 21:58:58.816 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 21:59:15.939 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 21:59:18.152 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 21:59:20.895 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 21:59:23.911 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 21:59:43.487 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 21:59:45.845 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 22:00:19.022 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 22:06:45.910 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 22:09:05.255 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 22:09:13.931 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 22:29:46.971 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 22:32:32.870 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 22:40:56.702 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 22:42:55.618 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 22:44:14.182 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 22:44:15.231 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 22:44:16.285 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 22:47:10.820 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 22:47:12.931 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 22:48:42.591 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   8.872741ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 22:48:42.653 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.773975ms|   match|[44m GET     [0m /static/css/font.css
+2018/12/15 22:48:42.653 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.802522ms|   match|[44m GET     [0m /static/css/weadmin.css
+2018/12/15 22:48:42.654 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.910315ms|   match|[44m GET     [0m /static/css/information.css
+2018/12/15 22:48:42.654 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.914031ms|   match|[44m GET     [0m /static/layui/layui.js
+2018/12/15 22:48:42.667 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    1.04612ms|   match|[44m GET     [0m /static/layui/css/layui.css
+2018/12/15 22:48:42.687 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    285.658µs| nomatch|[44m GET     [0m /back/S
+2018/12/15 22:48:42.697 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     337.79µs|   match|[44m GET     [0m /static/fonts/iconfont.woff
+2018/12/15 22:48:42.741 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    306.229µs|   match|[44m GET     [0m /static/js/admin.js
+2018/12/15 22:48:42.744 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    468.588µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/15 22:48:42.773 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    193.614µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/15 22:48:42.776 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    429.947µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/15 22:48:42.827 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    202.441µs|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2018/12/15 22:48:42.878 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    191.543µs|   match|[44m GET     [0m /static/layui/lay/modules/layedit.js
+2018/12/15 22:48:42.881 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     644.17µs|   match|[44m GET     [0m /static/layui/lay/modules/element.js
+2018/12/15 22:48:42.892 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    284.907µs|   match|[44m GET     [0m /static/layui/lay/modules/laydate.js
+2018/12/15 22:48:42.903 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    499.525µs|   match|[44m GET     [0m /static/layui/font/iconfont.woff
+2018/12/15 22:48:42.939 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     237.92µs|   match|[44m GET     [0m /static/layui/css/modules/laydate/default/laydate.css
+2018/12/15 22:48:43.041 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.126393ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 22:48:43.070 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.291643ms|   match|[44m GET     [0m /back/achievement/showadmin   r:back/achievement/showadmin
+2018/12/15 22:48:43.094 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    574.195µs|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/15 22:48:43.107 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    810.132µs|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/15 22:48:43.119 [D] [server.go:2741]  |            ::1|[43m 404 [0m|   1.756396ms| nomatch|[44m GET     [0m /back/S
+2018/12/15 22:48:43.250 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    486.835µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/15 22:48:43.255 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     119.25µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/15 22:48:43.261 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    144.624µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/15 22:48:43.322 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    117.956µs|   match|[44m GET     [0m /static/layui/lay/modules/layedit.js
+2018/12/15 22:48:43.330 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    386.516µs|   match|[44m GET     [0m /static/layui/lay/modules/laydate.js
+2018/12/15 22:49:57.905 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 22:50:01.043 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 22:50:09.339 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.742015ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 22:50:09.417 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    218.514µs| nomatch|[44m GET     [0m /back/S
+2018/12/15 22:50:09.712 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    1.48378ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 22:50:09.729 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    712.197µs|   match|[44m GET     [0m /back/achievement/showadmin   r:back/achievement/showadmin
+2018/12/15 22:50:09.744 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    581.021µs|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/15 22:50:09.753 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    842.825µs|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/15 22:50:09.767 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    267.653µs| nomatch|[44m GET     [0m /back/S
+2018/12/15 22:50:12.373 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.745274ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 22:50:12.433 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    663.892µs| nomatch|[44m GET     [0m /back/S
+2018/12/15 22:50:12.695 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.365491ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 22:50:12.720 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.096448ms|   match|[44m GET     [0m /back/achievement/showadmin   r:back/achievement/showadmin
+2018/12/15 22:50:12.739 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    802.359µs|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/15 22:50:12.751 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    528.501µs|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/15 22:50:12.762 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    169.001µs| nomatch|[44m GET     [0m /back/S
+2018/12/15 22:50:15.277 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.359383ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 22:50:15.330 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.528312ms|   match|[44m GET     [0m /static/css/font.css
+2018/12/15 22:50:15.331 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.952707ms|   match|[44m GET     [0m /static/css/information.css
+2018/12/15 22:50:15.332 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    4.51757ms|   match|[44m GET     [0m /static/layui/layui.js
+2018/12/15 22:50:15.332 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.442771ms|   match|[44m GET     [0m /static/css/weadmin.css
+2018/12/15 22:50:15.345 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    608.973µs|   match|[44m GET     [0m /static/layui/css/layui.css
+2018/12/15 22:50:15.365 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    255.588µs| nomatch|[44m GET     [0m /back/S
+2018/12/15 22:50:15.373 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    533.454µs|   match|[44m GET     [0m /static/fonts/iconfont.woff
+2018/12/15 22:50:15.425 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    612.971µs|   match|[44m GET     [0m /static/js/admin.js
+2018/12/15 22:50:15.429 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    456.919µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/15 22:50:15.464 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    1.16516ms|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/15 22:50:15.466 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    241.625µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/15 22:50:15.480 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    402.087µs|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2018/12/15 22:50:15.525 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    158.162µs|   match|[44m GET     [0m /static/layui/lay/modules/element.js
+2018/12/15 22:50:15.527 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    180.411µs|   match|[44m GET     [0m /static/layui/lay/modules/layedit.js
+2018/12/15 22:50:15.541 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    194.116µs|   match|[44m GET     [0m /static/layui/font/iconfont.woff
+2018/12/15 22:50:15.567 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    410.585µs|   match|[44m GET     [0m /static/layui/lay/modules/laydate.js
+2018/12/15 22:50:15.579 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    354.786µs|   match|[44m GET     [0m /static/layui/css/modules/laydate/default/laydate.css
+2018/12/15 22:50:15.659 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.516498ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 22:50:15.665 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    430.881µs|   match|[44m GET     [0m /back/achievement/showadmin   r:back/achievement/showadmin
+2018/12/15 22:50:15.669 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    371.158µs|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/15 22:50:15.682 [D] [server.go:2741]  |            ::1|[42m 200 [0m|      422.8µs|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/15 22:50:15.689 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    260.436µs| nomatch|[44m GET     [0m /back/S
+2018/12/15 22:50:15.782 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    174.214µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/15 22:50:15.798 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    186.091µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/15 22:50:15.811 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    205.885µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/15 22:50:15.872 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    359.118µs|   match|[44m GET     [0m /static/layui/lay/modules/layedit.js
+2018/12/15 22:50:15.882 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    210.153µs|   match|[44m GET     [0m /static/layui/lay/modules/laydate.js
+2018/12/15 22:50:46.268 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.117974ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/15 22:50:46.308 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     47.579µs|   match|[44m GET     [0m /static/css/font.css
+2018/12/15 22:50:46.308 [D] [server.go:2741]  |            ::1|[42m 200 [0m|      93.18µs|   match|[44m GET     [0m /static/css/weadmin.css
+2018/12/15 22:50:46.309 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    196.772µs|   match|[44m GET     [0m /static/css/information.css
+2018/12/15 22:50:46.309 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     92.037µs|   match|[44m GET     [0m /static/layui/layui.js
+2018/12/15 22:50:46.317 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    747.923µs|   match|[44m GET     [0m /static/layui/css/layui.css
+2018/12/15 22:50:46.347 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.684585ms|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/15 22:50:46.349 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    126.783µs|   match|[44m GET     [0m /static/fonts/iconfont.woff
+2018/12/15 22:50:46.376 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    115.693µs|   match|[44m GET     [0m /static/js/admin.js
+2018/12/15 22:50:46.378 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    411.431µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/15 22:50:46.393 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    160.335µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/15 22:50:46.398 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    123.679µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/15 22:50:46.398 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     29.896µs|   match|[44m GET     [0m /static/css/information.css
+2018/12/15 22:50:46.444 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    114.456µs|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2018/12/15 22:50:46.459 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    145.467µs|   match|[44m GET     [0m /static/layui/lay/modules/layedit.js
+2018/12/15 22:50:46.471 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    108.531µs|   match|[44m GET     [0m /static/layui/lay/modules/element.js
+2018/12/15 22:50:46.476 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    170.156µs|   match|[44m GET     [0m /static/layui/lay/modules/laydate.js
+2018/12/15 22:50:46.493 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     95.084µs|   match|[44m GET     [0m /static/layui/font/iconfont.woff
+2018/12/15 22:50:46.544 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     89.105µs|   match|[44m GET     [0m /static/layui/css/modules/laydate/default/laydate.css
+2018/12/15 22:50:46.628 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.339473ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 22:50:46.633 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    375.017µs|   match|[44m GET     [0m /back/achievement/showadmin   r:back/achievement/showadmin
+2018/12/15 22:50:46.641 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    461.845µs|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/15 22:50:46.654 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    403.761µs|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/15 22:50:46.661 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    174.693µs| nomatch|[44m GET     [0m /back/S
+2018/12/15 22:50:46.793 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    141.354µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/15 22:50:46.804 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    122.259µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/15 22:50:46.819 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.238132ms|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/15 22:50:46.877 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    208.113µs|   match|[44m GET     [0m /static/layui/lay/modules/layedit.js
+2018/12/15 22:50:46.893 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     131.23µs|   match|[44m GET     [0m /static/layui/lay/modules/laydate.js
+2018/12/15 22:54:28.994 [A] [LoginController.go:41]  password+++++++您输入的密码格式不正确 
+2018/12/15 22:54:28.994 [A] [LoginController.go:41]  password+++++++请您输入密码 
+2018/12/15 22:54:28.994 [A] [LoginController.go:41]  captcha+++++++请您输入验证码 
+2018/12/15 22:54:28.994 [C] [asm_amd64.s:522]  the request url is  /reception/login/judge
+2018/12/15 22:54:28.994 [C] [asm_amd64.s:522]  Handler crashed with error can't find templatefile in the path:views/logincontorller/post.tpl
+2018/12/15 22:54:28.994 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/15 22:54:28.995 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/15 22:54:28.995 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/template.go:75
+2018/12/15 22:54:28.995 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:283
+2018/12/15 22:54:28.995 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:234
+2018/12/15 22:54:28.995 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:214
+2018/12/15 22:54:28.995 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:864
+2018/12/15 22:54:28.995 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/15 22:54:28.995 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/15 22:54:28.995 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/15 22:54:28.996 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/15 22:54:29.027 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.339574ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/15 22:55:04.989 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 22:55:07.367 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/15 22:55:42.015 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   9.087451ms|   match|[46m POST    [0m /back/achievement/addexam   r:back/achievement/addexam
+2018/12/15 22:55:42.057 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.672402ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
