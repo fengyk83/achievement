@@ -18,6 +18,15 @@ func init() {
 
     beego.GlobalControllerRouter["achievement/backstage:IdiomController"] = append(beego.GlobalControllerRouter["achievement/backstage:IdiomController"],
         beego.ControllerComments{
+            Method: "AddIdiom",
+            Router: `/achievement/addidiom`,
+            AllowHTTPMethods: []string{"post"},
+            MethodParams: param.Make(),
+            Filters: nil,
+            Params: nil})
+
+    beego.GlobalControllerRouter["achievement/backstage:IdiomController"] = append(beego.GlobalControllerRouter["achievement/backstage:IdiomController"],
+        beego.ControllerComments{
             Method: "ShowIdiom",
             Router: `/achievement/showidiom`,
             AllowHTTPMethods: []string{"get"},
@@ -25,10 +34,10 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["achievement/backstage:IndexController"] = append(beego.GlobalControllerRouter["achievement/backstage:IndexController"],
+    beego.GlobalControllerRouter["achievement/backstage:IdiomController"] = append(beego.GlobalControllerRouter["achievement/backstage:IdiomController"],
         beego.ControllerComments{
-            Method: "S",
-            Router: `/S`,
+            Method: "Idiom",
+            Router: `/achievement/showmenager`,
             AllowHTTPMethods: []string{"get"},
             MethodParams: param.Make(),
             Filters: nil,
@@ -38,16 +47,7 @@ func init() {
         beego.ControllerComments{
             Method: "AddExam",
             Router: `/achievement/addexam`,
-            AllowHTTPMethods: []string{"get"},
-            MethodParams: param.Make(),
-            Filters: nil,
-            Params: nil})
-
-    beego.GlobalControllerRouter["achievement/backstage:IndexController"] = append(beego.GlobalControllerRouter["achievement/backstage:IndexController"],
-        beego.ControllerComments{
-            Method: "GetInformation",
-            Router: `/achievement/exam`,
-            AllowHTTPMethods: []string{"get"},
+            AllowHTTPMethods: []string{"post"},
             MethodParams: param.Make(),
             Filters: nil,
             Params: nil})
@@ -100,7 +100,7 @@ func init() {
     beego.GlobalControllerRouter["achievement/backstage:TipsController"] = append(beego.GlobalControllerRouter["achievement/backstage:TipsController"],
         beego.ControllerComments{
             Method: "ShowTips",
-            Router: `/achievement/showitips[get]`,
+            Router: `/achievement/showitips`,
             AllowHTTPMethods: []string{"get"},
             MethodParams: param.Make(),
             Filters: nil,
