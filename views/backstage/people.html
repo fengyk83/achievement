@@ -112,24 +112,24 @@
             });
 
             //自定义验证规则
-            // form.verify({
-            //     number: function(value){
-            //         var reg = /^\d{11,11}$/;
-            //         if (!reg.test(value)) {
-            //             return "学号格式错误，由11个数字组成";
-            //         }
-            //     },
-            //     grade: function(value){
-            //         if (value=="") {
-            //             return "请选择年级";
-            //         }
-            //     },
-            //     class: function (value) {
-            //         if (value=="") {
-            //             return "请选择班级名称";
-            //         }
-            //     }
-            // });
+            form.verify({
+                number: function(value){
+                    var reg = /^\d{11,11}$/;
+                    if (!reg.test(value)) {
+                        return "学号格式错误，由11个数字组成";
+                    }
+                },
+                grade: function(value){
+                    if (value=="") {
+                        return "请选择年级";
+                    }
+                },
+                class: function (value) {
+                    if (value=="") {
+                        return "请选择班级名称";
+                    }
+                }
+            });
 
             //监听提交
             form.on('submit(example)', function(data) {
@@ -167,9 +167,12 @@
                     if (res.name == 1){
                         layer.msg(res.message);
                     } else {
-                        layer.msg("上传文件失败");
+                        layer.msg(res.message);
                     }
                 }
+                ,error: function(error){
+                    console.log(error)
+            }
             });
         });
     </script>

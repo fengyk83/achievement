@@ -27,6 +27,33 @@ func init() {
 
     beego.GlobalControllerRouter["achievement/backstage:IdiomController"] = append(beego.GlobalControllerRouter["achievement/backstage:IdiomController"],
         beego.ControllerComments{
+            Method: "Addtemenager",
+            Router: `/achievement/addmenager`,
+            AllowHTTPMethods: []string{"post"},
+            MethodParams: param.Make(),
+            Filters: nil,
+            Params: nil})
+
+    beego.GlobalControllerRouter["achievement/backstage:IdiomController"] = append(beego.GlobalControllerRouter["achievement/backstage:IdiomController"],
+        beego.ControllerComments{
+            Method: "AddScore",
+            Router: `/achievement/addscore`,
+            AllowHTTPMethods: []string{"post"},
+            MethodParams: param.Make(),
+            Filters: nil,
+            Params: nil})
+
+    beego.GlobalControllerRouter["achievement/backstage:IdiomController"] = append(beego.GlobalControllerRouter["achievement/backstage:IdiomController"],
+        beego.ControllerComments{
+            Method: "Deletemenager",
+            Router: `/achievement/deletemenager`,
+            AllowHTTPMethods: []string{"post"},
+            MethodParams: param.Make(),
+            Filters: nil,
+            Params: nil})
+
+    beego.GlobalControllerRouter["achievement/backstage:IdiomController"] = append(beego.GlobalControllerRouter["achievement/backstage:IdiomController"],
+        beego.ControllerComments{
             Method: "AddExcel",
             Router: `/achievement/excel`,
             AllowHTTPMethods: []string{"post"},

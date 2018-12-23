@@ -17,7 +17,7 @@ func NewExam() *Exam  {
 func (this *Exam)GetExam(gradeid , classzid int) []Exam {
 	var Exam  []Exam
 	qb,_ := orm.NewQueryBuilder("mysql")
-	qb.Select("exam.name,exam.time,exam.remark,,exam.type").
+	qb.Select("exam.*").
 		From("exam").
 		Where("gradeid = ?").
 		And("classzid = ?").
@@ -50,5 +50,17 @@ func (this *Exam)AddExam(name,time string) error  {
 	o := orm.NewOrm()
 	_,error := o.Raw(sql,name,time).Exec()
 	return error
+}
+
+func (this *Exam)GetId(name string) int  {
+	var id int
+	qb,_ := orm.NewQueryBuilder("mysql")
+	qb.Select("exam.id").
+		From("exam").
+		Where("time = ?")
+	sql := qb.String()
+	o := orm.NewOrm()
+	o.Raw(sql,name).QueryRow(&id)
+	return id
 }
 

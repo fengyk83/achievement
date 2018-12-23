@@ -1,0 +1,487 @@
+2018/12/23 00:00:37.192 [C] [asm_amd64.s:522]  the request url is  /back/achievement/excel
+2018/12/23 00:00:37.193 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2018/12/23 00:00:37.193 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/23 00:00:37.193 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/23 00:00:37.193 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:82
+2018/12/23 00:00:37.193 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/signal_unix.go:390
+2018/12/23 00:00:37.193 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/Luxurioust/excelize/sheet.go:82
+2018/12/23 00:00:37.193 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/Luxurioust/excelize/sheet.go:319
+2018/12/23 00:00:37.193 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/achievement/backstage/IdiomController.go:50
+2018/12/23 00:00:37.193 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/23 00:00:37.193 [C] [asm_amd64.s:522]  /usr/lib/golang/src/reflect/value.go:447
+2018/12/23 00:00:37.193 [C] [asm_amd64.s:522]  /usr/lib/golang/src/reflect/value.go:308
+2018/12/23 00:00:37.193 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:852
+2018/12/23 00:00:37.193 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/23 00:00:37.193 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/23 00:00:37.194 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/23 00:00:37.194 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/23 00:00:46.212 [C] [asm_amd64.s:522]  the request url is  /back/achievement/excel
+2018/12/23 00:00:46.212 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2018/12/23 00:00:46.212 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/23 00:00:46.212 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/23 00:00:46.212 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:82
+2018/12/23 00:00:46.213 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/signal_unix.go:390
+2018/12/23 00:00:46.213 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/Luxurioust/excelize/sheet.go:82
+2018/12/23 00:00:46.213 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/Luxurioust/excelize/sheet.go:319
+2018/12/23 00:00:46.213 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/achievement/backstage/IdiomController.go:50
+2018/12/23 00:00:46.213 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/23 00:00:46.213 [C] [asm_amd64.s:522]  /usr/lib/golang/src/reflect/value.go:447
+2018/12/23 00:00:46.213 [C] [asm_amd64.s:522]  /usr/lib/golang/src/reflect/value.go:308
+2018/12/23 00:00:46.213 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:852
+2018/12/23 00:00:46.213 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/23 00:00:46.213 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/23 00:00:46.213 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/23 00:00:46.214 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/23 00:03:06.962 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:03:09.298 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:03:11.284 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.758843ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:03:11.345 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    1.24975ms|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:03:11.587 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    734.668µs|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:03:11.594 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.416602ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/23 00:03:11.601 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    921.163µs|   match|[44m GET     [0m /back/achievement/showadmin   r:back/achievement/showadmin
+2018/12/23 00:03:11.615 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.045999ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/23 00:03:12.095 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    883.666µs|   match|[44m GET     [0m /back/achievement/showmenager   r:back/achievement/showmenager
+2018/12/23 00:03:12.601 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.912132ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:03:12.710 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    700.336µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:03:12.965 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    360.022µs|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:03:12.982 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.132843ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/23 00:03:12.992 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    746.637µs|   match|[44m GET     [0m /back/achievement/showadmin   r:back/achievement/showadmin
+2018/12/23 00:03:12.993 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    1.79514ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/23 00:03:13.502 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    698.118µs|   match|[44m GET     [0m /back/achievement/showmenager   r:back/achievement/showmenager
+2018/12/23 00:03:19.470 [C] [asm_amd64.s:522]  the request url is  /back/achievement/addscore
+2018/12/23 00:03:19.470 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2018/12/23 00:03:19.470 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/23 00:03:19.470 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/23 00:03:19.471 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:82
+2018/12/23 00:03:19.471 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/signal_unix.go:390
+2018/12/23 00:03:19.471 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/Luxurioust/excelize/sheet.go:82
+2018/12/23 00:03:19.471 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/Luxurioust/excelize/sheet.go:319
+2018/12/23 00:03:19.471 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/achievement/backstage/ScoreController.go:32
+2018/12/23 00:03:19.471 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/23 00:03:19.471 [C] [asm_amd64.s:522]  /usr/lib/golang/src/reflect/value.go:447
+2018/12/23 00:03:19.471 [C] [asm_amd64.s:522]  /usr/lib/golang/src/reflect/value.go:308
+2018/12/23 00:03:19.471 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:852
+2018/12/23 00:03:19.471 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/23 00:03:19.471 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/23 00:03:19.471 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/23 00:03:19.472 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/23 00:04:21.379 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:04:23.478 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:04:25.945 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    698.652µs|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:04:25.983 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    480.993µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:04:26.195 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    344.403µs|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:04:26.216 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.348609ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/23 00:04:26.222 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    692.719µs|   match|[44m GET     [0m /back/achievement/showadmin   r:back/achievement/showadmin
+2018/12/23 00:04:26.235 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.495505ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/23 00:04:26.661 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    770.427µs|   match|[44m GET     [0m /back/achievement/showmenager   r:back/achievement/showmenager
+2018/12/23 00:04:26.960 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.374385ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:04:27.031 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    608.073µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:04:27.237 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    440.636µs|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:04:27.253 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.919783ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/23 00:04:27.259 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.270011ms|   match|[44m GET     [0m /back/achievement/showadmin   r:back/achievement/showadmin
+2018/12/23 00:04:27.272 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.024779ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/23 00:04:27.768 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    949.243µs|   match|[44m GET     [0m /back/achievement/showmenager   r:back/achievement/showmenager
+2018/12/23 00:04:38.640 [C] [asm_amd64.s:522]  the request url is  /back/achievement/addscore
+2018/12/23 00:04:38.640 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2018/12/23 00:04:38.640 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/23 00:04:38.640 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/23 00:04:38.640 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:82
+2018/12/23 00:04:38.640 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/signal_unix.go:390
+2018/12/23 00:04:38.640 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/Luxurioust/excelize/sheet.go:82
+2018/12/23 00:04:38.640 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/Luxurioust/excelize/sheet.go:319
+2018/12/23 00:04:38.640 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/achievement/backstage/ScoreController.go:32
+2018/12/23 00:04:38.640 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/23 00:04:38.641 [C] [asm_amd64.s:522]  /usr/lib/golang/src/reflect/value.go:447
+2018/12/23 00:04:38.641 [C] [asm_amd64.s:522]  /usr/lib/golang/src/reflect/value.go:308
+2018/12/23 00:04:38.641 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:852
+2018/12/23 00:04:38.641 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/23 00:04:38.641 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/23 00:04:38.641 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/23 00:04:38.642 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/23 00:06:29.946 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:06:32.032 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:07:17.501 [C] [asm_amd64.s:522]  the request url is  /back/achievement/addscore
+2018/12/23 00:07:17.501 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2018/12/23 00:07:17.501 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/23 00:07:17.502 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/23 00:07:17.502 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:82
+2018/12/23 00:07:17.502 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/signal_unix.go:390
+2018/12/23 00:07:17.502 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/Luxurioust/excelize/sheet.go:82
+2018/12/23 00:07:17.502 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/Luxurioust/excelize/sheet.go:319
+2018/12/23 00:07:17.502 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/achievement/backstage/ScoreController.go:32
+2018/12/23 00:07:17.502 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/23 00:07:17.502 [C] [asm_amd64.s:522]  /usr/lib/golang/src/reflect/value.go:447
+2018/12/23 00:07:17.502 [C] [asm_amd64.s:522]  /usr/lib/golang/src/reflect/value.go:308
+2018/12/23 00:07:17.502 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:852
+2018/12/23 00:07:17.502 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/23 00:07:17.502 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/23 00:07:17.502 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/23 00:07:17.503 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/23 00:07:22.686 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.554698ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:07:22.747 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.459442ms|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:07:22.985 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    485.875µs|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:07:22.999 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.140499ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/23 00:07:23.005 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    792.785µs|   match|[44m GET     [0m /back/achievement/showadmin   r:back/achievement/showadmin
+2018/12/23 00:07:23.012 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     973.75µs|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/23 00:07:23.433 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     684.45µs|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:07:23.474 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.225646ms|   match|[44m GET     [0m /back/achievement/showmenager   r:back/achievement/showmenager
+2018/12/23 00:07:23.523 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.196255ms|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:07:23.764 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    806.825µs|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:07:23.773 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.688025ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/23 00:07:23.781 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    791.564µs|   match|[44m GET     [0m /back/achievement/showadmin   r:back/achievement/showadmin
+2018/12/23 00:07:23.792 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.358802ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/23 00:07:24.104 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.001807ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:07:24.199 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    484.271µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:07:24.431 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    457.389µs|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:07:24.449 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.391884ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/23 00:07:24.460 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    800.365µs|   match|[44m GET     [0m /back/achievement/showadmin   r:back/achievement/showadmin
+2018/12/23 00:07:24.467 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.876602ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/23 00:07:24.628 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.131499ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:07:24.754 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    375.775µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:07:24.967 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    470.412µs|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:07:24.977 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.170401ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/23 00:07:24.983 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    625.565µs|   match|[44m GET     [0m /back/achievement/showadmin   r:back/achievement/showadmin
+2018/12/23 00:07:25.003 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.014082ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/23 00:07:25.427 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.076873ms|   match|[44m GET     [0m /back/achievement/showmenager   r:back/achievement/showmenager
+2018/12/23 00:07:30.567 [C] [asm_amd64.s:522]  the request url is  /back/achievement/addscore
+2018/12/23 00:07:30.567 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2018/12/23 00:07:30.567 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/23 00:07:30.567 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/23 00:07:30.567 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:82
+2018/12/23 00:07:30.567 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/signal_unix.go:390
+2018/12/23 00:07:30.567 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/Luxurioust/excelize/sheet.go:82
+2018/12/23 00:07:30.567 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/Luxurioust/excelize/sheet.go:319
+2018/12/23 00:07:30.567 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/achievement/backstage/ScoreController.go:32
+2018/12/23 00:07:30.568 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/23 00:07:30.568 [C] [asm_amd64.s:522]  /usr/lib/golang/src/reflect/value.go:447
+2018/12/23 00:07:30.568 [C] [asm_amd64.s:522]  /usr/lib/golang/src/reflect/value.go:308
+2018/12/23 00:07:30.568 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:852
+2018/12/23 00:07:30.568 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/23 00:07:30.568 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/23 00:07:30.568 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/23 00:07:30.569 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/23 00:09:20.663 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:09:22.901 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:09:37.761 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.132659ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:09:37.797 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     104.58µs|   match|[44m GET     [0m /static/css/font.css
+2018/12/23 00:09:37.797 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    145.881µs|   match|[44m GET     [0m /static/css/weadmin.css
+2018/12/23 00:09:37.799 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     96.357µs|   match|[44m GET     [0m /static/css/information.css
+2018/12/23 00:09:37.799 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    190.075µs|   match|[44m GET     [0m /static/layui/layui.js
+2018/12/23 00:09:37.813 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    305.517µs|   match|[44m GET     [0m /static/layui/css/layui.css
+2018/12/23 00:09:37.835 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    465.672µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:09:37.835 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     139.93µs|   match|[44m GET     [0m /static/js/admin.js
+2018/12/23 00:09:37.845 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    618.074µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/23 00:09:37.849 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    649.781µs|   match|[44m GET     [0m /static/fonts/iconfont.woff
+2018/12/23 00:09:37.894 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    324.187µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/23 00:09:37.895 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    170.742µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/23 00:09:37.930 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    205.632µs|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2018/12/23 00:09:37.975 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    224.262µs|   match|[44m GET     [0m /static/layui/lay/modules/layedit.js
+2018/12/23 00:09:37.981 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    144.334µs|   match|[44m GET     [0m /static/layui/lay/modules/element.js
+2018/12/23 00:09:37.990 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    256.405µs|   match|[44m GET     [0m /static/layui/lay/modules/laydate.js
+2018/12/23 00:09:37.993 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    179.276µs|   match|[44m GET     [0m /static/layui/font/iconfont.woff
+2018/12/23 00:09:38.022 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     133.68µs|   match|[44m GET     [0m /static/layui/css/modules/laydate/default/laydate.css
+2018/12/23 00:09:38.520 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    2.34868ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:09:38.597 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.283577ms|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:09:39.670 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.747184ms|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:09:39.713 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    156.014µs|   match|[44m GET     [0m /static/css/manager.css
+2018/12/23 00:09:39.730 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    100.599µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/23 00:09:39.749 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    282.013µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/23 00:09:39.763 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    170.719µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/23 00:09:39.803 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    174.683µs|   match|[44m GET     [0m /static/layui/lay/modules/upload.js
+2018/12/23 00:09:39.816 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    166.747µs|   match|[44m GET     [0m /static/layui/lay/modules/element.js
+2018/12/23 00:09:45.047 [C] [asm_amd64.s:522]  the request url is  /back/achievement/addscore
+2018/12/23 00:09:45.047 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2018/12/23 00:09:45.047 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/23 00:09:45.047 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/23 00:09:45.047 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:82
+2018/12/23 00:09:45.047 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/signal_unix.go:390
+2018/12/23 00:09:45.047 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/Luxurioust/excelize/sheet.go:82
+2018/12/23 00:09:45.048 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/Luxurioust/excelize/sheet.go:319
+2018/12/23 00:09:45.048 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/achievement/backstage/ScoreController.go:33
+2018/12/23 00:09:45.048 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/23 00:09:45.048 [C] [asm_amd64.s:522]  /usr/lib/golang/src/reflect/value.go:447
+2018/12/23 00:09:45.048 [C] [asm_amd64.s:522]  /usr/lib/golang/src/reflect/value.go:308
+2018/12/23 00:09:45.048 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:852
+2018/12/23 00:09:45.048 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/23 00:09:45.048 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/23 00:09:45.048 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/23 00:09:45.048 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/23 00:09:45.058 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    195.859µs|   match|[44m GET     [0m /static/layui/css/modules/layer/default/icon.png
+2018/12/23 00:10:28.846 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:10:30.960 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:10:41.867 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.335515ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:10:41.940 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.861891ms|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:10:42.189 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    442.902µs|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:10:46.496 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.031723ms|   match|[46m POST    [0m /back/achievement/addscore   r:back/achievement/addscore
+2018/12/23 00:10:52.318 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.223214ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:10:52.373 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    444.678µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:10:52.608 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.346683ms|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:11:08.038 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:11:08.731 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    563.734µs|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:11:08.760 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    435.149µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:11:08.978 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    754.237µs|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:11:10.280 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:11:14.008 [C] [asm_amd64.s:522]  the request url is  /back/achievement/addscore
+2018/12/23 00:11:14.008 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2018/12/23 00:11:14.008 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/23 00:11:14.008 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/23 00:11:14.008 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:82
+2018/12/23 00:11:14.009 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/signal_unix.go:390
+2018/12/23 00:11:14.009 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/Luxurioust/excelize/sheet.go:82
+2018/12/23 00:11:14.009 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/Luxurioust/excelize/sheet.go:319
+2018/12/23 00:11:14.009 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/achievement/backstage/ScoreController.go:33
+2018/12/23 00:11:14.009 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/23 00:11:14.009 [C] [asm_amd64.s:522]  /usr/lib/golang/src/reflect/value.go:447
+2018/12/23 00:11:14.009 [C] [asm_amd64.s:522]  /usr/lib/golang/src/reflect/value.go:308
+2018/12/23 00:11:14.010 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:852
+2018/12/23 00:11:14.010 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/23 00:11:14.010 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/23 00:11:14.010 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/23 00:11:14.011 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/23 00:11:51.343 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:11:53.421 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:12:16.988 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.664578ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:12:17.020 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    458.383µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:12:17.235 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.083316ms|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:12:17.599 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.119701ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:12:17.691 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.403681ms|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:12:17.913 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.660064ms|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:12:22.618 [C] [asm_amd64.s:522]  the request url is  /back/achievement/addscore
+2018/12/23 00:12:22.618 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2018/12/23 00:12:22.618 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/23 00:12:22.618 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/23 00:12:22.618 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:82
+2018/12/23 00:12:22.618 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/signal_unix.go:390
+2018/12/23 00:12:22.618 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/Luxurioust/excelize/sheet.go:82
+2018/12/23 00:12:22.618 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/Luxurioust/excelize/sheet.go:319
+2018/12/23 00:12:22.618 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/achievement/backstage/ScoreController.go:32
+2018/12/23 00:12:22.618 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/23 00:12:22.618 [C] [asm_amd64.s:522]  /usr/lib/golang/src/reflect/value.go:447
+2018/12/23 00:12:22.618 [C] [asm_amd64.s:522]  /usr/lib/golang/src/reflect/value.go:308
+2018/12/23 00:12:22.618 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:852
+2018/12/23 00:12:22.618 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/23 00:12:22.619 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/23 00:12:22.619 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/23 00:12:22.619 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/23 00:13:10.690 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:13:12.895 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:13:12.970 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    773.615µs|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:13:13.001 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    489.646µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:13:13.215 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.030739ms|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:13:13.493 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.990261ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:13:13.584 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.133743ms|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:13:13.803 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.049917ms|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:13:17.863 [C] [asm_amd64.s:522]  the request url is  /back/achievement/addscore
+2018/12/23 00:13:17.863 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2018/12/23 00:13:17.863 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/23 00:13:17.863 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/23 00:13:17.863 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:82
+2018/12/23 00:13:17.863 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/signal_unix.go:390
+2018/12/23 00:13:17.863 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/Luxurioust/excelize/sheet.go:82
+2018/12/23 00:13:17.863 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/Luxurioust/excelize/sheet.go:319
+2018/12/23 00:13:17.863 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/achievement/backstage/ScoreController.go:32
+2018/12/23 00:13:17.863 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/23 00:13:17.863 [C] [asm_amd64.s:522]  /usr/lib/golang/src/reflect/value.go:447
+2018/12/23 00:13:17.863 [C] [asm_amd64.s:522]  /usr/lib/golang/src/reflect/value.go:308
+2018/12/23 00:13:17.863 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:852
+2018/12/23 00:13:17.863 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/23 00:13:17.864 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/23 00:13:17.864 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/23 00:13:17.864 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/23 00:13:47.492 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:13:49.569 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:13:53.424 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.561025ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:13:53.501 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    791.698µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:13:53.742 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    713.108µs|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:14:00.382 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    435.239µs|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:14:00.411 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    439.387µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:14:00.624 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    808.059µs|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:14:07.525 [C] [asm_amd64.s:522]  the request url is  /back/achievement/addscore
+2018/12/23 00:14:07.525 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2018/12/23 00:14:07.525 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/23 00:14:07.525 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/23 00:14:07.525 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:82
+2018/12/23 00:14:07.525 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/signal_unix.go:390
+2018/12/23 00:14:07.525 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/Luxurioust/excelize/sheet.go:82
+2018/12/23 00:14:07.525 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/Luxurioust/excelize/sheet.go:319
+2018/12/23 00:14:07.525 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/achievement/backstage/ScoreController.go:31
+2018/12/23 00:14:07.525 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/23 00:14:07.525 [C] [asm_amd64.s:522]  /usr/lib/golang/src/reflect/value.go:447
+2018/12/23 00:14:07.525 [C] [asm_amd64.s:522]  /usr/lib/golang/src/reflect/value.go:308
+2018/12/23 00:14:07.525 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:852
+2018/12/23 00:14:07.526 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/23 00:14:07.526 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/23 00:14:07.526 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/23 00:14:07.526 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/23 00:14:39.961 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:14:42.019 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:14:43.488 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.555825ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:14:43.543 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     440.77µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:14:43.758 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    567.799µs|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:14:49.050 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.489065ms|   match|[46m POST    [0m /back/achievement/addscore   r:back/achievement/addscore
+2018/12/23 00:15:26.750 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.467865ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/23 00:15:31.917 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  31.892575ms|   match|[46m POST    [0m /back/achievement/excel   r:back/achievement/excel
+2018/12/23 00:17:08.992 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:17:11.089 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:18:26.421 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.684143ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:18:26.475 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    685.912µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:18:26.714 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.580914ms|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:18:26.738 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    5.45989ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/23 00:18:31.840 [C] [asm_amd64.s:522]  the request url is  /back/achievement/addscore
+2018/12/23 00:18:31.840 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2018/12/23 00:18:31.840 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/23 00:18:31.840 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2018/12/23 00:18:31.840 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:82
+2018/12/23 00:18:31.841 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/signal_unix.go:390
+2018/12/23 00:18:31.841 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/Luxurioust/excelize/sheet.go:82
+2018/12/23 00:18:31.841 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/Luxurioust/excelize/sheet.go:319
+2018/12/23 00:18:31.841 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/achievement/backstage/ScoreController.go:31
+2018/12/23 00:18:31.841 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2018/12/23 00:18:31.841 [C] [asm_amd64.s:522]  /usr/lib/golang/src/reflect/value.go:447
+2018/12/23 00:18:31.841 [C] [asm_amd64.s:522]  /usr/lib/golang/src/reflect/value.go:308
+2018/12/23 00:18:31.841 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:852
+2018/12/23 00:18:31.841 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2018/12/23 00:18:31.841 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2018/12/23 00:18:31.841 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2018/12/23 00:18:31.842 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/23 00:18:55.251 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:18:56.378 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    521.132µs|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:18:56.426 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    386.053µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:18:56.667 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    344.717µs|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:18:56.676 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.431178ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/23 00:18:57.086 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    644.441µs|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:18:57.147 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    584.317µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:18:57.323 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    498.915µs|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:18:57.328 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.747344ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/23 00:18:57.762 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:19:01.261 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.497469ms|   match|[46m POST    [0m /back/achievement/addscore   r:back/achievement/addscore
+2018/12/23 00:20:16.295 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    2.73746ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:20:16.340 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    422.784µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:20:16.586 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    1.62317ms|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:20:16.607 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.580288ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/23 00:20:22.577 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    319.214µs|   match|[46m POST    [0m /back/achievement/addscore   r:back/achievement/addscore
+2018/12/23 00:21:57.136 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:21:59.457 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:22:02.751 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:22:03.179 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.520685ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:22:03.228 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    358.021µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:22:03.457 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.262153ms|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:22:03.482 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   7.325531ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/23 00:22:04.868 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:22:09.336 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   32.27965ms|   match|[46m POST    [0m /back/achievement/addscore   r:back/achievement/addscore
+2018/12/23 00:22:32.687 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:22:34.936 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:22:35.752 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.715665ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:22:35.808 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    822.586µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:22:36.037 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     478.65µs|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:22:36.046 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    2.07001ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/23 00:22:40.795 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.631761ms|   match|[46m POST    [0m /back/achievement/addscore   r:back/achievement/addscore
+2018/12/23 00:23:44.694 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    450.745µs|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:23:44.813 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    485.076µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:23:45.107 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    357.658µs|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:23:45.121 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   6.072116ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/23 00:23:51.245 [D] [server.go:2741]  |            ::1|[42m 200 [0m| 667.337389ms|   match|[46m POST    [0m /back/achievement/addscore   r:back/achievement/addscore
+2018/12/23 00:24:32.370 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:24:32.801 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    592.888µs|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:24:32.840 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    728.686µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:24:33.060 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.595251ms|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:24:33.106 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   7.806923ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/23 00:24:34.456 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:24:44.302 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  61.020508ms|   match|[46m POST    [0m /back/achievement/addscore   r:back/achievement/addscore
+2018/12/23 00:25:18.662 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    660.038µs|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:25:18.738 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.171426ms|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:25:18.998 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:25:21.102 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:25:23.455 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.272231ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:25:23.510 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    503.771µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:25:23.746 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.137848ms|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:25:23.772 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.704755ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/23 00:25:29.779 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  59.469732ms|   match|[46m POST    [0m /back/achievement/addscore   r:back/achievement/addscore
+2018/12/23 00:26:01.060 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:26:03.139 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:26:11.260 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.132749ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/23 00:26:11.300 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    493.102µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:26:11.513 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.385028ms|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/23 00:26:11.538 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   6.456687ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/23 00:26:16.930 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  17.675897ms|   match|[46m POST    [0m /back/achievement/addscore   r:back/achievement/addscore
+2018/12/23 00:27:14.764 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:27:16.998 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:28:49.409 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:28:51.588 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:29:47.206 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.263563ms|   match|[44m GET     [0m /back/achievement/showadmin   r:back/achievement/showadmin
+2018/12/23 00:29:47.266 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    239.522µs|   match|[44m GET     [0m /static/css/menege.css
+2018/12/23 00:29:47.300 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    442.063µs|   match|[44m GET     [0m /static/layui/lay/modules/laydate.js
+2018/12/23 00:29:47.320 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    596.897µs|   match|[44m GET     [0m /static/layui/lay/modules/laypage.js
+2018/12/23 00:29:47.329 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    164.373µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/23 00:29:47.344 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    397.709µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/23 00:29:47.379 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    199.982µs|   match|[44m GET     [0m /static/layui/lay/modules/table.js
+2018/12/23 00:29:47.387 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    436.581µs|   match|[44m GET     [0m /static/layui/lay/modules/laytpl.js
+2018/12/23 00:29:47.396 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    129.505µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/23 00:29:47.406 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    200.626µs|   match|[44m GET     [0m /static/layui/lay/modules/util.js
+2018/12/23 00:29:47.414 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     97.418µs|   match|[44m GET     [0m /static/layui/lay/modules/carousel.js
+2018/12/23 00:29:47.418 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    160.184µs|   match|[44m GET     [0m /static/layui/lay/modules/upload.js
+2018/12/23 00:29:47.429 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    139.706µs|   match|[44m GET     [0m /static/layui/lay/modules/element.js
+2018/12/23 00:29:47.436 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    253.365µs|   match|[44m GET     [0m /static/layui/lay/modules/slider.js
+2018/12/23 00:29:47.468 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    872.248µs|   match|[44m GET     [0m /back/achievement/showmenager   r:back/achievement/showmenager
+2018/12/23 00:29:49.274 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    928.681µs|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/23 00:29:49.394 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    470.944µs|   match|[44m GET     [0m /static/layui/lay/modules/layedit.js
+2018/12/23 00:29:49.399 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     114.24µs|   match|[44m GET     [0m /static/layui/lay/modules/laydate.js
+2018/12/23 00:29:50.481 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.365367ms|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:31:58.285 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.580562ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 00:31:58.322 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    368.163µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/23 00:32:24.009 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:32:26.114 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:32:26.849 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.755404ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 00:32:26.863 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.284046ms| nomatch|[44m GET     [0m /captcha/3K0VJKeCGRsJv6R.png
+2018/12/23 00:32:26.865 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.380019ms|   match|[44m GET     [0m /static/css/style.css
+2018/12/23 00:32:26.866 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   6.581795ms|   match|[44m GET     [0m /static/img/cat.jpeg
+2018/12/23 00:32:26.867 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   6.939095ms|   match|[44m GET     [0m /static/js/particles.min.js
+2018/12/23 00:32:26.875 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.438759ms|   match|[44m GET     [0m /static/img/bj.jpg
+2018/12/23 00:32:45.043 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:32:45.877 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    6.33355ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 00:32:47.129 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:33:26.088 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  12.265004ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 00:44:55.397 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.795889ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 00:46:48.307 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.987991ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 00:47:20.321 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     965.76µs|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 00:47:20.409 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 00:47:25.042 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    8.36337ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 00:47:26.784 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.531533ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 00:50:49.174 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.879973ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 00:50:49.931 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.250592ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:01:29.794 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.390868ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:02:03.181 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.190261ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:02:05.133 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.713217ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:02:05.581 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.946871ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:02:06.098 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.692775ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:03:18.160 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.552739ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:03:19.184 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   8.037338ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:03:23.016 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.330817ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:03:23.766 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.458318ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:03:59.610 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.980195ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:04:00.440 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.392526ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:04:20.917 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.814454ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:04:21.171 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.530065ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:04:21.460 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   6.141298ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:04:21.673 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.956179ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:04:21.894 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   6.280822ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:04:22.065 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    1.58599ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:04:22.276 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  11.619248ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:04:22.432 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.291443ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:04:22.623 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.798583ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:04:25.406 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.011421ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:04:25.970 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.148954ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:04:26.440 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    4.76125ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:04:34.498 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/23 01:04:42.065 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.155812ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:04:42.809 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     3.7369ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:04:43.108 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.663562ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:04:43.405 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.643452ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:04:43.655 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    4.71498ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:04:43.940 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.288551ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:06:48.660 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.315592ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:06:49.469 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.086658ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:06:49.915 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   9.565997ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:08:00.497 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.264101ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:08:05.782 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.138344ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/23 01:09:31.379 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.275998ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information

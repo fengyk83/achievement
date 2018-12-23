@@ -21,5 +21,5 @@ func (this *InformationController) Index() {
 	exam := models.NewExam().GetExam(userInformation.Gradeid,userInformation.Clazzid)
 	this.Data["exam"] = exam
 	this.Data["user"] = userInformation
-	this.TplName = "backstage/index.html";
+	this.TplName = "reception/information.html";
 }

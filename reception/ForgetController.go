@@ -1,8 +1,14 @@
 package reception
 
 import (
+	"achievement/models"
+	"crypto/md5"
+	"encoding/hex"
+	"fmt"
 	"github.com/astaxie/beego"
+	"math/rand"
 	"net/smtp"
+	"strconv"
 	"strings"
 )
 
@@ -34,4 +40,43 @@ func (this *ForgetController)Email(user, password, host, to, subject, body, mail
 	send_to := strings.Split(to, ";")
 	err := smtp.SendMail(host, auth, user, send_to, msg)
 	return err
+}
+
+//@router /forget/look [post]
+func (this *ForgetController) Forget() {
+	qq := this.GetString("qq")
+	code,_ := this.GetInt("code")
+	password := this.GetString("password")
+	if code == this.GetSession("code") {
+		h := md5.New()
+		h.Write([]byte(password))
+		student :=models.NewStudent().GetAccount(qq)
+		err := models.NewStudent().ModifyBatchStudent(student.Number,hex.EncodeToString(h.Sum(nil)))
+		fmt.Println(err)
+		if err == nil {
+			this.Data["json"] = map[string]interface{}{"name": 1, "message": "更新秘码成功"}
+		}else {
+			this.Data["json"] = map[string]interface{}{"name": 1, "message": "更新秘码成失败"}
+		}
+	}else {
+		this.Data["json"] = map[string]interface{}{"name": 1, "message": "验证码错误"}
+	}
+	this.ServeJSON()
+	this.TplName = "reception/forget.html"
+}
+
+//@router /forget/getcode [post]
+func (this *ForgetController) GetCode() {
+	qq := this.GetString("qq")
+	code := rand.Intn(9000)+1000
+	err := this.Email("2181550591@qq.com", "xsywrvvxqzwxebbi", "smtp.qq.com:25", qq+"@qq.com", "大橘猫",strconv.Itoa(code), "html")
+	if err == nil {
+		this.SetSession("code",code)
+		fmt.Println(this.GetSession("code"))
+		this.Data["json"] = map[string]interface{}{"name": 1, "message": "获取验证成功"}
+	}else {
+		this.Data["json"] = map[string]interface{}{"name": 1, "message": "获取验证失败"}
+	}
+	this.ServeJSON()
+	this.TplName = "reception/forget.html"
 }

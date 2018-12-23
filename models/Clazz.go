@@ -5,7 +5,7 @@ import "github.com/astaxie/beego/orm"
 type Clazz struct {
 	Id int
 	ClazzName string
-	Gradeid string
+	Gradeid int
 }
 
 func NewClazz() *Clazz  {

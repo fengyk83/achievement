@@ -16,6 +16,24 @@ func init() {
             Filters: nil,
             Params: nil})
 
+    beego.GlobalControllerRouter["achievement/reception:ForgetController"] = append(beego.GlobalControllerRouter["achievement/reception:ForgetController"],
+        beego.ControllerComments{
+            Method: "GetCode",
+            Router: `/forget/getcode`,
+            AllowHTTPMethods: []string{"post"},
+            MethodParams: param.Make(),
+            Filters: nil,
+            Params: nil})
+
+    beego.GlobalControllerRouter["achievement/reception:ForgetController"] = append(beego.GlobalControllerRouter["achievement/reception:ForgetController"],
+        beego.ControllerComments{
+            Method: "Forget",
+            Router: `/forget/look`,
+            AllowHTTPMethods: []string{"post"},
+            MethodParams: param.Make(),
+            Filters: nil,
+            Params: nil})
+
     beego.GlobalControllerRouter["achievement/reception:InformationController"] = append(beego.GlobalControllerRouter["achievement/reception:InformationController"],
         beego.ControllerComments{
             Method: "Index",
