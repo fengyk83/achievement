@@ -24,6 +24,8 @@ func init()  {
 /*返回登录首页*/
 // @router /login [get]
 func (c *LoginContorller)Login() {
+	c.XSRFExpire = 7200
+	c.Data["xsrf_token"] = c.XSRFToken()
 	c.TplName = "reception/index.html"
 }
 

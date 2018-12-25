@@ -20,7 +20,7 @@
     <div class="message">忘记密码</div>
     <div id="darkbannerwrap"></div>
     <div class="layui-form">
-        <input name="qq" id="qq" placeholder="请输入QQ号" type="text" lay-verify="required|qq" class="layui-input">
+        <input name="qq" id="qq" placeholder="请输入QQ邮箱" type="text" lay-verify="required|qq" class="layui-input">
         <hr class="hr15">
         <div class="layui-form-item">
             <div class="layui-input-block" style="float: left;margin-left: 0px;">
@@ -51,8 +51,8 @@
         //监听提交
         form.verify({
             qq: function (value) {
-                if (value.length < 6 || value.length > 10) {
-                    return '请输入正确的QQ号';
+                if (value == "") {
+                    return '请输入正确的QQ邮箱';
                 }
             },
             code: function (value) {

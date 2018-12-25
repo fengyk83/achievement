@@ -64,3 +64,4 @@ func (this *Exam)GetId(name string) int  {
 	return id
 }
 
+

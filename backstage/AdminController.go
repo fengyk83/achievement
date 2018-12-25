@@ -2,6 +2,8 @@ package backstage
 
 import (
 	"achievement/models"
+	"crypto/md5"
+	"encoding/hex"
 	"github.com/astaxie/beego"
 	"strconv"
 	"strings"
@@ -23,7 +25,6 @@ func (this *IdiomController)Idiom()  {
 	page,pageerr := this.GetInt("page")
 	limit,limiterr := this.GetInt("limit")
 	var users []models.User
-
 	if pageerr == nil && limiterr == nil && len(users) == 0  {
 		users = models.NewUser().GetMenager(page,limit);
 	}else {
@@ -58,7 +59,9 @@ func (this *IdiomController)Addtemenager()  {
 	if len(user) == 1 {
 		this.Data["json"] = map[string]interface{}{"code": 0, "msg": "添加的账号已经存在"}
 	}else {
-		models.NewUser().AddMenager(account,password,name)
+		h := md5.New()
+		h.Write([]byte(password))
+		models.NewUser().AddMenager(account,hex.EncodeToString(h.Sum(nil)),name)
 		this.Data["json"] = map[string]interface{}{"code": 0, "msg": "添加成功"}
 	}
 	this.ServeJSON()

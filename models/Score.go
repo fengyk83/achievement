@@ -1,12 +1,16 @@
 package models
 
-import "github.com/astaxie/beego/orm"
+import (
+	"fmt"
+	"github.com/astaxie/beego/orm"
+)
 
 type Score struct {
 	Examid int
 	Studentid int
 	Courseid int
 	Score int
+	Name string
 }
 
 func NewScore() *Score  {
@@ -37,4 +41,23 @@ func (this *Score)AddBatchSCore(score []Score) error  {
 		_,error =o.Raw(sql,scores.Examid,scores.Studentid,scores.Courseid,scores.Score).Exec()
 	}
 	return error
+}
+
+
+//获取学生的成绩
+func (this *Score)GetAll(examids,studentids int) []Score  {
+	var id []Score
+	qb,_ := orm.NewQueryBuilder("mysql")
+	qb.Select("course.name","escore.score").
+		From("escore").
+		InnerJoin("course").
+		Where("escore.courseid = course.id").
+		And("escore.studentid = ?").
+		And("escore.examid = ?")
+	sql := qb.String()
+	o := orm.NewOrm()
+	_,error:=o.Raw(sql,studentids,examids).QueryRows(&id)
+	fmt.Println(error)
+	fmt.Println(id)
+	return id
 }

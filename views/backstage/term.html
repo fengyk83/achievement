@@ -38,7 +38,7 @@
         </div>
         <div class="layui-form-item">
             <div class="layui-input-block">
-                <button class="layui-btn" lay-submit="" lay-filter="demo">添加</button>
+                <button class="layui-btn" lay-submit type="submit" lay-filter="demo">添加</button>
             </div>
         </div>
     </div>
@@ -96,6 +96,7 @@
         });
         //监听提交
         form.on('submit(demo)', function (data) {
+            console.log("0000000")
             let str = data.field.year + data.field.term;
             $.ajax({
                 type: "POST",
@@ -107,6 +108,8 @@
                 success: function (res) {
                     if (res.date == 1) {
                         layer.msg(res.message);
+                    }else {
+                        window.location.href="  "
                     }
                 },
                 error: function (data) {

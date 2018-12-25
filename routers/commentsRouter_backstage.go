@@ -124,6 +124,15 @@ func init() {
             Filters: nil,
             Params: nil})
 
+    beego.GlobalControllerRouter["achievement/backstage:LoginController"] = append(beego.GlobalControllerRouter["achievement/backstage:LoginController"],
+        beego.ControllerComments{
+            Method: "LeaveLogin",
+            Router: `/leavelogin`,
+            AllowHTTPMethods: []string{"get"},
+            MethodParams: param.Make(),
+            Filters: nil,
+            Params: nil})
+
     beego.GlobalControllerRouter["achievement/backstage:ScroeController"] = append(beego.GlobalControllerRouter["achievement/backstage:ScroeController"],
         beego.ControllerComments{
             Method: "ShowScore",

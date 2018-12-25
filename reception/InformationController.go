@@ -2,6 +2,7 @@ package reception
 
 import (
 	"achievement/models"
+	"fmt"
 	"github.com/astaxie/beego"
 )
 
@@ -16,10 +17,21 @@ func (this *InformationController) Index() {
 	//if !ok {
 	//	return
 	//}
-	account := "201301002"
+	account := this.GetSession("account").(string)
 	userInformation := 	models.NewStudent().GetInformation(account)
 	exam := models.NewExam().GetExam(userInformation.Gradeid,userInformation.Clazzid)
 	this.Data["exam"] = exam
 	this.Data["user"] = userInformation
-	this.TplName = "reception/information.html";
+	this.TplName = "reception/information.html"
+}
+
+//@router /admin/getItem [post]
+func (this *InformationController) GetScore() {
+	eaxmid,_:=this.GetInt("item")
+	studentid,_:=this.GetInt("id")
+	score:=models.NewScore().GetAll(eaxmid,studentid)
+	fmt.Println(score)
+	this.Data["json"] = map[string]interface{}{"code": 1, "msg": score}
+	this.ServeJSON()
+	this.TplName = "reception/information.html"
 }

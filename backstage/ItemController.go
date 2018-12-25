@@ -2,6 +2,7 @@ package backstage
 
 import (
 	"achievement/models"
+	"fmt"
 	"github.com/astaxie/beego"
 )
 
@@ -21,9 +22,11 @@ func (this *ItemController)ShowItem()  {
 //添加考试信息
 //@router /achievement/addexam [post]
 func (this *IndexController)AddExam()  {
+	fmt.Println(this.GetString("type")+"-------------------------"+this.GetString("time"))
 	error := models.NewExam().AddExam(this.GetString("type"),this.GetString("time"))
+	fmt.Println(error)
 	if error == nil {
-		this.Data["json"] = map[string]interface{}{"name": 1, "message": "考试添加成功"}
+		this.Data["json"] = map[string]interface{}{"name": 2, "message": "考试添加成功"}
 	}else {
 		this.Data["json"] = map[string]interface{}{"name": 1, "message": "考试添加失败"}
 	}

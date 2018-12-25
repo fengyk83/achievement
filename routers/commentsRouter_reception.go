@@ -36,6 +36,15 @@ func init() {
 
     beego.GlobalControllerRouter["achievement/reception:InformationController"] = append(beego.GlobalControllerRouter["achievement/reception:InformationController"],
         beego.ControllerComments{
+            Method: "GetScore",
+            Router: `/admin/getItem`,
+            AllowHTTPMethods: []string{"post"},
+            MethodParams: param.Make(),
+            Filters: nil,
+            Params: nil})
+
+    beego.GlobalControllerRouter["achievement/reception:InformationController"] = append(beego.GlobalControllerRouter["achievement/reception:InformationController"],
+        beego.ControllerComments{
             Method: "Index",
             Router: `/admin/information`,
             AllowHTTPMethods: []string{"get"},

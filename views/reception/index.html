@@ -39,7 +39,7 @@
                 <li><input type="password" id="password" autocomplete="off" placeholder="请输入密码" required lay-verify="required|password" class="layui-input"></li>
                 <li><input type="text" id="captcha" autocomplete="off" placeholder="请输入验证码" required lay-verify="required|captcha" class="layui-input"><span class="yzm2">{{ create_captcha }}</span></li>
                 <li><button class="btn" lay-submit lay-filter="login" type="submit">登 录</button></li>
-                <li class="tar"><a href="忘记密码.html">忘记密码？</a></li>
+                <li class="tar"><a href="/reception/forget">忘记密码？</a></li>
             </ul>
         {{/*</form>*/}}
     </div>
@@ -52,6 +52,25 @@
         let $ = layui.jquery,
                 layer = layui.layer,
                 form = layui.form;
+        var ajax = $.ajax;
+        $.extend({
+            ajax: function(url, options) {
+                if (typeof url === 'object') {
+                    options = url;
+                    url = undefined;
+                }
+                options = options || {};
+                url = options.url;
+                var xsrftoken = $('meta[name=_xsrf]').attr('content');
+                var headers = options.headers || {};
+                var domain = document.domain.replace(/\./ig, '\\.');
+                if (!/^(http:|https:).*/.test(url) || eval('/^(http:|https:)\\/\\/(.+\\.)*' + domain + '.*/').test(url)) {
+                    headers = $.extend(headers, {'X-Xsrftoken':xsrftoken});
+                }
+                options.headers = headers;
+                return ajax(url, options);
+            }
+        });
         form.verify({
             school: function(value){
                 if(value.length != 11 || isNaN(value)) {

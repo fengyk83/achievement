@@ -48,6 +48,7 @@ func (this *ForgetController) Forget() {
 	code,_ := this.GetInt("code")
 	password := this.GetString("password")
 	if code == this.GetSession("code") {
+		//md5加密
 		h := md5.New()
 		h.Write([]byte(password))
 		student :=models.NewStudent().GetAccount(qq)
@@ -68,9 +69,12 @@ func (this *ForgetController) Forget() {
 //@router /forget/getcode [post]
 func (this *ForgetController) GetCode() {
 	qq := this.GetString("qq")
+	//生成随即数
 	code := rand.Intn(9000)+1000
-	err := this.Email("2181550591@qq.com", "xsywrvvxqzwxebbi", "smtp.qq.com:25", qq+"@qq.com", "大橘猫",strconv.Itoa(code), "html")
+	//发送邮件
+	err := this.Email("2181550591@qq.com", "xsywrvvxqzwxebbi", "smtp.qq.com:25", qq, "大橘猫",strconv.Itoa(code), "html")
 	if err == nil {
+		//保存验证码
 		this.SetSession("code",code)
 		fmt.Println(this.GetSession("code"))
 		this.Data["json"] = map[string]interface{}{"name": 1, "message": "获取验证成功"}

@@ -2,7 +2,8 @@ package backstage
 
 import (
 	"achievement/models"
-	"fmt"
+	"crypto/md5"
+	"encoding/hex"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/validation"
 )
@@ -28,8 +29,9 @@ func (this *LoginController)JudgeLogin()  {
 		}
 		this.Data["json"] = map[string]interface{}{"name": 0, "message": "你输入的账号或密码不正确"}
 	}
-	fmt.Println(this.GetString("school"))
-	user := models.NewUser().LoginJudge(this.GetString("school"),this.GetString("password"))
+	h := md5.New()
+	h.Write([]byte(this.GetString("password")))
+	user := models.NewUser().LoginJudge(this.GetString("school"),hex.EncodeToString(h.Sum(nil)))
 	if len(user) == 0 {
 
 		this.Data["json"] = map[string]interface{}{"name": 0, "message": "你输入的账号或密码不正确"}
@@ -42,6 +44,13 @@ func (this *LoginController)JudgeLogin()  {
 		}
 	}
 	this.ServeJSON()
+	this.TplName = "backstage/login.html"
+}
+
+//退出
+//@router /leavelogin [get]
+func (this *LoginController)LeaveLogin()  {
+	this.DestroySession()
 	this.TplName = "backstage/login.html"
 }
 
