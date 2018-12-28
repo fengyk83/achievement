@@ -62,3 +62,9 @@ func (this *IdiomController)AddScore()  {
 	this.ServeJSON()
 	this.TplName = "backstage/score.html"
 }
+
+//成绩查询
+//@router /achievement/selectscore [post]
+func (this *IdiomController)SelectScore()  {
+
+}

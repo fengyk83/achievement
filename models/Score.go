@@ -13,6 +13,17 @@ type Score struct {
 	Name string
 }
 
+type ScoreInformation struct {
+	Number string
+	Name string
+	Sex string
+	ClazzName string
+	GradeName string
+	ExamName string
+	CourseName string
+	Score int
+}
+
 func NewScore() *Score  {
 	return &Score{}
 }
@@ -60,4 +71,36 @@ func (this *Score)GetAll(examids,studentids int) []Score  {
 	fmt.Println(error)
 	fmt.Println(id)
 	return id
+}
+
+/*
+
+type ScoreInformation struct {
+	Number string
+	Name string
+	Sex string
+	ClazzName string
+	GradeName string
+	ExamName string
+	CourseName string
+	Score int
+}
+
+*/
+//查询学生的成绩
+func (this *Score)SelectAll() []ScoreInformation {
+	var score []ScoreInformation
+	qb,_ := orm.NewQueryBuilder("mysql")
+	qb.Select("student.number","student.name","student.sex","clazz.clazz_name").
+		From("student").
+		InnerJoin("clazz").
+		Where("student.clazzid = clazz.id").
+		InnerJoin("grade").
+		Where("student.gradeid = clazz.id")
+	sql := qb.String()
+	o := orm.NewOrm()
+	_,error:=o.Raw(sql).QueryRows(&score)
+	fmt.Println(error)
+	fmt.Println(score)
+	return score
 }

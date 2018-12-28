@@ -6,7 +6,7 @@ import (
 
 type Exam struct {
 	Id int
-	Name string
+	ExamName string
 	Time string
 }
 
@@ -44,7 +44,7 @@ func (this *Exam)GetAllExam() []Exam  {
 
 func (this *Exam)AddExam(name,time string) error  {
 	qb,_ := orm.NewQueryBuilder("mysql")
-	qb.InsertInto("exam","name","time").
+	qb.InsertInto("exam","exam_name","time").
 		Values("?","?")
 	sql := qb.String()
 	o := orm.NewOrm()

@@ -1,1 +1,174 @@
 2018/12/25 01:40:30.370 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    607.974µs|   match|[44m GET     [0m /static/layui/css/modules/layer/default/icon.png
+2018/12/27 21:37:34.821 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/27 21:37:49.829 [D] [server.go:2741]  |            ::1|[47m 302 [0m|     57.734µs| nomatch|[44m GET     [0m /reception/admin/information
+2018/12/27 21:37:49.835 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     849.45µs|   match|[44m GET     [0m /reception/login   r:reception/login
+2018/12/27 21:37:49.875 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    317.869µs|   match|[44m GET     [0m /static/css/style.css
+2018/12/27 21:37:49.880 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.817169ms|   match|[44m GET     [0m /static/img/cat.jpeg
+2018/12/27 21:37:49.886 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    510.549µs|   match|[44m GET     [0m /static/layui/layui.js
+2018/12/27 21:37:49.887 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.188396ms|   match|[44m GET     [0m /static/js/particles.min.js
+2018/12/27 21:37:49.888 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    3.79709ms| nomatch|[44m GET     [0m /captcha/KIefBjCl7Ns1hrq.png
+2018/12/27 21:37:49.909 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    448.748µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/27 21:37:49.912 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.726447ms|   match|[44m GET     [0m /static/img/bj.jpg
+2018/12/27 21:37:50.074 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    505.514µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/27 21:37:50.109 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.895286ms|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2018/12/27 21:37:50.111 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.721878ms|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/27 21:37:50.189 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    220.787µs| nomatch|[44m GET     [0m /favicon.ico
+2018/12/27 21:38:02.373 [D] [server.go:2741]  |            ::1|[47m 302 [0m|     46.179µs| nomatch|[44m GET     [0m /back/achievement/inde
+2018/12/27 21:38:02.378 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    545.282µs|   match|[44m GET     [0m /back/backlogin   r:back/backlogin
+2018/12/27 21:38:02.410 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.180725ms|   match|[44m GET     [0m /static/css/font.css
+2018/12/27 21:38:02.413 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.215966ms|   match|[44m GET     [0m /static/css/weadmin.css
+2018/12/27 21:38:02.424 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    993.387µs|   match|[44m GET     [0m /static/layui/css/layui.css
+2018/12/27 21:38:02.467 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    869.323µs|   match|[44m GET     [0m /static/img/bg.png
+2018/12/27 21:38:02.468 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    348.337µs|   match|[44m GET     [0m /static/img/aiwrap.png
+2018/12/27 21:38:02.674 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.472538ms|   match|[44m GET     [0m /static/js/admin.js
+2018/12/27 21:38:02.689 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    384.386µs|   match|[44m GET     [0m /static/layui/lay/modules/element.js
+2018/12/27 21:38:41.978 [A] [LoginController.go:28]  captcha+++++++请您输入验证码 
+2018/12/27 21:38:41.981 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.840101ms|   match|[46m POST    [0m /back/backlogin/judge   r:back/backlogin/judge
+2018/12/27 21:38:42.002 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.065325ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/27 21:38:42.030 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.192673ms|   match|[44m GET     [0m /static/css/information.css
+2018/12/27 21:38:42.047 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    635.623µs|   match|[44m GET     [0m /static/fonts/iconfont.woff
+2018/12/27 21:38:42.047 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    801.326µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/27 21:38:42.069 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    112.954µs|   match|[44m GET     [0m /static/js/admin.js
+2018/12/27 21:38:42.077 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    336.928µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/27 21:38:42.103 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    178.506µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/27 21:38:42.105 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    117.628µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/27 21:38:42.170 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.008774ms|   match|[44m GET     [0m /static/layui/lay/modules/layedit.js
+2018/12/27 21:38:42.182 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    264.374µs|   match|[44m GET     [0m /static/layui/lay/modules/element.js
+2018/12/27 21:38:42.188 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    726.415µs|   match|[44m GET     [0m /static/layui/lay/modules/laydate.js
+2018/12/27 21:38:42.202 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    704.789µs|   match|[44m GET     [0m /static/layui/font/iconfont.woff
+2018/12/27 21:38:42.221 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    402.505µs|   match|[44m GET     [0m /static/layui/css/modules/laydate/default/laydate.css
+2018/12/27 21:38:47.505 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     831.22µs|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/27 21:38:47.543 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.522792ms|   match|[44m GET     [0m /static/css/manager.css
+2018/12/27 21:38:47.587 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    365.013µs|   match|[44m GET     [0m /static/layui/lay/modules/upload.js
+2018/12/27 21:39:16.599 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.736162ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/27 21:39:17.441 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.167157ms|   match|[44m GET     [0m /back/achievement/showadmin   r:back/achievement/showadmin
+2018/12/27 21:39:17.457 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.714021ms|   match|[44m GET     [0m /static/css/menege.css
+2018/12/27 21:39:17.467 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    112.158µs|   match|[44m GET     [0m /static/layui/lay/modules/laydate.js
+2018/12/27 21:39:17.484 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     415.82µs|   match|[44m GET     [0m /static/layui/lay/modules/laypage.js
+2018/12/27 21:39:17.493 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    531.407µs|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2018/12/27 21:39:17.501 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    134.343µs|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2018/12/27 21:39:17.538 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    1.72847ms|   match|[44m GET     [0m /static/layui/lay/modules/table.js
+2018/12/27 21:39:17.546 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    236.998µs|   match|[44m GET     [0m /static/layui/lay/modules/laytpl.js
+2018/12/27 21:39:17.549 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     72.846µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2018/12/27 21:39:17.554 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.162539ms|   match|[44m GET     [0m /static/layui/lay/modules/util.js
+2018/12/27 21:39:17.565 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    210.345µs|   match|[44m GET     [0m /static/layui/lay/modules/carousel.js
+2018/12/27 21:39:17.568 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     59.913µs|   match|[44m GET     [0m /static/layui/lay/modules/upload.js
+2018/12/27 21:39:17.577 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     86.678µs|   match|[44m GET     [0m /static/layui/lay/modules/element.js
+2018/12/27 21:39:17.581 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    310.023µs|   match|[44m GET     [0m /static/layui/lay/modules/slider.js
+2018/12/27 21:39:17.615 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    679.404µs|   match|[44m GET     [0m /back/achievement/showmenager   r:back/achievement/showmenager
+2018/12/27 21:39:21.006 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.264403ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/27 21:39:21.121 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    107.767µs|   match|[44m GET     [0m /static/layui/lay/modules/layedit.js
+2018/12/27 21:39:21.128 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    142.088µs|   match|[44m GET     [0m /static/layui/lay/modules/laydate.js
+2018/12/27 21:39:21.773 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    955.591µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/27 21:40:08.372 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.313287ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/27 21:42:35.936 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     576.36µs|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/27 21:42:35.975 [D] [server.go:2741]  |            ::1|[42m 200 [0m|      385.3µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/27 21:42:36.181 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    382.359µs|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/27 21:42:36.187 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.060438ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/27 21:43:12.370 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    654.582µs|   match|[44m GET     [0m /back/achievement/showadmin   r:back/achievement/showadmin
+2018/12/27 21:43:12.512 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.625647ms|   match|[44m GET     [0m /back/achievement/showmenager   r:back/achievement/showmenager
+2018/12/27 22:07:19.632 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.292633ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/27 22:07:19.710 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    437.773µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/27 22:07:19.895 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    871.309µs|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/27 22:07:19.908 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.224091ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/27 22:07:19.922 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.422275ms|   match|[44m GET     [0m /back/achievement/showadmin   r:back/achievement/showadmin
+2018/12/27 22:07:20.126 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    156.416µs|   match|[44m GET     [0m /static/layui/lay/modules/table.js
+2018/12/27 22:07:20.136 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     68.867µs|   match|[44m GET     [0m /static/layui/lay/modules/laytpl.js
+2018/12/27 22:07:20.141 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    145.371µs|   match|[44m GET     [0m /static/layui/lay/modules/laypage.js
+2018/12/27 22:07:20.159 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     59.041µs|   match|[44m GET     [0m /static/layui/lay/modules/util.js
+2018/12/27 22:07:20.180 [D] [server.go:2741]  |            ::1|[43m 404 [0m|   1.057998ms| nomatch|[44m GET     [0m /demo/table/user/
+2018/12/27 22:07:20.228 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    588.617µs|   match|[44m GET     [0m /back/achievement/showmenager   r:back/achievement/showmenager
+2018/12/27 22:07:20.730 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.835042ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/27 22:07:20.815 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    883.825µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/27 22:07:20.998 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.068241ms|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/27 22:07:21.016 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.162236ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/27 22:07:21.044 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.301588ms|   match|[44m GET     [0m /back/achievement/showadmin   r:back/achievement/showadmin
+2018/12/27 22:07:21.259 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    137.071µs| nomatch|[44m GET     [0m /demo/table/user/
+2018/12/27 22:07:21.292 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    562.774µs|   match|[44m GET     [0m /back/achievement/showmenager   r:back/achievement/showmenager
+2018/12/28 04:27:11.727 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 04:27:51.993 [D] [server.go:2741]  |            ::1|[47m 302 [0m|    107.313µs| nomatch|[44m GET     [0m /reception/admin/information
+2018/12/28 04:27:52.011 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    843.858µs|   match|[44m GET     [0m /reception/login   r:reception/login
+2018/12/28 04:27:52.063 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    3.89268ms| nomatch|[44m GET     [0m /captcha/XuC5gywAwWCYx60.png
+2018/12/28 04:29:36.335 [D] [server.go:2741]  |            ::1|[47m 302 [0m|     53.161µs| nomatch|[44m GET     [0m /reception/admin/information
+2018/12/28 04:29:36.339 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    865.764µs|   match|[44m GET     [0m /reception/login   r:reception/login
+2018/12/28 04:29:36.394 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.425919ms| nomatch|[44m GET     [0m /captcha/nObZuloyUpMOv9y.png
+2018/12/28 04:31:34.755 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.587296ms|   match|[46m POST    [0m /reception/login/judge   r:reception/login/judge
+2018/12/28 04:31:37.860 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    2.31862ms| nomatch|[44m GET     [0m /captcha/nObZuloyUpMOv9y.png
+2018/12/28 04:31:50.468 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.378823ms|   match|[46m POST    [0m /reception/login/judge   r:reception/login/judge
+2018/12/28 04:31:50.507 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.067118ms|   match|[44m GET     [0m /reception/admin/information   r:reception/admin/information
+2018/12/28 04:31:59.612 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.398105ms|   match|[46m POST    [0m /reception/admin/getItem   r:reception/admin/getItem
+2018/12/28 04:32:18.516 [D] [server.go:2741]  |            ::1|[47m 302 [0m|     41.865µs| nomatch|[44m GET     [0m /back/achievement/inde
+2018/12/28 04:32:18.525 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    772.946µs|   match|[44m GET     [0m /back/backlogin   r:back/backlogin
+2018/12/28 04:32:42.406 [A] [LoginController.go:28]  captcha+++++++请您输入验证码 
+2018/12/28 04:32:42.408 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.839499ms|   match|[46m POST    [0m /back/backlogin/judge   r:back/backlogin/judge
+2018/12/28 04:32:42.435 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.606858ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/28 04:32:42.477 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    580.782µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/28 04:32:44.075 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.792081ms|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/28 04:32:44.189 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    176.609µs| nomatch|[44m GET     [0m /demo/table/user/
+2018/12/28 04:33:07.265 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.558563ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/28 04:33:08.960 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.106735ms|   match|[44m GET     [0m /back/achievement/showadmin   r:back/achievement/showadmin
+2018/12/28 04:33:09.086 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    724.777µs|   match|[44m GET     [0m /back/achievement/showmenager   r:back/achievement/showmenager
+2018/12/28 04:33:13.678 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.373396ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/28 04:33:53.874 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     688.06µs|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/28 04:33:53.903 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    562.351µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/28 04:33:54.083 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    1.91508ms|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/28 04:33:54.100 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    3.05442ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/28 04:33:54.113 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.861712ms|   match|[44m GET     [0m /back/achievement/showadmin   r:back/achievement/showadmin
+2018/12/28 04:33:54.130 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   6.361119ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/28 04:33:54.384 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    160.599µs| nomatch|[44m GET     [0m /demo/table/user/
+2018/12/28 04:33:54.411 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    516.493µs|   match|[44m GET     [0m /back/achievement/showmenager   r:back/achievement/showmenager
+2018/12/28 04:34:02.386 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.941243ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/28 04:34:02.462 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    380.047µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/28 04:34:02.647 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    507.484µs|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/28 04:34:02.652 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    899.579µs|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/28 04:34:02.656 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    683.427µs|   match|[44m GET     [0m /back/achievement/showadmin   r:back/achievement/showadmin
+2018/12/28 04:34:02.660 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.136484ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/28 04:34:02.878 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    129.105µs| nomatch|[44m GET     [0m /demo/table/user/
+2018/12/28 04:34:02.916 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    569.746µs|   match|[44m GET     [0m /back/achievement/showmenager   r:back/achievement/showmenager
+2018/12/28 04:34:05.505 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.239711ms|   match|[44m GET     [0m /back/achievement/index   r:back/achievement/index
+2018/12/28 04:34:05.552 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    287.086µs|   match|[44m GET     [0m /back/achievement/showitips   r:back/achievement/showitips
+2018/12/28 04:34:05.745 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.805808ms|   match|[44m GET     [0m /back/achievement/showscore   r:back/achievement/showscore
+2018/12/28 04:34:05.765 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.408643ms|   match|[44m GET     [0m /back/achievement/showitem   r:back/achievement/showitem
+2018/12/28 04:34:05.782 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.221914ms|   match|[44m GET     [0m /back/achievement/showadmin   r:back/achievement/showadmin
+2018/12/28 04:34:05.800 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.496882ms|   match|[44m GET     [0m /back/achievement/showidiom   r:back/achievement/showidiom
+2018/12/28 04:34:06.043 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    125.605µs| nomatch|[44m GET     [0m /demo/table/user/
+2018/12/28 04:34:06.099 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    591.217µs|   match|[44m GET     [0m /back/achievement/showmenager   r:back/achievement/showmenager
+2018/12/28 04:36:35.701 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 04:36:38.222 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 04:36:43.138 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 04:36:45.263 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 04:37:08.051 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 04:37:11.449 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 04:39:31.155 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 04:39:34.174 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 04:41:57.773 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 04:44:02.379 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 04:45:28.906 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 04:45:53.500 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 04:46:06.559 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 04:50:15.767 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 05:38:22.068 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 05:41:12.899 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 05:44:44.465 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 05:44:46.621 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 05:45:27.418 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 05:45:29.711 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 05:45:35.657 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 05:45:43.168 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 05:45:48.235 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 05:50:38.672 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 05:51:04.544 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 05:53:46.654 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 05:54:42.164 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 05:55:13.384 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 05:55:41.792 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 05:56:50.397 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 05:56:53.299 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 05:57:00.787 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 05:57:35.830 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 05:57:43.669 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 05:57:53.656 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 05:58:01.545 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 05:58:28.454 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 05:58:39.413 [I] [asm_amd64.s:1333]  http server Running on http://:9999
+2018/12/28 05:59:36.378 [I] [asm_amd64.s:1333]  http server Running on http://:9999
