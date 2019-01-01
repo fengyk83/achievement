@@ -21,7 +21,24 @@ func (u *User)LoginJudge(account string,password string)  []User {
 	qb.Select("user.account").
 		From("user").
 		Where("account = ?").
-		And("password = ?")
+		And("password = ?").And("type != 2")
+	//返回sql语句
+	sql := qb.String()
+	// 执行 SQL 语句
+	o := orm.NewOrm()
+	o.Raw(sql,account,password).QueryRows(&users)
+	return users
+}
+
+//登陆判断
+func (u *User)ReceptionLoginJudge(account string,password string)  []User {
+	var users []User
+	qb,_:=orm.NewQueryBuilder("mysql")
+	// 构建查询对象
+	qb.Select("user.account").
+		From("user").
+		Where("account = ?").
+		And("password = ?").And("type = 2")
 	//返回sql语句
 	sql := qb.String()
 	// 执行 SQL 语句

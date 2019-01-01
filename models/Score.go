@@ -3,6 +3,7 @@ package models
 import (
 	"fmt"
 	"github.com/astaxie/beego/orm"
+	"strconv"
 )
 
 type Score struct {
@@ -22,6 +23,7 @@ type ScoreInformation struct {
 	ExamName string
 	CourseName string
 	Score int
+	Time string
 }
 
 func NewScore() *Score  {
@@ -84,23 +86,49 @@ type ScoreInformation struct {
 	ExamName string
 	CourseName string
 	Score int
+	Time string
 }
 
 */
 //查询学生的成绩
-func (this *Score)SelectAll() []ScoreInformation {
+func (this *Score)SelectAll(page,limit, class int,school string) []ScoreInformation {
 	var score []ScoreInformation
+	page = (page-1)*10
 	qb,_ := orm.NewQueryBuilder("mysql")
-	qb.Select("student.number","student.name","student.sex","clazz.clazz_name").
-		From("student").
-		InnerJoin("clazz").
+	qb.Select("student.number","student.name","student.sex","clazz.clazz_name","grade.grade_name","escore.score","course.name as course_name","exam.exam_name","exam.time").
+		From("student,clazz,grade,escore,course,exam").
 		Where("student.clazzid = clazz.id").
-		InnerJoin("grade").
-		Where("student.gradeid = clazz.id")
+		And("student.gradeid = grade.id").
+		And("student.id = escore.studentid").
+		And("escore.courseid = course.id").
+		And("exam.id = escore.examid")
+
+	if class != -1 {
+		qb.And("clazz.id = "+strconv.Itoa(class))
+	}
+	if school != ""{
+		qb.And("student.number = "+school)
+	}
+	qb.Limit(limit).
+		Offset(page)
 	sql := qb.String()
+	fmt.Println(sql)
 	o := orm.NewOrm()
 	_,error:=o.Raw(sql).QueryRows(&score)
 	fmt.Println(error)
 	fmt.Println(score)
 	return score
+}
+
+
+//查询学生的成绩的总数
+func (this *Score)SelectCount() int {
+	var score []int
+	qb,_ := orm.NewQueryBuilder("mysql")
+	qb.Select("escore.id").
+		From("escore")
+	sql := qb.String()
+	o := orm.NewOrm()
+	o.Raw(sql).QueryRows(&score)
+	return len(score)
 }

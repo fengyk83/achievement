@@ -15,6 +15,7 @@ type ScroeController struct {
 //展示成绩
 //@router /achievement/showscore [get]
 func (this *ScroeController)ShowScore()  {
+	this.Data["clazz"] = models.NewClazz().GetClazz()
 	this.TplName ="backstage/score.html"
 }
 
@@ -64,7 +65,19 @@ func (this *IdiomController)AddScore()  {
 }
 
 //成绩查询
-//@router /achievement/selectscore [post]
+//@router /achievement/selectallscore [get]
 func (this *IdiomController)SelectScore()  {
-
+	page,pageerr := this.GetInt("page")
+	limit,limiterr := this.GetInt("limit")
+	class,_ := this.GetInt("class")
+	school := this.GetString("school")
+	var score []models.ScoreInformation
+	if pageerr == nil && limiterr == nil && len(score) == 0  {
+		score = models.NewScore().SelectAll(page,limit,class,school);
+	}else {
+		score = models.NewScore().SelectAll(1,10,class,school);
+	}
+	this.Data["json"] = map[string]interface{}{"code": 0, "count": models.NewScore().SelectCount(),"data":score}
+	this.ServeJSON()
+	this.TplName = "backstage/score.html"
 }

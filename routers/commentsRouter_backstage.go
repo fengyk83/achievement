@@ -64,8 +64,8 @@ func init() {
     beego.GlobalControllerRouter["achievement/backstage:IdiomController"] = append(beego.GlobalControllerRouter["achievement/backstage:IdiomController"],
         beego.ControllerComments{
             Method: "SelectScore",
-            Router: `/achievement/selectscore`,
-            AllowHTTPMethods: []string{"post"},
+            Router: `/achievement/selectallscore`,
+            AllowHTTPMethods: []string{"get"},
             MethodParams: param.Make(),
             Filters: nil,
             Params: nil})

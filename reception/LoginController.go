@@ -48,7 +48,7 @@ func (c *LoginContorller)Post() {
 	}
 	h := md5.New()
 	h.Write([]byte(c.GetString("password")))
-	user := models.NewUser().LoginJudge(c.GetString("school"),hex.EncodeToString(h.Sum(nil)))
+	user := models.NewUser().ReceptionLoginJudge(c.GetString("school"),hex.EncodeToString(h.Sum(nil)))
 	if !captchaBoolean || len(user) == 0 {
 		if !captchaBoolean {
 			c.Data["json"] = map[string]interface{}{"name": -1, "message": "你输入的验证码不正确"}
