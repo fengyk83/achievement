@@ -1,0 +1,100 @@
+swagger: "2.0"
+info: {}
+basePath: reception
+paths:
+  /achievement/addexam:
+    post:
+      tags:
+      - achievement/backstageIndexController
+  /achievement/addidiom:
+    post:
+      tags:
+      - achievement/backstageIdiomController
+  /achievement/addmenager:
+    post:
+      tags:
+      - achievement/backstageIdiomController
+  /achievement/addscore:
+    post:
+      tags:
+      - achievement/backstageIdiomController
+  /achievement/deletemenager:
+    post:
+      tags:
+      - achievement/backstageIdiomController
+  /achievement/excel:
+    post:
+      tags:
+      - achievement/backstageIdiomController
+  /achievement/index:
+    get:
+      tags:
+      - achievement/backstageIndexController
+  /achievement/selectallscore:
+    get:
+      tags:
+      - achievement/backstageIdiomController
+  /achievement/showadmin:
+    get:
+      tags:
+      - achievement/backstageAdminController
+  /achievement/showidiom:
+    get:
+      tags:
+      - achievement/backstageIdiomController
+  /achievement/showitem:
+    get:
+      tags:
+      - achievement/backstageItemController
+  /achievement/showitips:
+    get:
+      tags:
+      - achievement/backstageTipsController
+  /achievement/showmenager:
+    get:
+      tags:
+      - achievement/backstageIdiomController
+  /achievement/showscore:
+    get:
+      tags:
+      - achievement/backstageScroeController
+  /admin/getItem:
+    post:
+      tags:
+      - achievement/receptionInformationController
+  /admin/information:
+    get:
+      tags:
+      - achievement/receptionInformationController
+  /backlogin:
+    get:
+      tags:
+      - achievement/backstageLoginController
+  /backlogin/judge:
+    post:
+      tags:
+      - achievement/backstageLoginController
+  /forget:
+    get:
+      tags:
+      - achievement/receptionForgetController
+  /forget/getcode:
+    post:
+      tags:
+      - achievement/receptionForgetController
+  /forget/look:
+    post:
+      tags:
+      - achievement/receptionForgetController
+  /leavelogin:
+    get:
+      tags:
+      - achievement/backstageLoginController
+  /login:
+    get:
+      tags:
+      - achievement/receptionLoginContorller
+  /login/judge:
+    post:
+      tags:
+      - achievement/receptionLoginContorller

@@ -22,7 +22,6 @@ func (this *ItemController)ShowItem()  {
 //添加考试信息
 //@router /achievement/addexam [post]
 func (this *IndexController)AddExam()  {
-	fmt.Println(this.GetString("type")+"-------------------------"+this.GetString("time"))
 	error := models.NewExam().AddExam(this.GetString("type"),this.GetString("time"))
 	fmt.Println(error)
 	if error == nil {

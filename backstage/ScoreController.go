@@ -45,9 +45,9 @@ func (this *IdiomController)AddScore()  {
 					}
 				}
 				error :=models.NewScore().AddBatchSCore(score)
-				fmt.Println(error)
 				if error == nil {
 					this.Data["json"] = map[string]interface{}{"name": 0, "message": "上传文件成功"}
+					this.Delete()
 				}else{
 					this.Data["json"] = map[string]interface{}{"name": 0, "message": error}
 				}
