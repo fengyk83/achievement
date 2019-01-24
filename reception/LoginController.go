@@ -4,10 +4,14 @@ import (
 	"achievement/models"
 	"crypto/md5"
 	"encoding/hex"
+	"fmt"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/cache"
 	"github.com/astaxie/beego/utils/captcha"
 	"github.com/astaxie/beego/validation"
+	"io/ioutil"
+	"net/http"
+	"net/url"
 	"regexp"
 )
 
@@ -65,5 +69,43 @@ func (c *LoginContorller)Post() {
 
 //@router /github [get]
 func (c *LoginContorller)GithubCallback()  {
-	//c.TplName = "reception/index.html"
+	data := make(url.Values)
+	data["code"] = c.GetStrings("code")
+	data["client_id"] = []string{"e2cd16bc8436ab104785"}
+	data["client_secret"] = []string{"b7c2a499a71869b2110208c35be5e5f71d77b307"}
+	res,err := http.PostForm("https://github.com/login/oauth/access_token",data)
+	if err != nil {
+		fmt.Println(err)
+		c.TplName = "reception/index.html"
+	}
+	result,err := ioutil.ReadAll(res.Body)
+	if err != nil {
+		fmt.Println(err)
+		c.TplName = "reception/index.html"
+	}
+	fmt.Printf("%s", result)
+	fmt.Println(res)
+
+
+	u, _ := url.Parse("http://localhost:9001/xiaoyue")
+	q := u.Query()
+	q.Set("access_token", "user")
+	u.RawQuery = q.Encode()
+	res , er := http.Get(u.String())
+	defer res.Body.Close()
+	if er != nil {
+		fmt.Println(err)
+		c.TplName = "reception/index.html"
+	}
+	result,error := ioutil.ReadAll(res.Body)
+	if error != nil {
+		fmt.Println(err)
+		c.TplName = "reception/index.html"
+	}
+	fmt.Printf("%s", result)
+	c.TplName = "reception/information.html"
+}
+
+func (c *LoginContorller)LoginRedirect()  {
+	fmt.Println("")
 }

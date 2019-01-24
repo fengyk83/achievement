@@ -45,3 +45,72 @@
 2019/01/24 15:43:51.735 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.997231ms| nomatch|[44m GET     [0m /captcha/q9oxG4d486ywd4Y.png
 2019/01/24 15:43:51.925 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   10.61831ms| nomatch|[44m GET     [0m /captcha/q9oxG4d486ywd4Y.png
 2019/01/24 15:50:42.293 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 15:52:16.176 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:00:00.907 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:00:03.337 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:00:05.958 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    2.48458ms|   match|[44m GET     [0m /reception/login   r:reception/login
+2019/01/24 17:00:06.008 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.589986ms| nomatch|[44m GET     [0m /captcha/4cwBa1vSQW1ifI1.png
+2019/01/24 17:05:41.105 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:05:43.313 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:14:02.398 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:14:04.707 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:14:52.894 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:14:55.716 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:15:16.556 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:15:19.429 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:15:35.864 [C] [asm_amd64.s:522]  the request url is  /reception/github
+2019/01/24 17:15:35.864 [C] [asm_amd64.s:522]  Handler crashed with error can't find templatefile in the path:views/logincontorller/githubcallback.tpl
+2019/01/24 17:15:35.864 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2019/01/24 17:15:35.864 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2019/01/24 17:15:35.864 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/template.go:75
+2019/01/24 17:15:35.865 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:283
+2019/01/24 17:15:35.865 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:234
+2019/01/24 17:15:35.865 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:214
+2019/01/24 17:15:35.865 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:864
+2019/01/24 17:15:35.865 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2019/01/24 17:15:35.865 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2019/01/24 17:15:35.865 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2019/01/24 17:15:35.866 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2019/01/24 17:16:06.148 [C] [asm_amd64.s:522]  the request url is  /reception/github
+2019/01/24 17:16:06.148 [C] [asm_amd64.s:522]  Handler crashed with error can't find templatefile in the path:views/logincontorller/githubcallback.tpl
+2019/01/24 17:16:06.148 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2019/01/24 17:16:06.148 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2019/01/24 17:16:06.148 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/template.go:75
+2019/01/24 17:16:06.148 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:283
+2019/01/24 17:16:06.148 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:234
+2019/01/24 17:16:06.148 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/controller.go:214
+2019/01/24 17:16:06.148 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:864
+2019/01/24 17:16:06.148 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2019/01/24 17:16:06.148 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2019/01/24 17:16:06.148 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2019/01/24 17:16:06.149 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2019/01/24 17:16:07.382 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:16:09.667 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:16:10.055 [D] [server.go:2741]  |            ::1|[42m 200 [0m| 271.775423ms|   match|[44m GET     [0m /reception/github   r:reception/github
+2019/01/24 17:16:10.120 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  18.141515ms| nomatch|[44m GET     [0m /captcha/nGMLmg64yaQuKIR.png
+2019/01/24 17:20:10.801 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:20:13.274 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:21:10.931 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:21:13.086 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:21:19.925 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:21:22.163 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:22:34.242 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:22:36.321 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:29:19.632 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:29:21.964 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:31:48.358 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:31:50.508 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:32:04.182 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:32:06.367 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:33:04.167 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:33:06.872 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:52:41.643 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:52:43.912 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:53:16.724 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:53:18.966 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:53:25.649 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:53:27.858 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:55:32.189 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:55:34.811 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:56:58.031 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 17:57:00.859 [I] [asm_amd64.s:1333]  http server Running on http://:9998
