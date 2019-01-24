@@ -116,7 +116,11 @@ func (c *LoginContorller)GithubCallback()  {
 		c.TplName = "reception/index.html"
 	}
 	fmt.Println(string(result))
-	c.SetSession("account","20161514301")
+	account := "20161514301"
+	userInformation := 	models.NewStudent().GetInformation(account)
+	exam := models.NewExam().GetExam(userInformation.Gradeid,userInformation.Clazzid)
+	c.Data["exam"] = exam
+	c.Data["user"] = userInformation
 	c.TplName = "reception/information.html"
 }
 
