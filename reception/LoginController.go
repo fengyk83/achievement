@@ -89,7 +89,7 @@ func (c *LoginContorller)GithubCallback()  {
 		c.TplName = "reception/index.html"
 	}
 	//分割字符串access_token=4baa536a65c5b798e6776d7d84704e5bb94df98c&scope=user%3Aemail&token_type=bearer
-	assessToken := strings.Split(strings.Split(string(result),"&")[0],"=")[0]
+	assessToken := strings.Split(strings.Split(string(result),"&")[0],"=")[1]
 	fmt.Printf("%s---------------------", assessToken)
 	//fmt.Println(res)
 
