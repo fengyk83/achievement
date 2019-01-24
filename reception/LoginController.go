@@ -4,6 +4,7 @@ import (
 	"achievement/models"
 	"crypto/md5"
 	"encoding/hex"
+	"encoding/json"
 	"fmt"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/cache"
@@ -13,11 +14,13 @@ import (
 	"net/http"
 	"net/url"
 	"regexp"
+	"strings"
 )
 
 type LoginContorller struct {
 	beego.Controller
 }
+
 var cpt *captcha.Captcha
 
 func init()  {
@@ -67,6 +70,7 @@ func (c *LoginContorller)Post() {
 	c.TplName = "reception/index.html"
 }
 
+/*github第三方登录*/
 //@router /github [get]
 func (c *LoginContorller)GithubCallback()  {
 	data := make(url.Values)
@@ -84,13 +88,15 @@ func (c *LoginContorller)GithubCallback()  {
 		//fmt.Println(err)
 		c.TplName = "reception/index.html"
 	}
-	fmt.Printf("%s---------------------", string(result))
+	//分割字符串access_token=4baa536a65c5b798e6776d7d84704e5bb94df98c&scope=user%3Aemail&token_type=bearer
+	assessToken := strings.Split(strings.Split(string(result),"&")[0],"=")[0]
+	fmt.Printf("%s---------------------", assessToken)
 	//fmt.Println(res)
 
 
 	u, _ := url.Parse("https://api.github.com/user")
 	q := u.Query()
-	q.Set("access_token", "user")
+	q.Set("access_token", assessToken)
 	u.RawQuery = q.Encode()
 	res , er := http.Get(u.String())
 	defer res.Body.Close()
@@ -103,7 +109,9 @@ func (c *LoginContorller)GithubCallback()  {
 		//fmt.Println(err)
 		c.TplName = "reception/index.html"
 	}
-	fmt.Printf("%s+++++++++++++", result)
+	informtion :=make(map[string]string)
+	json.Unmarshal(result, &informtion)
+	fmt.Printf("%s+++++++++++++",informtion["message"])
 	c.TplName = "reception/index.html"
 }
 
