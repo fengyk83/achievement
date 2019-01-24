@@ -116,6 +116,7 @@ func (c *LoginContorller)GithubCallback()  {
 		c.TplName = "reception/index.html"
 	}
 	fmt.Println(string(result))
+	c.SetSession("account","20161514301")
 	c.TplName = "reception/information.html"
 }
 
