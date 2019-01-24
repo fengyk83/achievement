@@ -11,4 +11,8 @@ go get github.com/astaxie/beego/utils/captcha
 ##配置文件解析
 ```
 go get github.com/astaxie/beego/config
+
+
+
+go get github.com/Luxurioust/excelize
 ```
