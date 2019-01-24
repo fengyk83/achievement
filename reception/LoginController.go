@@ -112,6 +112,7 @@ func (c *LoginContorller)GithubCallback()  {
 	informtion :=make(map[string]string)
 	json.Unmarshal(result, &informtion)
 	fmt.Printf("%s+++++++++++++",informtion["message"])
+	fmt.Println(string(result))
 	c.TplName = "reception/index.html"
 }
 
