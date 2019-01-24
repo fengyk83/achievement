@@ -112,8 +112,11 @@ func (c *LoginContorller)GithubCallback()  {
 	informtion :=make(map[string]string)
 	json.Unmarshal(result, &informtion)
 	fmt.Printf("%s+++++++++++++",informtion["message"])
+	if informtion["message"] != "" {
+		c.TplName = "reception/index.html"
+	}
 	fmt.Println(string(result))
-	c.TplName = "reception/index.html"
+	c.TplName = "reception/information.html"
 }
 
 func (c *LoginContorller)LoginRedirect()  {
