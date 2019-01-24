@@ -114,3 +114,48 @@
 2019/01/24 17:55:34.811 [I] [asm_amd64.s:1333]  http server Running on http://:9998
 2019/01/24 17:56:58.031 [I] [asm_amd64.s:1333]  http server Running on http://:9998
 2019/01/24 17:57:00.859 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 19:18:39.162 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 19:19:03.146 [C] [asm_amd64.s:522]  the request url is  /reception/github
+2019/01/24 19:19:03.147 [C] [asm_amd64.s:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/01/24 19:19:03.147 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2019/01/24 19:19:03.147 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:513
+2019/01/24 19:19:03.147 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/panic.go:82
+2019/01/24 19:19:03.147 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/signal_unix.go:390
+2019/01/24 19:19:03.147 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/achievement/reception/LoginController.go:95
+2019/01/24 19:19:03.147 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:522
+2019/01/24 19:19:03.147 [C] [asm_amd64.s:522]  /usr/lib/golang/src/reflect/value.go:447
+2019/01/24 19:19:03.147 [C] [asm_amd64.s:522]  /usr/lib/golang/src/reflect/value.go:308
+2019/01/24 19:19:03.147 [C] [asm_amd64.s:522]  /home/sunjifeng/go/src/github.com/astaxie/beego/router.go:852
+2019/01/24 19:19:03.147 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:2741
+2019/01/24 19:19:03.147 [C] [asm_amd64.s:522]  /usr/lib/golang/src/net/http/server.go:1847
+2019/01/24 19:19:03.147 [C] [asm_amd64.s:522]  /usr/lib/golang/src/runtime/asm_amd64.s:1333
+2019/01/24 19:19:03.148 [server.go:2977]  [HTTP] http: multiple response.WriteHeader calls
+2019/01/24 19:19:25.292 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    826.452µs|   match|[44m GET     [0m /reception/login   r:reception/login
+2019/01/24 19:19:25.318 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.933153ms| nomatch|[44m GET     [0m /captcha/kYhbEaNOgnPja9e.png
+2019/01/24 19:21:26.567 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.132306ms|   match|[44m GET     [0m /reception/login   r:reception/login
+2019/01/24 19:21:26.592 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    3.87169ms| nomatch|[44m GET     [0m /captcha/qbED7L5FPdhv8Hm.png
+2019/01/24 19:21:51.872 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    884.349µs|   match|[44m GET     [0m /reception/login   r:reception/login
+2019/01/24 19:21:51.917 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.671387ms| nomatch|[44m GET     [0m /captcha/Ad2i6iG6pIYkfKZ.png
+2019/01/24 19:22:57.632 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 19:23:00.405 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 19:26:13.614 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 19:26:15.951 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 19:26:23.934 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 19:26:26.133 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 19:26:48.156 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.762425ms|   match|[44m GET     [0m /reception/login   r:reception/login
+2019/01/24 19:26:48.209 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.876234ms| nomatch|[44m GET     [0m /captcha/8wHZkdE1ePNmAwZ.png
+2019/01/24 19:27:23.056 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    804.052µs|   match|[44m GET     [0m /reception/login   r:reception/login
+2019/01/24 19:27:23.119 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.060574ms| nomatch|[44m GET     [0m /captcha/L4z3KaEZsc2NOdV.png
+2019/01/24 19:27:23.799 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   8.024698ms|   match|[44m GET     [0m /reception/login   r:reception/login
+2019/01/24 19:27:23.849 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.382366ms| nomatch|[44m GET     [0m /captcha/4BPy5Jc87O7jJfr.png
+2019/01/24 19:27:24.332 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    954.108µs|   match|[44m GET     [0m /reception/login   r:reception/login
+2019/01/24 19:27:24.385 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.417725ms| nomatch|[44m GET     [0m /captcha/c2sA5DoiNssfNGZ.png
+2019/01/24 19:27:24.659 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.339654ms|   match|[44m GET     [0m /reception/login   r:reception/login
+2019/01/24 19:27:24.786 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.275191ms| nomatch|[44m GET     [0m /captcha/IxD9CLr6Xjbn02L.png
+2019/01/24 19:27:24.967 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    676.086µs|   match|[44m GET     [0m /reception/login   r:reception/login
+2019/01/24 19:27:25.042 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    712.515µs|   match|[44m GET     [0m /reception/login   r:reception/login
+2019/01/24 19:27:25.121 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.590625ms| nomatch|[44m GET     [0m /captcha/HfGAfG5kSYW5wTd.png
+2019/01/24 19:27:25.370 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    957.062µs|   match|[44m GET     [0m /reception/login   r:reception/login
+2019/01/24 19:27:25.474 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.262418ms| nomatch|[44m GET     [0m /captcha/rVQZhRx1RxuDW1n.png
+2019/01/24 19:27:25.817 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    945.293µs|   match|[44m GET     [0m /reception/login   r:reception/login
+2019/01/24 19:27:25.891 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    7.48271ms| nomatch|[44m GET     [0m /captcha/uu4U4Vqfd3K5Pff.png

@@ -83,11 +83,11 @@ func (c *LoginContorller)GithubCallback()  {
 		fmt.Println(err)
 		c.TplName = "reception/index.html"
 	}
-	fmt.Printf("%s", result)
+	fmt.Printf("%s---------------------", string(result[0]))
 	fmt.Println(res)
 
 
-	u, _ := url.Parse("http://localhost:9001/xiaoyue")
+	u, _ := url.Parse("https://api.github.com/user")
 	q := u.Query()
 	q.Set("access_token", "user")
 	u.RawQuery = q.Encode()
