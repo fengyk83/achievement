@@ -84,7 +84,7 @@ func (c *LoginContorller)GithubCallback()  {
 		c.TplName = "reception/index.html"
 	}
 	fmt.Printf("%s---------------------", string(result[0]))
-	fmt.Println(res)
+	//fmt.Println(res)
 
 
 	u, _ := url.Parse("https://api.github.com/user")
@@ -94,15 +94,15 @@ func (c *LoginContorller)GithubCallback()  {
 	res , er := http.Get(u.String())
 	defer res.Body.Close()
 	if er != nil {
-		fmt.Println(err)
+		//fmt.Println(err)
 		c.TplName = "reception/index.html"
 	}
 	result,error := ioutil.ReadAll(res.Body)
 	if error != nil {
-		fmt.Println(err)
+		//fmt.Println(err)
 		c.TplName = "reception/index.html"
 	}
-	fmt.Printf("%s", result)
+	fmt.Printf("%s+++++++++++++", result)
 	c.TplName = "reception/information.html"
 }
 
