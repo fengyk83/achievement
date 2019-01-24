@@ -87,6 +87,7 @@ func (this *Student)GetAccount(qq string) Student  {
 		Where("student.qq = ?")
 	sql := qb.String()
 	o := orm.NewOrm()
+
 	o.Raw(sql,qq).QueryRow(&student)
 	return student
 }

@@ -54,6 +54,15 @@ func init() {
 
     beego.GlobalControllerRouter["achievement/reception:LoginContorller"] = append(beego.GlobalControllerRouter["achievement/reception:LoginContorller"],
         beego.ControllerComments{
+            Method: "GithubCallback",
+            Router: `/github`,
+            AllowHTTPMethods: []string{"get"},
+            MethodParams: param.Make(),
+            Filters: nil,
+            Params: nil})
+
+    beego.GlobalControllerRouter["achievement/reception:LoginContorller"] = append(beego.GlobalControllerRouter["achievement/reception:LoginContorller"],
+        beego.ControllerComments{
             Method: "Login",
             Router: `/login`,
             AllowHTTPMethods: []string{"get"},

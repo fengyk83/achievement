@@ -62,3 +62,8 @@ func (c *LoginContorller)Post() {
 	c.ServeJSON()
 	c.TplName = "reception/index.html"
 }
+
+//@router /github [get]
+func (c *LoginContorller)GithubCallback()  {
+	//c.TplName = "reception/index.html"
+}

@@ -1,0 +1,47 @@
+2019/01/23 21:03:05.511 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/23 22:08:36.129 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 14:43:46.926 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 14:44:53.250 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.854951ms|   match|[44m GET     [0m /reception/login   r:reception/login
+2019/01/24 14:44:53.305 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    3.05771ms|   match|[44m GET     [0m /static/css/style.css
+2019/01/24 14:44:53.306 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.176511ms| nomatch|[44m GET     [0m /captcha/xUexQZ4xPeb52ns.png
+2019/01/24 14:44:53.307 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.810853ms|   match|[44m GET     [0m /static/img/cat.jpeg
+2019/01/24 14:44:53.337 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    451.644µs|   match|[44m GET     [0m /static/layui/layui.js
+2019/01/24 14:44:53.338 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    996.635µs|   match|[44m GET     [0m /static/js/particles.min.js
+2019/01/24 14:44:53.369 [D] [server.go:2741]  |            ::1|[42m 200 [0m|    463.413µs|   match|[44m GET     [0m /static/layui/lay/modules/form.js
+2019/01/24 14:44:53.372 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.403184ms|   match|[44m GET     [0m /static/img/bj.jpg
+2019/01/24 14:44:53.597 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.890741ms|   match|[44m GET     [0m /static/layui/lay/modules/layer.js
+2019/01/24 14:44:53.637 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   1.005215ms|   match|[44m GET     [0m /static/layui/css/modules/layer/default/layer.css
+2019/01/24 14:44:53.642 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.309928ms|   match|[44m GET     [0m /static/layui/lay/modules/jquery.js
+2019/01/24 14:46:13.530 [D] [server.go:2741]  |            ::1|[43m 404 [0m|    256.581µs| nomatch|[44m GET     [0m /favicon.ico
+2019/01/24 14:54:43.023 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 14:54:44.136 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 14:54:45.556 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 15:18:05.240 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 15:27:24.220 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 15:32:26.627 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 15:33:37.523 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 15:34:30.369 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 15:41:56.062 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 15:42:40.632 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 15:42:55.902 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 15:43:15.131 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 15:43:18.224 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 15:43:29.437 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 15:43:31.667 [I] [asm_amd64.s:1333]  http server Running on http://:9998
+2019/01/24 15:43:47.149 [D] [server.go:2741]  |            ::1|[42m 200 [0m|      993.2µs|   match|[44m GET     [0m /reception/login   r:reception/login
+2019/01/24 15:43:47.197 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   3.420889ms| nomatch|[44m GET     [0m /captcha/q9oxG4d486ywd4Y.png
+2019/01/24 15:43:49.262 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.644647ms| nomatch|[44m GET     [0m /captcha/q9oxG4d486ywd4Y.png
+2019/01/24 15:43:49.598 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  12.391145ms| nomatch|[44m GET     [0m /captcha/q9oxG4d486ywd4Y.png
+2019/01/24 15:43:49.837 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  10.353809ms| nomatch|[44m GET     [0m /captcha/q9oxG4d486ywd4Y.png
+2019/01/24 15:43:50.040 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  10.413918ms| nomatch|[44m GET     [0m /captcha/q9oxG4d486ywd4Y.png
+2019/01/24 15:43:50.263 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   2.223947ms| nomatch|[44m GET     [0m /captcha/q9oxG4d486ywd4Y.png
+2019/01/24 15:43:50.383 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.723389ms| nomatch|[44m GET     [0m /captcha/q9oxG4d486ywd4Y.png
+2019/01/24 15:43:50.553 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   4.369702ms| nomatch|[44m GET     [0m /captcha/q9oxG4d486ywd4Y.png
+2019/01/24 15:43:50.736 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.756892ms| nomatch|[44m GET     [0m /captcha/q9oxG4d486ywd4Y.png
+2019/01/24 15:43:50.933 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   6.756532ms| nomatch|[44m GET     [0m /captcha/q9oxG4d486ywd4Y.png
+2019/01/24 15:43:51.121 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   6.021507ms| nomatch|[44m GET     [0m /captcha/q9oxG4d486ywd4Y.png
+2019/01/24 15:43:51.353 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.144841ms| nomatch|[44m GET     [0m /captcha/q9oxG4d486ywd4Y.png
+2019/01/24 15:43:51.520 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   8.464804ms| nomatch|[44m GET     [0m /captcha/q9oxG4d486ywd4Y.png
+2019/01/24 15:43:51.735 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   5.997231ms| nomatch|[44m GET     [0m /captcha/q9oxG4d486ywd4Y.png
+2019/01/24 15:43:51.925 [D] [server.go:2741]  |            ::1|[42m 200 [0m|   10.61831ms| nomatch|[44m GET     [0m /captcha/q9oxG4d486ywd4Y.png
+2019/01/24 15:50:42.293 [I] [asm_amd64.s:1333]  http server Running on http://:9998
