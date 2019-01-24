@@ -3,6 +3,7 @@ package routers
 import (
 	"achievement/backstage"
 	"achievement/reception"
+	"fmt"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/context"
 )
@@ -13,7 +14,9 @@ func init() {
 		_, ok := ctx.Input.Session("account").(string)
 		if !ok {
 			ctx.Redirect(302, "/reception/login")
+			fmt.Println("验证不通过")
 		}
+		fmt.Println("我验证了路由")
 	})
 	ns := beego.NewNamespace("reception",
 		beego.NSInclude(

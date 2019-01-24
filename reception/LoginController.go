@@ -70,20 +70,21 @@ func (c *LoginContorller)Post() {
 //@router /github [get]
 func (c *LoginContorller)GithubCallback()  {
 	data := make(url.Values)
+	fmt.Println("%s+=================", c.GetStrings("code"))
 	data["code"] = c.GetStrings("code")
 	data["client_id"] = []string{"e2cd16bc8436ab104785"}
 	data["client_secret"] = []string{"b7c2a499a71869b2110208c35be5e5f71d77b307"}
 	res,err := http.PostForm("https://github.com/login/oauth/access_token",data)
 	if err != nil {
-		fmt.Println(err)
+		//fmt.Println(err)
 		c.TplName = "reception/index.html"
 	}
 	result,err := ioutil.ReadAll(res.Body)
 	if err != nil {
-		fmt.Println(err)
+		//fmt.Println(err)
 		c.TplName = "reception/index.html"
 	}
-	fmt.Printf("%s---------------------", string(result[0]))
+	fmt.Printf("%s---------------------", string(result))
 	//fmt.Println(res)
 
 
@@ -103,7 +104,7 @@ func (c *LoginContorller)GithubCallback()  {
 		c.TplName = "reception/index.html"
 	}
 	fmt.Printf("%s+++++++++++++", result)
-	c.TplName = "reception/information.html"
+	c.TplName = "reception/index.html"
 }
 
 func (c *LoginContorller)LoginRedirect()  {
