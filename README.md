@@ -16,3 +16,9 @@ go get github.com/astaxie/beego/config
 go get github.com/go-sql-driver/mysql
 go get github.com/Luxurioust/excelize
 ```
+
+##将汉字转换成拼音
+
+```
+go get -u github.com/mozillazg/go-pinyin
+```
